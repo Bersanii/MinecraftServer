@@ -284,6 +284,8 @@
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
       "cooked_porkchop": "2020-09-15 19:08:00 -0400",
+      "baked_potato": "2020-09-16 10:53:00 -0400",
+      "potato": "2020-09-16 10:51:11 -0400",
       "bread": "2020-09-13 21:55:56 -0400",
       "cooked_salmon": "2020-09-13 21:14:41 -0400"
     },
@@ -418,6 +420,12 @@
   "minecraft:recipes/food/cooked_chicken_from_smoking": {
     "criteria": {
       "has_chicken": "2020-09-15 19:32:58 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/tnt": {
+    "criteria": {
+      "has_gunpowder": "2020-09-16 10:53:38 -0400"
     },
     "done": true
   },
@@ -692,6 +700,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/baked_potato_from_smoking": {
+    "criteria": {
+      "has_potato": "2020-09-16 10:44:36 -0400"
+    },
+    "done": true
+  },
   "vanillatweaks:timber": {
     "criteria": {
       "tick": "2020-09-13 20:57:03 -0400"
@@ -706,7 +720,10 @@
   },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
-      "minecraft:skeleton": "2020-09-13 21:26:49 -0400"
+      "minecraft:skeleton": "2020-09-13 21:26:49 -0400",
+      "minecraft:spider": "2020-09-16 11:18:21 -0400",
+      "minecraft:creeper": "2020-09-16 11:34:41 -0400",
+      "minecraft:zombie": "2020-09-16 11:34:38 -0400"
     },
     "done": false
   },
@@ -737,6 +754,12 @@
   "minecraft:recipes/food/cooked_beef_from_smoking": {
     "criteria": {
       "has_beef": "2020-09-13 21:29:29 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/baked_potato": {
+    "criteria": {
+      "has_potato": "2020-09-16 10:44:36 -0400"
     },
     "done": true
   },
@@ -818,6 +841,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/blue_dye": {
+    "criteria": {
+      "has_lapis_lazuli": "2020-09-16 11:27:51 -0400"
+    },
+    "done": true
+  },
   "minecraft:recipes/transportation/oak_boat": {
     "criteria": {
       "in_water": "2020-09-13 21:10:52 -0400"
@@ -845,6 +874,12 @@
   "minecraft:recipes/building_blocks/orange_concrete_powder": {
     "criteria": {
       "has_gravel": "2020-09-15 13:40:44 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/baked_potato_from_campfire_cooking": {
+    "criteria": {
+      "has_potato": "2020-09-16 10:44:36 -0400"
     },
     "done": true
   },
@@ -1361,6 +1396,12 @@
   "vanillatweaks:multiplayer_sleep": {
     "criteria": {
       "tick": "2020-09-13 20:57:03 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/lapis_block": {
+    "criteria": {
+      "has_lapis": "2020-09-16 11:27:51 -0400"
     },
     "done": true
   },

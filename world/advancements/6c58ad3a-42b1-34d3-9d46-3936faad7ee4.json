@@ -307,6 +307,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/note_block": {
+    "criteria": {
+      "has_redstone": "2020-09-16 17:16:17 -0400"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/white_banner": {
     "criteria": {
       "has_white_wool": "2020-09-15 17:14:35 -0400"
@@ -409,6 +415,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/target": {
+    "criteria": {
+      "has_redstone": "2020-09-16 17:16:17 -0400"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/furnace": {
     "criteria": {
       "has_cobblestone": "2020-09-14 20:19:00 -0400"
@@ -430,6 +442,12 @@
   "minecraft:recipes/building_blocks/andesite_stairs": {
     "criteria": {
       "has_andesite": "2020-09-14 20:33:21 -0400"
+    },
+    "done": true
+  },
+  "minecraft:adventure/sleep_in_bed": {
+    "criteria": {
+      "slept_in_bed": "2020-09-16 17:01:09 -0400"
     },
     "done": true
   },
@@ -466,6 +484,12 @@
   "minecraft:husbandry/root": {
     "criteria": {
       "consumed_item": "2020-09-14 20:08:40 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/redstone_torch": {
+    "criteria": {
+      "has_redstone": "2020-09-16 17:16:17 -0400"
     },
     "done": true
   },
@@ -571,6 +595,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/tools/clock": {
+    "criteria": {
+      "has_redstone": "2020-09-16 17:16:17 -0400"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/spruce_fence": {
     "criteria": {
       "has_planks": "2020-09-14 20:02:57 -0400"
@@ -587,6 +617,7 @@
     "criteria": {
       "minecraft:skeleton": "2020-09-15 17:49:55 -0400",
       "minecraft:spider": "2020-09-15 17:17:24 -0400",
+      "minecraft:slime": "2020-09-16 17:04:12 -0400",
       "minecraft:zombie": "2020-09-15 17:05:33 -0400"
     },
     "done": false
@@ -603,6 +634,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/redstone_block": {
+    "criteria": {
+      "has_redstone": "2020-09-16 17:16:17 -0400"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/granite_slab": {
     "criteria": {
       "has_granite": "2020-09-14 21:02:15 -0400"
@@ -615,15 +652,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/pink_bed_from_white_bed": {
-    "criteria": {
-      "has_bed": "2020-09-15 17:15:47 -0400"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/white_carpet": {
     "criteria": {
       "has_white_wool": "2020-09-15 17:14:35 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/pink_bed_from_white_bed": {
+    "criteria": {
+      "has_bed": "2020-09-15 17:15:47 -0400"
     },
     "done": true
   },
@@ -648,6 +685,12 @@
   "minecraft:recipes/building_blocks/polished_diorite_stairs_from_polished_diorite_stonecutting": {
     "criteria": {
       "has_polished_diorite": "2020-09-14 20:36:55 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/slime_block": {
+    "criteria": {
+      "has_slime_ball": "2020-09-16 17:04:14 -0400"
     },
     "done": true
   },
@@ -885,6 +928,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/tools/lead": {
+    "criteria": {
+      "has_slime_ball": "2020-09-16 17:04:14 -0400"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/tripwire_hook": {
     "criteria": {
       "has_string": "2020-09-15 17:17:25 -0400"
@@ -909,6 +958,12 @@
     },
     "done": true
   },
+  "minecraft:story/iron_tools": {
+    "criteria": {
+      "iron_pickaxe": "2020-09-16 17:06:40 -0400"
+    },
+    "done": true
+  },
   "minecraft:recipes/food/cooked_salmon": {
     "criteria": {
       "has_salmon": "2020-09-14 20:49:08 -0400"
@@ -930,6 +985,12 @@
   "minecraft:recipes/combat/iron_chestplate": {
     "criteria": {
       "has_iron_ingot": "2020-09-14 21:08:08 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dropper": {
+    "criteria": {
+      "has_redstone": "2020-09-16 17:16:17 -0400"
     },
     "done": true
   },
@@ -975,6 +1036,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/tools/compass": {
+    "criteria": {
+      "has_redstone": "2020-09-16 17:16:17 -0400"
+    },
+    "done": true
+  },
   "minecraft:adventure/kill_a_mob": {
     "criteria": {
       "minecraft:zombie": "2020-09-15 17:05:33 -0400"
@@ -990,6 +1057,12 @@
   "minecraft:recipes/decorations/diorite_wall": {
     "criteria": {
       "has_diorite": "2020-09-14 20:32:01 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/sticky_piston": {
+    "criteria": {
+      "has_slime_ball": "2020-09-16 17:04:14 -0400"
     },
     "done": true
   },
@@ -1119,6 +1192,12 @@
   "minecraft:recipes/building_blocks/polished_granite": {
     "criteria": {
       "has_stone": "2020-09-14 21:02:15 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/piston": {
+    "criteria": {
+      "has_redstone": "2020-09-16 17:16:17 -0400"
     },
     "done": true
   },
