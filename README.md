@@ -31,3 +31,4 @@ Obs: não precisa alterar o ip nas configurações, o servidor já faz automáti
 - **> git** add .
 - **> git** commit -m "*Dia-Mês:Hora-Minuto*"
 - **> git** push
+Obs: se usar o Powershell ele vai pedir seu usuário e senha.
