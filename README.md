@@ -10,8 +10,8 @@ Deh:
 <br>
 <br>
 
-# Como abrir caso não saiba:
-Obs: faça o encaminhamento da porta **25565**
+# Como abrir:
+Obs: Faça o encaminhamento da porta **25565** no seu roteador.
 ### Se for a primeira vez, clone o repositório:
 - Selecione o diretório pelo PS ou gitBash
 - **> git** clone https://github.com/Bersanii/MinecraftServer.git
@@ -22,7 +22,7 @@ Obs: faça o encaminhamento da porta **25565**
 - **> git** pull
 - Execute o **start.bat**
 
-Obs: não precisa alterar o ip nas configurações, o servidor já faz automático.
+Obs: Não precisa alterar o ip nas configurações, o servidor já faz automático.
 
 <br>
 
@@ -32,4 +32,4 @@ Obs: não precisa alterar o ip nas configurações, o servidor já faz automáti
 - **> git** commit -m "*Dia-Mês:Hora-Minuto*"
 - **> git** push
 
-Obs: se usar o Powershell ele vai pedir seu usuário e senha.
+Obs: Se usar o Powershell ele vai pedir seu usuário e senha do github.
