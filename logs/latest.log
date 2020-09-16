@@ -1,28 +1,79 @@
-[21:55:15] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', name='PROD'
-[21:55:16] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[21:55:16] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[21:55:16] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
-[21:55:16] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[21:55:16] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[21:55:16] [main/INFO]: Reloading ResourceManager: Default
-[21:55:17] [Worker-Main-13/INFO]: Loaded 7 recipes
-[21:55:17] [Worker-Main-13/INFO]: Loaded 927 advancements
-[21:55:18] [Server thread/INFO]: Starting minecraft server version 1.16.3
-[21:55:18] [Server thread/INFO]: Loading properties
-[21:55:18] [Server thread/INFO]: Default game type: SURVIVAL
-[21:55:18] [Server thread/INFO]: Generating keypair
-[21:55:18] [Server thread/INFO]: Starting Minecraft server on 187.255.160.227:25565
-[21:55:18] [Server thread/INFO]: Using default channel type
-[21:55:19] [Server thread/WARN]: **** FAILED TO BIND TO PORT!
-[21:55:19] [Server thread/WARN]: The exception was: java.net.BindException: Cannot assign requested address: bind
-[21:55:19] [Server thread/WARN]: Perhaps a server is already running on that port?
-[21:55:19] [Server thread/INFO]: Stopping server
-[21:55:19] [Server thread/INFO]: Saving worlds
-[21:55:19] [Server thread/ERROR]: Exception stopping the server
-java.lang.NullPointerException: null
-	at net.minecraft.server.MinecraftServer.a(SourceFile:569) ~[server.jar:?]
-	at net.minecraft.server.MinecraftServer.t(SourceFile:596) ~[server.jar:?]
-	at zg.t(SourceFile:558) ~[server.jar:?]
-	at net.minecraft.server.MinecraftServer.w(SourceFile:704) ~[server.jar:?]
-	at net.minecraft.server.MinecraftServer.a(SourceFile:254) ~[server.jar:?]
-	at java.lang.Thread.run(Unknown Source) [?:1.8.0_261]
+[22:28:57] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', name='PROD'
+[22:28:58] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[22:28:58] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[22:28:58] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[22:28:58] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[22:28:58] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[22:28:58] [main/INFO]: Reloading ResourceManager: Default
+[22:28:59] [Worker-Main-13/INFO]: Loaded 7 recipes
+[22:28:59] [Worker-Main-13/INFO]: Loaded 927 advancements
+[22:29:00] [Server thread/INFO]: Starting minecraft server version 1.16.3
+[22:29:00] [Server thread/INFO]: Loading properties
+[22:29:00] [Server thread/INFO]: Default game type: SURVIVAL
+[22:29:00] [Server thread/INFO]: Generating keypair
+[22:29:00] [Server thread/INFO]: Starting Minecraft server on *:25565
+[22:29:00] [Server thread/INFO]: Using default channel type
+[22:29:00] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[22:29:00] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[22:29:00] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[22:29:00] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[22:29:00] [Server thread/INFO]: Preparing level "world"
+[22:29:00] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[22:29:02] [Server thread/INFO]: Preparing spawn area: 0%
+[22:29:02] [Server thread/INFO]: Preparing spawn area: 0%
+[22:29:02] [Server thread/INFO]: Preparing spawn area: 0%
+[22:29:02] [Server thread/INFO]: Preparing spawn area: 0%
+[22:29:06] [Worker-Main-13/INFO]: Preparing spawn area: 83%
+[22:29:06] [Worker-Main-10/INFO]: Preparing spawn area: 83%
+[22:29:06] [Worker-Main-10/INFO]: Preparing spawn area: 83%
+[22:29:06] [Worker-Main-12/INFO]: Preparing spawn area: 83%
+[22:29:06] [Worker-Main-12/INFO]: Preparing spawn area: 83%
+[22:29:06] [Worker-Main-12/INFO]: Preparing spawn area: 83%
+[22:29:06] [Worker-Main-12/INFO]: Preparing spawn area: 83%
+[22:29:06] [Worker-Main-11/INFO]: Preparing spawn area: 95%
+[22:29:06] [Worker-Main-12/INFO]: Preparing spawn area: 95%
+[22:29:07] [Worker-Main-10/INFO]: Preparing spawn area: 95%
+[22:29:08] [Worker-Main-10/INFO]: Preparing spawn area: 97%
+[22:29:08] [Server thread/INFO]: Time elapsed: 7294 ms
+[22:29:08] [Server thread/INFO]: Done (7.416s)! For help, type "help"
+[22:32:07] [Server thread/INFO]: DezinBugaTudo[/177.131.79.170:11286] logged in with entity id 206 at (7.5, 69.0, 253.5)
+[22:33:05] [Server thread/INFO]: DezinBugaTudo joined the game
+[22:33:05] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 59403ms or 1188 ticks behind
+[22:33:05] [Server thread/INFO]: DezinBugaTudo lost connection: Timed out
+[22:33:05] [Server thread/INFO]: DezinBugaTudo left the game
+[22:33:05] [Server thread/INFO]: Bersanii[/192.168.0.2:54205] logged in with entity id 207 at (28.21746416521425, 71.0, 272.9172275057737)
+[22:33:05] [Server thread/INFO]: Bersanii joined the game
+[22:33:05] [Server thread/INFO]: DezinBugaTudo[/177.131.79.170:10995] logged in with entity id 208 at (7.5, 69.0, 253.5)
+[22:33:05] [Server thread/INFO]: DezinBugaTudo joined the game
+[22:33:17] [Server thread/INFO]: <Bersanii> foi?
+[22:33:23] [Server thread/INFO]: <DezinBugaTudo> foi
+[22:33:37] [Server thread/INFO]: <DezinBugaTudo> onde ve o tps
+[22:34:02] [Server thread/INFO]: DezinBugaTudo was slain by Bersanii
+[22:34:05] [Server thread/INFO]: <Bersanii> izi
+[22:34:39] [Server thread/INFO]: <DezinBugaTudo> vai passa o mundo agora ou dps?
+[22:34:46] [Server thread/INFO]: <Bersanii> tanto faz
+[22:34:55] [Server thread/INFO]: <Bersanii> vou editar o bagulho no git hub
+[22:35:01] [Server thread/INFO]: <DezinBugaTudo> passa amanha de tarde ou noite
+[22:35:02] [Server thread/INFO]: <Bersanii> passa teu usuário
+[22:35:09] [Server thread/INFO]: <Bersanii> pra eu te adicionar
+[22:35:11] [Server thread/INFO]: <DezinBugaTudo> que agora ta de boa
+[22:35:15] [Server thread/INFO]: <DezinBugaTudo> vo ve aki
+[22:36:31] [Server thread/INFO]: DezinBugaTudo was slain by Bersanii
+[22:36:37] [Server thread/INFO]: <DezinBugaTudo> dehstigliani
+[22:38:14] [Server thread/INFO]: Bersanii lost connection: Disconnected
+[22:38:14] [Server thread/INFO]: Bersanii left the game
+[22:39:06] [Server thread/INFO]: DezinBugaTudo lost connection: Disconnected
+[22:39:06] [Server thread/INFO]: DezinBugaTudo left the game
+[22:40:41] [Server thread/INFO]: Stopping the server
+[22:40:41] [Server thread/INFO]: Stopping server
+[22:40:41] [Server thread/INFO]: Saving players
+[22:40:41] [Server thread/INFO]: Saving worlds
+[22:40:41] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[22:40:41] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[22:40:41] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[22:40:41] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[22:40:41] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[22:40:41] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[22:40:41] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[22:40:41] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[22:40:41] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
