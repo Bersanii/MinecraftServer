@@ -1,48 +1,49 @@
-[22:58:24] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', name='PROD'
-[22:58:24] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[22:58:24] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[22:58:24] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
-[22:58:24] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[22:58:24] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[22:58:24] [main/INFO]: Reloading ResourceManager: Default, anti creeper grief v1.1.0.zip, multiplayer sleep v2.4.3.zip, silk-touch-spawners-v1-3-1565027733.zip, timber v2.1.0.zip
-[22:58:25] [Worker-Main-14/INFO]: Loaded 7 recipes
-[22:58:26] [Worker-Main-14/INFO]: Loaded 932 advancements
-[22:58:27] [Server thread/INFO]: Starting minecraft server version 1.16.3
-[22:58:27] [Server thread/INFO]: Loading properties
-[22:58:27] [Server thread/INFO]: Default game type: SURVIVAL
-[22:58:27] [Server thread/INFO]: Generating keypair
-[22:58:27] [Server thread/INFO]: Starting Minecraft server on *:25565
-[22:58:27] [Server thread/INFO]: Using default channel type
-[22:58:28] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[22:58:28] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[22:58:28] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[22:58:28] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[22:58:28] [Server thread/INFO]: Preparing level "world"
-[22:58:28] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[22:58:30] [Server thread/INFO]: Preparing spawn area: 0%
-[22:58:30] [Server thread/INFO]: Preparing spawn area: 0%
-[22:58:30] [Server thread/INFO]: Preparing spawn area: 0%
-[22:58:30] [Server thread/INFO]: Preparing spawn area: 0%
-[22:58:31] [Server thread/INFO]: Preparing spawn area: 47%
-[22:58:31] [Server thread/INFO]: Preparing spawn area: 47%
-[22:58:31] [Server thread/INFO]: Preparing spawn area: 47%
-[22:58:32] [Server thread/INFO]: Time elapsed: 3568 ms
-[22:58:32] [Server thread/INFO]: Done (3.749s)! For help, type "help"
-[22:58:35] [Server thread/INFO]: Bersanii[/192.168.0.2:59746] logged in with entity id 412 at (591.1311115975188, 52.0, -1450.9431591141042)
-[22:58:35] [Server thread/INFO]: Bersanii joined the game
-[22:58:35] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2410ms or 48 ticks behind
-[22:58:45] [Server thread/INFO]: munaro[/191.254.168.193:52194] logged in with entity id 637 at (-219.94854085374507, 77.0, -19.64371590990392)
-[22:58:45] [Server thread/INFO]: munaro joined the game
-[22:59:04] [Server thread/INFO]: Stopping the server
-[22:59:04] [Server thread/INFO]: Stopping server
-[22:59:04] [Server thread/INFO]: Saving players
-[22:59:04] [Server thread/INFO]: Saving worlds
-[22:59:04] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[22:59:10] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[22:59:10] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[22:59:10] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[22:59:10] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[22:59:10] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[22:59:10] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[22:59:10] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[22:59:10] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[23:23:30] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', name='PROD'
+[23:23:31] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[23:23:31] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[23:23:31] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[23:23:31] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[23:23:31] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[23:23:31] [main/INFO]: Reloading ResourceManager: Default, anti creeper grief v1.1.0.zip, multiplayer sleep v2.4.3.zip, silk-touch-spawners-v1-3-1565027733.zip, timber v2.1.0.zip
+[23:23:32] [Worker-Main-11/INFO]: Loaded 7 recipes
+[23:23:32] [Worker-Main-11/INFO]: Loaded 932 advancements
+[23:23:33] [Server thread/INFO]: Starting minecraft server version 1.16.3
+[23:23:33] [Server thread/INFO]: Loading properties
+[23:23:33] [Server thread/INFO]: Default game type: SURVIVAL
+[23:23:33] [Server thread/INFO]: Generating keypair
+[23:23:33] [Server thread/INFO]: Starting Minecraft server on *:25565
+[23:23:33] [Server thread/INFO]: Using default channel type
+[23:23:33] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[23:23:33] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[23:23:33] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[23:23:33] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[23:23:33] [Server thread/INFO]: Preparing level "world"
+[23:23:34] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[23:23:35] [Server thread/INFO]: Preparing spawn area: 0%
+[23:23:35] [Server thread/INFO]: Preparing spawn area: 0%
+[23:23:35] [Server thread/INFO]: Preparing spawn area: 0%
+[23:23:36] [Server thread/INFO]: Preparing spawn area: 32%
+[23:23:36] [Server thread/INFO]: Preparing spawn area: 32%
+[23:23:36] [Server thread/INFO]: Preparing spawn area: 50%
+[23:23:36] [Server thread/INFO]: Time elapsed: 2803 ms
+[23:23:36] [Server thread/INFO]: Done (2.935s)! For help, type "help"
+[23:23:43] [Server thread/INFO]: BisteK[/192.168.0.57:51399] logged in with entity id 358 at (-174.76396139728155, 11.0, -120.19045575347754)
+[23:23:43] [Server thread/INFO]: BisteK joined the game
+[23:23:52] [Server thread/INFO]: Bersanii[/187.255.160.227:59991] logged in with entity id 395 at (591.7760431834137, 52.0, -1458.699999988079)
+[23:23:52] [Server thread/INFO]: Bersanii joined the game
+[23:24:01] [Server thread/INFO]: Chavola[/177.131.79.110:64402] logged in with entity id 775 at (-243.55542952347247, 77.0, -22.087420553850194)
+[23:24:01] [Server thread/INFO]: Chavola joined the game
+[23:24:21] [Server thread/INFO]: munaro[/191.254.168.193:52880] logged in with entity id 858 at (-212.89757061616166, 77.0, -21.44787763149577)
+[23:24:21] [Server thread/INFO]: munaro joined the game
+[23:24:55] [Server thread/INFO]: BisteK lost connection: Disconnected
+[23:24:55] [Server thread/INFO]: BisteK left the game
+[23:25:08] [Server thread/INFO]: <Bersanii> volta pro outro ip negada
+[23:25:15] [Server thread/INFO]: Stopping the server
+[23:25:15] [Server thread/INFO]: Stopping server
+[23:25:15] [Server thread/INFO]: Saving players
+[23:25:15] [Server thread/INFO]: Bersanii lost connection: Disconnected
+[23:25:15] [Server thread/INFO]: Bersanii left the game
+[23:25:15] [Server thread/INFO]: munaro lost connection: Internal Exception: java.lang.StackOverflowError
+[23:25:15] [Server thread/INFO]: munaro left the game
+[23:25:15] [Server thread/INFO]: Saving worlds
+[23:25:15] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
