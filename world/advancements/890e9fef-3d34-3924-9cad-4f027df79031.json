@@ -65,6 +65,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/mossy_cobblestone": {
+    "criteria": {
+      "has_vine": "2020-09-17 03:03:00 -0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/lime_concrete_powder": {
     "criteria": {
       "has_gravel": "2020-09-12 01:06:48 -0300"
@@ -461,6 +467,12 @@
     },
     "done": true
   },
+  "minecraft:nether/return_to_sender": {
+    "criteria": {
+      "killed_ghast": "2020-09-17 01:19:20 -0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/brewing/cauldron": {
     "criteria": {
       "has_water_bucket": "2020-09-10 19:39:31 -0300"
@@ -599,6 +611,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/jungle_fence": {
+    "criteria": {
+      "has_planks": "2020-09-17 01:29:24 -0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/stone_brick_stairs_from_stone_stonecutting": {
     "criteria": {
       "has_stone": "2020-09-13 21:55:11 -0300"
@@ -626,11 +644,13 @@
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
       "minecraft:skeleton": "2020-09-12 00:46:53 -0300",
+      "minecraft:ghast": "2020-09-17 01:19:20 -0300",
       "minecraft:magma_cube": "2020-09-12 01:06:13 -0300",
       "minecraft:spider": "2020-09-12 02:44:33 -0300",
       "minecraft:creeper": "2020-09-12 02:24:22 -0300",
       "minecraft:slime": "2020-09-13 17:01:19 -0300",
       "minecraft:witch": "2020-09-16 19:40:38 -0300",
+      "minecraft:husk": "2020-09-17 00:29:45 -0300",
       "minecraft:piglin": "2020-09-14 02:31:37 -0300",
       "minecraft:enderman": "2020-09-12 02:23:34 -0300",
       "minecraft:zombie": "2020-09-12 00:45:15 -0300",
@@ -855,6 +875,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/jungle_pressure_plate": {
+    "criteria": {
+      "has_planks": "2020-09-17 01:29:24 -0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/black_wool": {
     "criteria": {
       "has_white_wool": "2020-09-13 22:35:45 -0300"
@@ -972,6 +998,12 @@
   "minecraft:recipes/building_blocks/green_stained_glass": {
     "criteria": {
       "has_glass": "2020-09-13 18:32:10 -0300"
+    },
+    "done": true
+  },
+  "minecraft:story/deflect_arrow": {
+    "criteria": {
+      "deflected_projectile": "2020-09-17 01:01:04 -0300"
     },
     "done": true
   },
@@ -1247,6 +1279,7 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:cold_ocean": "2020-09-17 01:03:00 -0300",
       "minecraft:snowy_mountains": "2020-09-13 18:18:35 -0300",
       "minecraft:forest": "2020-09-13 16:57:38 -0300",
       "minecraft:mountains": "2020-09-13 16:54:17 -0300",
@@ -1256,7 +1289,9 @@
       "minecraft:taiga_hills": "2020-09-10 19:35:22 -0300",
       "minecraft:desert": "2020-09-15 21:02:13 -0300",
       "minecraft:frozen_river": "2020-09-13 18:23:24 -0300",
+      "minecraft:jungle": "2020-09-17 01:58:08 -0300",
       "minecraft:birch_forest": "2020-09-16 19:18:41 -0300",
+      "minecraft:jungle_hills": "2020-09-17 01:21:48 -0300",
       "minecraft:beach": "2020-09-16 19:19:05 -0300",
       "minecraft:dark_forest": "2020-09-13 17:01:06 -0300",
       "minecraft:river": "2020-09-10 19:36:21 -0300",
@@ -1750,6 +1785,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/mushroom_stew": {
+    "criteria": {
+      "has_red_mushroom": "2020-09-17 01:20:04 -0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/gray_wool": {
     "criteria": {
       "has_white_wool": "2020-09-13 22:35:45 -0300"
@@ -1796,6 +1837,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/jungle_trapdoor": {
+    "criteria": {
+      "has_planks": "2020-09-17 01:29:24 -0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/smooth_sandstone_slab_from_smooth_sandstone_stonecutting": {
     "criteria": {
       "has_smooth_sandstone": "2020-09-16 21:15:31 -0300"
@@ -1811,6 +1858,12 @@
   "minecraft:recipes/misc/bucket": {
     "criteria": {
       "has_iron_ingot": "2020-09-10 19:59:16 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/jungle_button": {
+    "criteria": {
+      "has_planks": "2020-09-17 01:29:24 -0300"
     },
     "done": true
   },
@@ -2147,6 +2200,12 @@
   "minecraft:recipes/decorations/cyan_bed_from_white_bed": {
     "criteria": {
       "has_bed": "2020-09-16 21:11:24 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/bowl": {
+    "criteria": {
+      "has_red_mushroom": "2020-09-17 01:20:04 -0300"
     },
     "done": true
   },
@@ -2594,6 +2653,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/jungle_sign": {
+    "criteria": {
+      "has_jungle_planks": "2020-09-17 01:29:24 -0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/andesite": {
     "criteria": {
       "has_stone": "2020-09-12 00:44:02 -0300"
@@ -2705,6 +2770,12 @@
   "minecraft:story/form_obsidian": {
     "criteria": {
       "obsidian": "2020-09-12 00:47:54 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/jungle_slab": {
+    "criteria": {
+      "has_planks": "2020-09-17 01:29:24 -0300"
     },
     "done": true
   },
@@ -2840,6 +2911,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/jungle_stairs": {
+    "criteria": {
+      "has_planks": "2020-09-17 01:29:24 -0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/heavy_weighted_pressure_plate": {
     "criteria": {
       "has_iron_ingot": "2020-09-10 19:59:16 -0300"
@@ -2882,6 +2959,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/jungle_door": {
+    "criteria": {
+      "has_planks": "2020-09-17 01:29:24 -0300"
+    },
+    "done": true
+  },
   "vanillatweaks:multiplayer_sleep": {
     "criteria": {
       "tick": "2020-09-13 21:41:00 -0300"
@@ -2903,6 +2986,12 @@
   "minecraft:husbandry/breed_an_animal": {
     "criteria": {
       "bred": "2020-09-13 21:12:40 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/jungle_fence_gate": {
+    "criteria": {
+      "has_planks": "2020-09-17 01:29:24 -0300"
     },
     "done": true
   },

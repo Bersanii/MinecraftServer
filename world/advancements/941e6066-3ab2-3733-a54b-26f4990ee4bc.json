@@ -335,6 +335,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/emerald_block": {
+    "criteria": {
+      "has_emerald": "2020-09-17 00:23:02 -0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/gray_wool": {
     "criteria": {
       "has_white_wool": "2020-09-13 22:38:16 -0300"
@@ -951,7 +957,8 @@
       "minecraft:skeleton": "2020-09-13 22:26:49 -0300",
       "minecraft:spider": "2020-09-16 12:18:21 -0300",
       "minecraft:creeper": "2020-09-16 12:34:41 -0300",
-      "minecraft:zombie": "2020-09-16 12:34:38 -0300"
+      "minecraft:zombie": "2020-09-16 12:34:38 -0300",
+      "minecraft:zombie_villager": "2020-09-17 00:45:34 -0300"
     },
     "done": false
   },
@@ -982,6 +989,12 @@
   "minecraft:recipes/redstone/redstone_block": {
     "criteria": {
       "has_redstone": "2020-09-16 20:04:44 -0300"
+    },
+    "done": true
+  },
+  "minecraft:adventure/trade": {
+    "criteria": {
+      "traded": "2020-09-17 00:22:57 -0300"
     },
     "done": true
   },
@@ -1718,6 +1731,7 @@
       "minecraft:taiga": "2020-09-13 21:57:03 -0300",
       "minecraft:giant_tree_taiga": "2020-09-16 21:25:45 -0300",
       "minecraft:taiga_hills": "2020-09-13 21:57:57 -0300",
+      "minecraft:desert": "2020-09-17 00:18:55 -0300",
       "minecraft:birch_forest": "2020-09-16 21:46:44 -0300",
       "minecraft:beach": "2020-09-16 21:56:56 -0300",
       "minecraft:river": "2020-09-13 22:10:52 -0300",
