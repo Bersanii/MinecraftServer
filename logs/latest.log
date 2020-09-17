@@ -1,289 +1,173 @@
-[00:00:02] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=11, y=67, z=1284} fx{x=20, y=66, z=1311}
-[00:00:09] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2331ms or 46 ticks behind
-[00:01:16] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=36, y=64, z=1352} fx{x=36, y=66, z=1345}
-[00:02:11] [Server thread/INFO]: DezinBugaTudo was slain by Magma Cube
-[00:02:45] [Server thread/INFO]: DezinBugaTudo tried to swim in lava to escape Magma Cube
-[00:02:49] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=102, y=64, z=1358} fx{x=119, y=72, z=1352}
-[00:10:26] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/25771, l='ServerLevel[world]', x=-252.50, y=65.00, z=-61.48]
-[00:11:21] [Server thread/INFO]: M1D4$[/177.101.67.67:52378] logged in with entity id 26206 at (-305.932827794676, 54.55000001192093, -173.14714449508534)
-[00:11:21] [Server thread/INFO]: M1D4$ joined the game
-[00:14:09] [Server thread/INFO]: Unknown or incomplete command, see below for error
-[00:14:09] [Server thread/INFO]: <--[HERE]
-[00:14:15] [Server thread/INFO]: Bersanii[/192.168.0.2:60279] logged in with entity id 27803 at (591.4928506426795, 57.0, -1468.0386248343516)
-[00:14:15] [Server thread/INFO]: Bersanii joined the game
-[00:14:46] [Server thread/INFO]: M1D4$ tried to swim in lava to escape Magma Cube
-[00:18:08] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/31368, l='ServerLevel[world]', x=-265.11, y=65.00, z=-65.49]
-[00:22:57] [Server thread/INFO]: M1D4$ has made the advancement [What a Deal!]
-[00:25:02] [Server thread/INFO]: [Bersanii: Killed 187 entities]
-[00:25:12] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2513ms or 50 ticks behind
-[00:29:41] [Server thread/INFO]: [Bersanii: Set the time to 1000]
-[00:30:06] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=622, y=66, z=-1553} fx{x=622, y=66, z=-1552}
-[00:30:06] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=622, y=66, z=-1553} fx{x=622, y=66, z=-1552}
-[00:30:06] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=622, y=66, z=-1553} fx{x=622, y=66, z=-1552}
-[00:30:06] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=622, y=66, z=-1553} fx{x=622, y=66, z=-1552}
-[00:33:29] [Server thread/INFO]: [Bersanii: Killed 173 entities]
-[00:37:46] [Server thread/INFO]: [Bersanii: Killed 80 entities]
-[00:37:55] [Server thread/INFO]: DezinBugaTudo tried to swim in lava to escape Magma Cube
-[00:38:39] [Server thread/WARN]: M1D4$ moved too quickly! -9.428159948256848,1.0,-3.3970325299114563
-[00:44:02] [Server thread/INFO]: [Bersanii: Killed 131 entities]
-[00:44:41] [Server thread/INFO]: munaro was shot by Skeleton
-[00:45:13] [Server thread/WARN]: munaro moved too quickly! 2.3746564252995768,0.04353562014750878,9.8265018704503
-[00:46:42] [Server thread/INFO]: [Bersanii: Killed 73 entities]
-[00:48:12] [Server thread/INFO]: M1D4$ lost connection: Disconnected
-[00:48:12] [Server thread/INFO]: M1D4$ left the game
-[00:48:32] [Server thread/WARN]: DezinBugaTudo moved too quickly! 0.051943233766679586,0.0,10.04675438763374
-[00:48:33] [Server thread/WARN]: Chavola moved too quickly! 5.161299536494198,0.5336524962782789,-8.6165265932882
-[00:48:35] [Server thread/INFO]: <DezinBugaTudo> a
-[00:55:13] [Server thread/WARN]: Chavola moved too quickly! 1.2078375498865626,-1.495200877005928,10.044329072094115
-[00:55:13] [Server thread/WARN]: munaro moved too quickly! -0.24689080176113976,0.7531999805212024,10.220007712261804
-[00:55:16] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2007ms or 40 ticks behind
-[00:57:49] [Server thread/INFO]: DezinBugaTudo was slain by Magma Cube
-[00:58:37] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/73984, l='ServerLevel[world]', x=-238.53, y=65.00, z=-61.83]
-[01:00:15] [Server thread/WARN]: Chavola moved too quickly! 8.72307222584459,0.023088109101550458,5.295289418820175
-[01:00:33] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/75821, l='ServerLevel[world]', x=-238.45, y=65.00, z=-62.76]
-[01:00:40] [Server thread/INFO]: munaro has made the advancement [Suit Up]
-[01:01:04] [Server thread/INFO]: Bersanii has made the advancement [Not Today, Thank You]
-[01:02:41] [Server thread/INFO]: [Bersanii: Killed 173 entities]
-[01:02:48] [Server thread/INFO]: DezinBugaTudo tried to swim in lava
-[01:08:07] [Server thread/INFO]: Bersanii burned to death
-[01:09:47] [Server thread/INFO]: Chavola drowned
-[01:09:59] [Server thread/INFO]: <Chavola> de
-[01:10:08] [Server thread/INFO]: <Chavola> quer bambu ?
-[01:10:20] [Server thread/INFO]: <DezinBugaTudo> quero vo brota ae
-[01:10:42] [Server thread/INFO]: DezinBugaTudo tried to swim in lava
-[01:11:33] [Server thread/INFO]: Bersanii tried to swim in lava
-[01:11:38] [Server thread/INFO]: <Bersanii> deh
-[01:11:41] [Server thread/INFO]: <DezinBugaTudo> oe
-[01:11:51] [Server thread/INFO]: <Bersanii> como bota banner no escudo
-[01:12:07] [Server thread/INFO]: <DezinBugaTudo> vc faz um banner e dps junta os dois no cract
-[01:12:11] [Server thread/INFO]: <DezinBugaTudo> craft*
-[01:12:12] [Server thread/INFO]: <Bersanii> pdp
-[01:12:19] [Server thread/INFO]: <Bersanii> vlw
-[01:12:28] [Server thread/INFO]: <DezinBugaTudo> precisa de um tear pra personalizar
-[01:13:29] [Server thread/WARN]: Trying to add entity with duplicated UUID 92ec02db-d266-4a05-ac66-92e3fc0fc3cd. Existing minecraft:armor_stand#85980, new: minecraft:armor_stand#85980
-[01:13:29] [Server thread/WARN]: Trying to add entity with duplicated UUID fd186756-d94d-4806-9254-5f8592213751. Existing minecraft:armor_stand#85981, new: minecraft:armor_stand#85981
-[01:13:29] [Server thread/WARN]: Trying to add entity with duplicated UUID 4ff06367-0e27-48ef-8c3c-03e5ffef2a29. Existing minecraft:armor_stand#85987, new: minecraft:armor_stand#85987
-[01:13:49] [Server thread/INFO]: <DezinBugaTudo> peguei um aqui da platançao chavao vlw
-[01:16:05] [Server thread/INFO]: <Chavola> de
-[01:16:14] [Server thread/INFO]: <DezinBugaTudo> oe
-[01:16:23] [Server thread/INFO]: <Chavola> avisa os cara q nao e pra quebrar as arvores q estao atraz da minha casa
-[01:16:43] [Server thread/INFO]: <DezinBugaTudo> bl
-[01:16:49] [Server thread/INFO]: <Chavola> chega pegar
-[01:16:55] [Server thread/INFO]: <Chavola> os bambu
-[01:16:57] [Server thread/INFO]: <DezinBugaTudo> peguei da platançao
-[01:17:06] [Server thread/INFO]: <DezinBugaTudo> dei uma passadinha ae rapidao
-[01:19:07] [Server thread/INFO]: <Chavola> chega ae de
-[01:19:15] [Server thread/INFO]: <Chavola> na minha casa
-[01:19:19] [Server thread/INFO]: <DezinBugaTudo> perae ja colo
-[01:19:20] [Server thread/INFO]: Bersanii has completed the challenge [Return to Sender]
-[01:19:26] [Server thread/INFO]: <DezinBugaTudo> to um poco longe
-[01:19:40] [Server thread/INFO]: <DezinBugaTudo> que challenge é essa bersa?
-[01:19:50] [Server thread/INFO]: <Bersanii> mata um ghast com a bola dele
-[01:22:23] [Server thread/INFO]: <DezinBugaTudo> xeguei
-[01:22:41] [Server thread/INFO]: <Chavola> cola aqui
-[01:22:57] [Server thread/INFO]: <munaro> salve
-[01:23:01] [Server thread/INFO]: <DezinBugaTudo> salve
-[01:23:14] [Server thread/INFO]: <Chavola> de fala pros cara nao quebrar as arvores
-[01:23:19] [Server thread/INFO]: <Chavola> amem msm
-[01:23:27] [Server thread/INFO]: <DezinBugaTudo> blz
-[01:23:32] [Server thread/INFO]: <Chavola> dpoprei ae
-[01:23:38] [Server thread/INFO]: <DezinBugaTudo> vlw
-[01:23:41] [Server thread/INFO]: <DezinBugaTudo> axo q agora ta safe
-[01:23:45] [Server thread/INFO]: <DezinBugaTudo> bisteca nao mora mais aki
-[01:23:52] [Server thread/INFO]: <DezinBugaTudo> bistek q e tarado nessas arvore ae
-[01:23:53] [Server thread/INFO]: <Chavola> kkkkkkkkk
-[01:26:18] [Server thread/WARN]: Fetching packet for removed entity bcs['Cobblestone'/95027, l='ServerLevel[world]', x=-235.26, y=70.00, z=-18.01]
-[01:27:42] [Server thread/INFO]: [Bersanii: Killed 208 entities]
-[01:27:59] [Server thread/INFO]: [Bersanii: Killed 183 entities]
-[01:31:27] [Server thread/INFO]: DezinBugaTudo tried to swim in lava to escape Ghast
-[01:32:25] [Server thread/INFO]: Villager bfg['Villager'/102511, l='ServerLevel[world]', x=61.53, y=60.52, z=-206.70] died, message: 'Villager tried to swim in lava'
-[01:35:40] [Server thread/INFO]: munaro drowned
-[01:36:51] [Server thread/INFO]: DezinBugaTudo burned to death
-[01:39:11] [Server thread/INFO]: Bersanii fell out of the world
-[01:39:11] [Server thread/INFO]: [Bersanii: Killed Bersanii]
-[01:39:12] [Server thread/WARN]: Bersanii moved too quickly! -2575.310702782805,-26.0,2190.577904490171
-[01:42:08] [Server thread/INFO]: [Bersanii: Killed 69 entities]
-[01:43:16] [Server thread/INFO]: [Bersanii: Killed 37 entities]
-[01:45:27] [Server thread/INFO]: DezinBugaTudo tried to swim in lava
-[01:47:42] [Server thread/INFO]: [Bersanii: Set the time to 1000]
-[01:53:20] [Server thread/WARN]: Trying to add entity with duplicated UUID ef08a509-048e-46a3-8e5b-b44e719ebbd8. Existing minecraft:armor_stand#118302, new: minecraft:armor_stand#118302
-[01:53:21] [Server thread/WARN]: Trying to add entity with duplicated UUID 311d9a2a-69ee-4587-8c3c-76239d85a506. Existing minecraft:armor_stand#118313, new: minecraft:armor_stand#118313
-[01:53:25] [Server thread/WARN]: Trying to add entity with duplicated UUID dc0baffe-bf1f-4f57-b3f0-b91466085a0b. Existing minecraft:armor_stand#118332, new: minecraft:armor_stand#118332
-[01:53:26] [Server thread/WARN]: Trying to add entity with duplicated UUID 2c4778e7-e7de-4dd8-a41c-83b80480d139. Existing minecraft:armor_stand#118338, new: minecraft:armor_stand#118338
-[01:54:02] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/118538, l='ServerLevel[world]', x=-267.58, y=65.00, z=-65.06]
-[01:54:02] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/118538, l='ServerLevel[world]', x=-267.58, y=65.00, z=-65.06]
-[01:54:11] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/118580, l='ServerLevel[world]', x=-257.80, y=65.00, z=-63.05]
-[01:54:11] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/118580, l='ServerLevel[world]', x=-257.80, y=65.00, z=-63.05]
-[01:59:16] [Server thread/INFO]: munaro has made the advancement [Enchanter]
-[02:05:58] [Server thread/WARN]: Fetching packet for removed entity bcs['Cactus'/124793, l='ServerLevel[world]', x=-170.05, y=11.08, z=-115.88]
-[02:07:40] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=3179, y=67, z=-3647} fx{x=3179, y=67, z=-3646}
-[02:07:40] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=3179, y=67, z=-3647} fx{x=3179, y=67, z=-3646}
-[02:07:40] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=3179, y=67, z=-3647} fx{x=3179, y=67, z=-3646}
-[02:07:40] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=3179, y=67, z=-3647} fx{x=3179, y=67, z=-3646}
-[02:07:40] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=3179, y=67, z=-3647} fx{x=3179, y=67, z=-3646}
-[02:07:40] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=3179, y=67, z=-3647} fx{x=3179, y=67, z=-3646}
-[02:11:24] [Server thread/WARN]: Trying to add entity with duplicated UUID 539df7d2-262b-4081-a302-bc7f47ce8318. Existing minecraft:armor_stand#130012, new: minecraft:armor_stand#130012
-[02:11:25] [Server thread/WARN]: Trying to add entity with duplicated UUID 60d0cd47-60cc-403a-a0b3-ccff14012b82. Existing minecraft:armor_stand#130014, new: minecraft:armor_stand#130014
-[02:13:06] [Server thread/INFO]: munaro has made the advancement [A Seedy Place]
-[02:13:53] [Server thread/INFO]: munaro has made the advancement [The Parrots and the Bats]
-[02:14:23] [Server thread/WARN]: Trying to add entity with duplicated UUID 673a62d8-d22a-4a3a-8774-56253a7f8ba4. Existing minecraft:armor_stand#132627, new: minecraft:armor_stand#132627
-[02:14:55] [Server thread/INFO]: <munaro> boa noite ae rapaziada
-[02:15:01] [Server thread/INFO]: <DezinBugaTudo> boa noite
-[02:15:03] [Server thread/INFO]: <munaro> :*
-[02:15:07] [Server thread/INFO]: <Bersanii> boa
-[02:15:14] [Server thread/INFO]: munaro lost connection: Disconnected
-[02:15:14] [Server thread/INFO]: munaro left the game
-[02:15:27] [Server thread/INFO]: Chavola lost connection: Disconnected
-[02:15:27] [Server thread/INFO]: Chavola left the game
-[02:21:08] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=3181, y=76, z=-3637} fx{x=3180, y=76, z=-3637}
-[02:21:55] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=3194, y=75, z=-3639} fx{x=3193, y=74, z=-3639}
-[02:24:51] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=3176, y=71, z=-3654} fx{x=3175, y=70, z=-3655}
-[02:24:52] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=3176, y=71, z=-3654} fx{x=3175, y=70, z=-3655}
-[02:24:52] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=3176, y=71, z=-3654} fx{x=3175, y=70, z=-3655}
-[02:25:48] [Server thread/INFO]: [Bersanii: Gamerule randomTickSpeed is now set to: 300]
-[02:26:42] [Server thread/INFO]: [Bersanii: Gamerule randomTickSpeed is now set to: 3000]
-[02:26:45] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2060ms or 41 ticks behind
-[02:27:36] [Server thread/INFO]: [Bersanii: Gamerule randomTickSpeed is now set to: 300]
-[02:27:40] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 39711ms or 794 ticks behind
-[02:35:51] [Server thread/INFO]: <Bersanii> eae deh
-[02:35:55] [Server thread/INFO]: <Bersanii> q q ta pegando
-[02:36:06] [Server thread/INFO]: <DezinBugaTudo> to mexendo na minha base no nether
-[02:36:17] [Server thread/INFO]: <Bersanii> me mudei dnv
-[02:36:21] [Server thread/INFO]: <Bersanii> agr achei o lugar
-[02:36:33] [Server thread/INFO]: <DezinBugaTudo> oloco viro nomade
-[02:36:41] [Server thread/INFO]: <Bersanii> virei
-[02:37:00] [Server thread/INFO]: <DezinBugaTudo> eu vo se meio nomade tbm do nether pra qualquer canto do mundo
-[02:37:22] [Server thread/INFO]: <Bersanii> mas ta fazendo base perto da estrada?
-[02:37:42] [Server thread/INFO]: <DezinBugaTudo> é por perto
-[02:37:49] [Server thread/INFO]: <Bersanii> interessante
-[02:38:07] [Server thread/INFO]: <DezinBugaTudo> vo expandi a estrada pro lado inverso do da vila
-[02:38:10] [Server thread/INFO]: <DezinBugaTudo> pra la tem jungle
-[02:38:26] [Server thread/INFO]: <DezinBugaTudo> agora até que nao precisa pq chavao ja me arranjo o bambu
-[02:38:27] [Server thread/INFO]: <Bersanii> to numa aqui
-[02:38:36] [Server thread/INFO]: <DezinBugaTudo> manja andaime?
-[02:38:37] [Server thread/INFO]: <Bersanii> tem mt bambu aqui
-[02:38:47] [Server thread/INFO]: <Bersanii> tlg
-[02:38:52] [Server thread/INFO]: <Bersanii> quer tp?
-[02:38:56] [Server thread/INFO]: <DezinBugaTudo> manda
-[02:39:03] [Server thread/INFO]: [Bersanii: Teleported DezinBugaTudo to Bersanii]
-[02:39:15] [Server thread/INFO]: <Bersanii> mantem as cords em segredo
-[02:39:15] [Server thread/INFO]: <DezinBugaTudo> carai ja ta até fazendo casa
-[02:39:19] [Server thread/INFO]: <Bersanii> só tu sabe
-[02:39:23] [Server thread/INFO]: <DezinBugaTudo> caraio bersa
-[02:39:26] [Server thread/INFO]: <DezinBugaTudo> como tu xego aki
-[02:39:30] [Server thread/INFO]: <Bersanii> nether
-[02:39:48] [Server thread/INFO]: <Bersanii> só n divukga as coods
-[02:39:51] [Server thread/INFO]: <Bersanii> coords
-[02:39:56] [Server thread/INFO]: <DezinBugaTudo> tu veio fora da estrada né?
-[02:40:02] [Server thread/INFO]: <Bersanii> bastante
-[02:40:03] [Server thread/INFO]: DezinBugaTudo was slain by Bersanii
-[02:40:05] [Server thread/WARN]: DezinBugaTudo moved too quickly! -2552.0723202940967,-7.0,1930.3991573990475
-[02:40:08] [Server thread/INFO]: <Bersanii> auheuhaeuhaeuh
-[02:40:13] [Server thread/INFO]: <Bersanii> missclick
-[02:40:18] [Server thread/INFO]: [Bersanii: Teleported DezinBugaTudo to Bersanii]
-[02:40:36] [Server thread/INFO]: <DezinBugaTudo> carai e o paraiso mto bambu
-[02:40:43] [Server thread/INFO]: <Bersanii> deixa os toquinho pra crescer dnv
-[02:42:02] [Server thread/INFO]: <DezinBugaTudo> que help na construçao?
-[02:42:22] [Server thread/INFO]: <Bersanii> preciso de uma platação ali
-[02:42:25] [Server thread/INFO]: <Bersanii> terraplanagem
-[02:42:49] [Server thread/INFO]: <Bersanii> esses ngc vai agua
-[02:43:07] [Server thread/INFO]: <DezinBugaTudo> tem balde?
-[02:43:27] [Server thread/INFO]: <Bersanii> só n queria tirar muita arvore
-[02:43:45] [Server thread/INFO]: <DezinBugaTudo> bl
-[02:43:47] [Server thread/INFO]: <DezinBugaTudo> vo axa agua aki
-[02:43:54] [Server thread/INFO]: <Bersanii> no bambu tem
-[02:44:30] [Server thread/INFO]: <DezinBugaTudo> tu q planto essa caralhada de bambu aki?
-[02:44:35] [Server thread/INFO]: <Bersanii> nop
-[02:45:15] [Server thread/INFO]: <DezinBugaTudo> tem bambu pra porra slc
-[02:45:39] [Server thread/INFO]: <DezinBugaTudo> vo faze uns andaime dps
-[02:45:44] [Server thread/INFO]: <Bersanii> pdp
-[02:47:23] [Server thread/INFO]: <DezinBugaTudo> a agua e pra escorrer msm?
-[02:47:27] [Server thread/INFO]: <Bersanii> yep
-[02:47:29] [Server thread/INFO]: <Bersanii> vem ver
-[02:47:40] [Server thread/INFO]: [Bersanii: Set the weather to clear]
-[02:47:57] [Server thread/INFO]: <DezinBugaTudo> manjei detalhe estetico
-[02:48:08] [Server thread/INFO]: <Bersanii> chick
-[02:48:44] [Server thread/INFO]: <DezinBugaTudo> tem terra?
-[02:48:49] [Server thread/INFO]: <Bersanii> tenho nda
-[02:49:19] [Server thread/INFO]: <DezinBugaTudo> vo busca
-[02:49:43] [Server thread/INFO]: DezinBugaTudo drowned
-[02:50:59] [Server thread/WARN]: DezinBugaTudo moved too quickly! 0.7654409638473787,-0.2712241076924826,10.13100974259487
-[02:51:14] [Server thread/INFO]: [Bersanii: Killed 109 entities]
-[02:51:34] [Server thread/INFO]: DezinBugaTudo lost connection: Disconnected
-[02:51:34] [Server thread/INFO]: DezinBugaTudo left the game
-[02:51:45] [Server thread/INFO]: DezinBugaTudo[/177.131.79.170:10085] logged in with entity id 145056 at (-19.9682453508904, 32.0, -14.07914781639672)
-[02:51:45] [Server thread/INFO]: DezinBugaTudo joined the game
-[02:51:50] [Server thread/INFO]: Bersanii fell out of the world
-[02:51:50] [Server thread/INFO]: [Bersanii: Killed Bersanii]
-[02:51:51] [Server thread/WARN]: Bersanii moved too quickly! -2569.1821750763074,-21.0,2198.7363756787017
-[02:52:39] [Server thread/INFO]: [Bersanii: Killed 48 entities]
-[02:53:02] [Server thread/INFO]: <DezinBugaTudo> vai precisa de semente do que pra plantar?
-[02:53:19] [Server thread/INFO]: <Bersanii> trigo por agr
-[02:54:14] [Server thread/INFO]: [Bersanii: Killed 47 entities]
-[02:55:18] [Server thread/INFO]: [Bersanii: Set the time to 1000]
-[02:55:23] [Server thread/INFO]: [Bersanii: Set the weather to clear]
-[02:55:43] [Server thread/INFO]: <DezinBugaTudo> blz peguei tdo axo
-[02:55:46] [Server thread/INFO]: <DezinBugaTudo> puxa ae
-[02:55:49] [Server thread/INFO]: <Bersanii> to indo lá
-[02:55:54] [Server thread/INFO]: <Bersanii> voltei pegar a cama
-[02:57:00] [Server thread/INFO]: <DezinBugaTudo> aquele bagulho q remove encantamento tem como deixar o encantamento no livro?
-[02:57:08] [Server thread/INFO]: <Bersanii> nop
-[02:57:18] [Server thread/INFO]: <DezinBugaTudo> so pra tirar se for bosta msm?
-[02:57:25] [Server thread/INFO]: <Bersanii> por ai
-[02:57:29] [Server thread/INFO]: <DezinBugaTudo> gasta xp?
-[02:57:33] [Server thread/INFO]: <Bersanii> pra tirar n
-[02:58:32] [Server thread/INFO]: <Bersanii> pode puxa?
-[02:58:35] [Server thread/INFO]: <DezinBugaTudo> pode
-[02:58:40] [Server thread/INFO]: [Bersanii: Teleported DezinBugaTudo to Bersanii]
-[02:59:54] [Server thread/INFO]: DezinBugaTudo lost connection: Disconnected
-[02:59:54] [Server thread/INFO]: DezinBugaTudo left the game
-[02:59:59] [Server thread/INFO]: DezinBugaTudo[/177.131.79.170:9938] logged in with entity id 148906 at (3157.494852983108, 77.0, -3651.8495545888786)
-[02:59:59] [Server thread/INFO]: DezinBugaTudo joined the game
-[03:00:14] [Server thread/WARN]: DezinBugaTudo moved too quickly! 3.0231487884766466,2.5,9.569066661864781
-[03:01:48] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=3161, y=72, z=-3626} fx{x=3161, y=72, z=-3627}
-[03:01:48] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=3161, y=73, z=-3626} fx{x=3161, y=72, z=-3627}
-[03:07:03] [Server thread/INFO]: <DezinBugaTudo> oloco ta crescendo mo rapido os trigo
-[03:07:10] [Server thread/INFO]: <DezinBugaTudo> tu boto akele bagulho de acelera?
-[03:07:16] [Server thread/INFO]: DezinBugaTudo was slain by Spider
-[03:07:17] [Server thread/INFO]: [Bersanii: Gamerule randomTickSpeed is now set to: 30]
-[03:07:18] [Server thread/WARN]: DezinBugaTudo moved too quickly! -2582.8413872708893,-5.9375,1930.7724705207042
-[03:07:21] [Server thread/INFO]: <Bersanii> esqueci
-[03:07:33] [Server thread/INFO]: <Bersanii> coisa bonita em
-[03:07:43] [Server thread/INFO]: <DezinBugaTudo> xamae kkk dificil a vida de mao de vaca, sem armadura
-[03:07:54] [Server thread/INFO]: <Bersanii> puxa?
-[03:07:59] [Server thread/INFO]: <DezinBugaTudo> ss
-[03:08:01] [Server thread/INFO]: [Bersanii: Teleported DezinBugaTudo to Bersanii]
-[03:09:38] [Server thread/INFO]: <Bersanii> empresta unsa andaime ai
-[03:11:27] [Server thread/INFO]: <DezinBugaTudo> se pular de um lugar alto no andaime e aperta shift pra ele fica tipo escada sera q da pra nao leva dano?
-[03:11:34] [Server thread/INFO]: <Bersanii> leva menos
-[03:11:37] [Server thread/INFO]: <Bersanii> mas da dano
-[03:20:56] [Server thread/INFO]: <Bersanii> vo quita deh
-[03:21:05] [Server thread/INFO]: <DezinBugaTudo> okay
-[03:21:18] [Server thread/INFO]: <Bersanii> quer q eu te ensine a fazer o bagui?
-[03:21:55] [Server thread/INFO]: <DezinBugaTudo> para passar pro server pro é so eu baixa o mundo e depois upar dnv la no git?
-[03:22:05] [Server thread/INFO]: <Bersanii> s
-[03:22:18] [Server thread/INFO]: <DezinBugaTudo> axo q vo faze nesse esquema
-[03:22:23] [Server thread/INFO]: <Bersanii> se tu n conseguir subir dnv
-[03:22:31] [Server thread/INFO]: <Bersanii> deixa q eu subo qndo voltar
-[03:22:45] [Server thread/INFO]: <Bersanii> vou fechar aqui
-[03:22:50] [Server thread/INFO]: <DezinBugaTudo> bl
-[03:22:52] [Server thread/INFO]: <DezinBugaTudo> boa noite
-[03:22:53] [Server thread/INFO]: <Bersanii> espera uns 5 min pra baixar
-[03:22:55] [Server thread/INFO]: <Bersanii> boa
-[03:23:01] [Server thread/INFO]: Bersanii lost connection: Disconnected
-[03:23:01] [Server thread/INFO]: Bersanii left the game
-[03:23:06] [Server thread/INFO]: Stopping the server
-[03:23:06] [Server thread/INFO]: Stopping server
-[03:23:06] [Server thread/INFO]: Saving players
-[03:23:06] [Server thread/INFO]: DezinBugaTudo lost connection: Internal Exception: java.lang.StackOverflowError
-[03:23:06] [Server thread/INFO]: DezinBugaTudo left the game
-[03:23:06] [Server thread/INFO]: Saving worlds
-[03:23:06] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[03:23:07] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[03:23:07] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[03:23:08] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[03:23:08] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[03:23:08] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[03:23:08] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[03:23:11] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[03:23:12] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[12:37:49] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', name='PROD'
+[12:37:50] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[12:37:50] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[12:37:50] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[12:37:50] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[12:37:50] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[12:37:50] [main/INFO]: Reloading ResourceManager: Default, anti creeper grief v1.1.0.zip, multiplayer sleep v2.4.3.zip, silk-touch-spawners-v1-3-1565027733.zip, timber v2.1.0.zip
+[12:37:52] [Worker-Main-13/INFO]: Loaded 7 recipes
+[12:37:52] [Worker-Main-13/INFO]: Loaded 932 advancements
+[12:37:53] [Server thread/INFO]: Starting minecraft server version 1.16.3
+[12:37:53] [Server thread/INFO]: Loading properties
+[12:37:53] [Server thread/INFO]: Default game type: SURVIVAL
+[12:37:53] [Server thread/INFO]: Generating keypair
+[12:37:54] [Server thread/INFO]: Starting Minecraft server on *:25565
+[12:37:54] [Server thread/INFO]: Using default channel type
+[12:37:54] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[12:37:54] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[12:37:54] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[12:37:54] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[12:37:54] [Server thread/INFO]: Preparing level "world"
+[12:37:54] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[12:37:58] [Server thread/INFO]: Preparing spawn area: 0%
+[12:37:58] [Server thread/INFO]: Preparing spawn area: 0%
+[12:37:58] [Server thread/INFO]: Preparing spawn area: 0%
+[12:37:58] [Server thread/INFO]: Preparing spawn area: 0%
+[12:37:58] [Server thread/INFO]: Preparing spawn area: 0%
+[12:37:58] [Server thread/INFO]: Preparing spawn area: 0%
+[12:37:58] [Server thread/INFO]: Preparing spawn area: 0%
+[12:37:58] [Server thread/INFO]: Preparing spawn area: 0%
+[12:37:58] [Server thread/INFO]: Preparing spawn area: 0%
+[12:37:59] [Server thread/INFO]: Time elapsed: 4330 ms
+[12:37:59] [Server thread/INFO]: Done (4.474s)! For help, type "help"
+[12:38:05] [Server thread/INFO]: There are 0 of a max of 20 players online: 
+[12:38:09] [Server thread/INFO]: /advancement (grant|revoke)
+[12:38:09] [Server thread/INFO]: /attribute <target> <attribute> (base|get|modifier)
+[12:38:09] [Server thread/INFO]: /ban <targets> [<reason>]
+[12:38:09] [Server thread/INFO]: /ban-ip <target> [<reason>]
+[12:38:09] [Server thread/INFO]: /banlist [ips|players]
+[12:38:09] [Server thread/INFO]: /bossbar (add|get|list|remove|set)
+[12:38:09] [Server thread/INFO]: /clear [<targets>]
+[12:38:09] [Server thread/INFO]: /clone <begin> <end> <destination> [filtered|masked|replace]
+[12:38:09] [Server thread/INFO]: /data (get|merge|modify|remove)
+[12:38:09] [Server thread/INFO]: /datapack (disable|enable|list)
+[12:38:09] [Server thread/INFO]: /debug (report|start|stop)
+[12:38:09] [Server thread/INFO]: /defaultgamemode (adventure|creative|spectator|survival)
+[12:38:09] [Server thread/INFO]: /deop <targets>
+[12:38:09] [Server thread/INFO]: /difficulty [easy|hard|normal|peaceful]
+[12:38:09] [Server thread/INFO]: /effect (clear|give)
+[12:38:09] [Server thread/INFO]: /enchant <targets> <enchantment> [<level>]
+[12:38:09] [Server thread/INFO]: /execute (align|anchored|as|at|facing|if|in|positioned|rotated|run|store|unless)
+[12:38:09] [Server thread/INFO]: /experience (add|query|set)
+[12:38:09] [Server thread/INFO]: /fill <from> <to> <block> [destroy|hollow|keep|outline|replace]
+[12:38:09] [Server thread/INFO]: /forceload (add|query|remove)
+[12:38:09] [Server thread/INFO]: /function <name>
+[12:38:09] [Server thread/INFO]: /gamemode (adventure|creative|spectator|survival)
+[12:38:09] [Server thread/INFO]: /gamerule (announceAdvancements|commandBlockOutput|disableElytraMovementCheck|disableRaids|doDaylightCycle|doEntityDrops|doFireTick|doImmediateRespawn|doInsomnia|doLimitedCrafting|doMobLoot|doMobSpawning|doPatrolSpawning|doTileDrops|doTraderSpawning|doWeatherCycle|drowningDamage|fallDamage|fireDamage|forgiveDeadPlayers|keepInventory|logAdminCommands|maxCommandChainLength|maxEntityCramming|mobGriefing|naturalRegeneration|randomTickSpeed|reducedDebugInfo|sendCommandFeedback|showDeathMessages|spawnRadius|spectatorsGenerateChunks|universalAnger)
+[12:38:09] [Server thread/INFO]: /give <targets> <item> [<count>]
+[12:38:09] [Server thread/INFO]: /help [<command>]
+[12:38:09] [Server thread/INFO]: /kick <targets> [<reason>]
+[12:38:09] [Server thread/INFO]: /kill [<targets>]
+[12:38:09] [Server thread/INFO]: /list [uuids]
+[12:38:09] [Server thread/INFO]: /locate (bastion_remnant|buried_treasure|desert_pyramid|endcity|fortress|igloo|jungle_pyramid|mansion|mineshaft|monument|nether_fossil|ocean_ruin|pillager_outpost|ruined_portal|shipwreck|stronghold|swamp_hut|village)
+[12:38:09] [Server thread/INFO]: /locatebiome <biome>
+[12:38:09] [Server thread/INFO]: /loot (give|insert|replace|spawn)
+[12:38:09] [Server thread/INFO]: /me <action>
+[12:38:09] [Server thread/INFO]: /msg <targets> <message>
+[12:38:09] [Server thread/INFO]: /op <targets>
+[12:38:09] [Server thread/INFO]: /pardon <targets>
+[12:38:09] [Server thread/INFO]: /pardon-ip <target>
+[12:38:09] [Server thread/INFO]: /particle <name> [<pos>]
+[12:38:09] [Server thread/INFO]: /playsound <sound> (ambient|block|hostile|master|music|neutral|player|record|voice|weather)
+[12:38:09] [Server thread/INFO]: /recipe (give|take)
+[12:38:09] [Server thread/INFO]: /reload
+[12:38:09] [Server thread/INFO]: /replaceitem (block|entity)
+[12:38:09] [Server thread/INFO]: /save-all [flush]
+[12:38:09] [Server thread/INFO]: /save-off
+[12:38:09] [Server thread/INFO]: /save-on
+[12:38:09] [Server thread/INFO]: /say <message>
+[12:38:09] [Server thread/INFO]: /schedule (clear|function)
+[12:38:09] [Server thread/INFO]: /scoreboard (objectives|players)
+[12:38:09] [Server thread/INFO]: /seed
+[12:38:09] [Server thread/INFO]: /setblock <pos> <block> [destroy|keep|replace]
+[12:38:09] [Server thread/INFO]: /setidletimeout <minutes>
+[12:38:09] [Server thread/INFO]: /setworldspawn [<pos>]
+[12:38:09] [Server thread/INFO]: /spawnpoint [<targets>]
+[12:38:09] [Server thread/INFO]: /spectate [<target>]
+[12:38:09] [Server thread/INFO]: /spreadplayers <center> <spreadDistance> <maxRange> (under|<respectTeams>)
+[12:38:09] [Server thread/INFO]: /stop
+[12:38:09] [Server thread/INFO]: /stopsound <targets> [*|ambient|block|hostile|master|music|neutral|player|record|voice|weather]
+[12:38:09] [Server thread/INFO]: /summon <entity> [<pos>]
+[12:38:09] [Server thread/INFO]: /tag <targets> (add|list|remove)
+[12:38:09] [Server thread/INFO]: /team (add|empty|join|leave|list|modify|remove)
+[12:38:09] [Server thread/INFO]: /teammsg <message>
+[12:38:09] [Server thread/INFO]: /teleport (<destination>|<location>|<targets>)
+[12:38:09] [Server thread/INFO]: /tell -> msg
+[12:38:09] [Server thread/INFO]: /tellraw <targets> <message>
+[12:38:09] [Server thread/INFO]: /time (add|query|set)
+[12:38:09] [Server thread/INFO]: /title <targets> (actionbar|clear|reset|subtitle|times|title)
+[12:38:09] [Server thread/INFO]: /tm -> teammsg
+[12:38:09] [Server thread/INFO]: /tp -> teleport
+[12:38:09] [Server thread/INFO]: /trigger <objective> [add|set]
+[12:38:09] [Server thread/INFO]: /w -> msg
+[12:38:09] [Server thread/INFO]: /weather (clear|rain|thunder)
+[12:38:09] [Server thread/INFO]: /whitelist (add|list|off|on|reload|remove)
+[12:38:09] [Server thread/INFO]: /worldborder (add|center|damage|get|set|warning)
+[12:38:09] [Server thread/INFO]: /xp -> experience
+[12:38:13] [Server thread/INFO]: There are 0 of a max of 20 players online: 
+[12:38:21] [Server thread/INFO]: LuisGOd[/177.131.79.170:23785] logged in with entity id 367 at (812.1906795097898, 70.0, -2459.549263223992)
+[12:38:21] [Server thread/INFO]: LuisGOd joined the game
+[12:38:25] [Server thread/INFO]: Mader400[/189.79.174.71:52567] logged in with entity id 642 at (-267.4234551413766, 75.0, -170.52915723808763)
+[12:38:25] [Server thread/INFO]: Mader400 joined the game
+[12:49:17] [Server thread/INFO]: M1D4$[/177.101.67.67:50133] logged in with entity id 4676 at (-273.6563039877767, 24.0, -135.9736381496243)
+[12:49:17] [Server thread/INFO]: M1D4$ joined the game
+[12:49:36] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/4989, l='ServerLevel[world]', x=-300.22, y=55.00, z=-181.46]
+[12:50:18] [Server thread/INFO]: Mader400 tried to swim in lava
+[12:50:42] [Server thread/INFO]: LuisGOd was shot by Skeleton
+[12:51:08] [Server thread/INFO]: Chavola[/177.131.79.110:63968] logged in with entity id 6032 at (-236.508259953093, 77.0, -17.19410222426313)
+[12:51:08] [Server thread/INFO]: Chavola joined the game
+[12:52:46] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/7053, l='ServerLevel[world]', x=-252.92, y=77.00, z=-21.85]
+[12:52:46] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/7053, l='ServerLevel[world]', x=-252.92, y=77.00, z=-21.85]
+[12:53:00] [Server thread/WARN]: Mader400 moved too quickly! -0.3740747696865583,-10.856489120741138,-0.787148674082772
+[12:53:04] [Server thread/INFO]: Mader400 tried to swim in lava
+[12:54:11] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/7879, l='ServerLevel[world]', x=-238.45, y=65.00, z=-65.41]
+[12:54:11] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/7879, l='ServerLevel[world]', x=-238.45, y=65.00, z=-65.41]
+[12:55:02] [Server thread/INFO]: Mader400 burned to death
+[12:57:42] [Server thread/INFO]: Mader400 tried to swim in lava
+[12:58:49] [Server thread/INFO]: M1D4$ tried to swim in lava
+[13:01:21] [Server thread/INFO]: Mader400 fell from a high place
+[13:01:41] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/12103, l='ServerLevel[world]', x=-298.80, y=55.00, z=-181.74]
+[13:01:41] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/12103, l='ServerLevel[world]', x=-298.80, y=55.00, z=-181.74]
+[13:05:08] [Server thread/INFO]: LuisGOd was shot by Skeleton
+[13:06:03] [Server thread/INFO]: M1D4$ lost connection: Timed out
+[13:06:03] [Server thread/INFO]: M1D4$ left the game
+[13:06:07] [Server thread/INFO]: M1D4$[/177.101.67.67:50158] logged in with entity id 15132 at (-304.7673750017722, 10.0, -123.83609736731441)
+[13:06:07] [Server thread/INFO]: M1D4$ joined the game
+[13:07:33] [Server thread/INFO]: Mader400 fell from a high place
+[13:07:53] [Server thread/INFO]: Chavola was slain by Zombified Piglin
+[13:13:35] [Server thread/INFO]: Mader400 lost connection: Disconnected
+[13:13:35] [Server thread/INFO]: Mader400 left the game
+[13:13:57] [Server thread/INFO]: Mader400[/189.79.174.71:52813] logged in with entity id 19660 at (71.00991822586411, 15.0, -493.69999998807907)
+[13:13:57] [Server thread/INFO]: Mader400 joined the game
+[13:18:03] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2102ms or 42 ticks behind
+[13:21:28] [Server thread/INFO]: Mader400 lost connection: Disconnected
+[13:21:28] [Server thread/INFO]: Mader400 left the game
+[13:24:21] [Server thread/INFO]: LuisGOd lost connection: Disconnected
+[13:24:21] [Server thread/INFO]: LuisGOd left the game
+[13:24:51] [Server thread/WARN]: M1D4$ moved too quickly! 7.161325299425812,1.7531999805212024,7.031571981672528
+[13:24:53] [Server thread/INFO]: M1D4$ lost connection: Disconnected
+[13:24:53] [Server thread/INFO]: M1D4$ left the game
+[13:30:00] [Server thread/INFO]: There are 1 of a max of 20 players online: Chavola
+[13:43:22] [Server thread/INFO]: Chavola withered away
+[13:48:51] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/32041, l='ServerLevel[world]', x=-258.74, y=77.00, z=-24.58]
+[13:54:49] [Server thread/INFO]: Chavola lost connection: Disconnected
+[13:54:49] [Server thread/INFO]: Chavola left the game
+[13:59:03] [Server thread/INFO]: There are 0 of a max of 20 players online: 
+[13:59:33] [Server thread/INFO]: Chavola[/177.131.79.110:65129] logged in with entity id 32876 at (-239.39127495380072, 77.0, -24.733886730988647)
+[13:59:33] [Server thread/INFO]: Chavola joined the game
+[14:04:46] [Server thread/INFO]: Chavola burned to death
+[14:04:57] [Server thread/INFO]: Chavola lost connection: Disconnected
+[14:04:57] [Server thread/INFO]: Chavola left the game
+[15:37:17] [Server thread/INFO]: Stopping the server
+[15:37:17] [Server thread/INFO]: Stopping server
+[15:37:17] [Server thread/INFO]: Saving players
+[15:37:17] [Server thread/INFO]: Saving worlds
+[15:37:17] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[15:37:18] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[15:37:18] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[15:37:18] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[15:37:18] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[15:37:18] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[15:37:18] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[15:37:18] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[15:37:18] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
