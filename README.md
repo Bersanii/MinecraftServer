@@ -3,7 +3,7 @@
 
 Bersani: 187.255.160.227:25565
 
-Bistek: 
+Bistek: 187.255.167.196:25565
 
 Deh: 
 
@@ -29,7 +29,7 @@ Obs: Não precisa alterar o ip nas configurações, o servidor já faz automáti
 ### Fechando o servidor:
 - No console do servidor digite o comando **stop**
 - **> git** add .
-- **> git** commit -m "*Dia-Mês:Hora-Minuto*"
+- **> git** commit -m "*DiaMês-Hora:Minuto (ex: 1609-16:05)*"
 - **> git** push
 
 Obs: Se usar o Powershell ele vai pedir seu usuário e senha do github.
