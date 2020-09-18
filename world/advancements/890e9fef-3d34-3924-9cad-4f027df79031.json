@@ -263,6 +263,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/mossy_cobblestone_slab_from_mossy_cobblestone_stonecutting": {
+    "criteria": {
+      "has_mossy_cobblestone": "2020-09-18 02:13:25 -0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/iron_ingot_from_blasting": {
     "criteria": {
       "has_iron_ore": "2020-09-10 19:57:08 -0300"
@@ -290,6 +296,12 @@
   "minecraft:recipes/tools/netherite_hoe_smithing": {
     "criteria": {
       "has_netherite_ingot": "2020-09-12 02:32:30 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/emerald_block": {
+    "criteria": {
+      "has_emerald": "2020-09-18 02:13:49 -0300"
     },
     "done": true
   },
@@ -362,6 +374,12 @@
   "minecraft:recipes/building_blocks/coarse_dirt": {
     "criteria": {
       "has_gravel": "2020-09-12 01:06:48 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_cobblestone_stairs_from_mossy_cobblestone_stonecutting": {
+    "criteria": {
+      "has_mossy_cobblestone": "2020-09-18 02:13:25 -0300"
     },
     "done": true
   },
@@ -661,6 +679,7 @@
       "minecraft:spider": "2020-09-12 02:44:33 -0300",
       "minecraft:creeper": "2020-09-12 02:24:22 -0300",
       "minecraft:slime": "2020-09-13 17:01:19 -0300",
+      "minecraft:zombified_piglin": "2020-09-18 01:56:26 -0300",
       "minecraft:witch": "2020-09-16 19:40:38 -0300",
       "minecraft:husk": "2020-09-17 00:29:45 -0300",
       "minecraft:piglin": "2020-09-14 02:31:37 -0300",
@@ -1322,6 +1341,7 @@
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:cold_ocean": "2020-09-17 01:03:00 -0300",
+      "minecraft:jungle_edge": "2020-09-17 23:09:39 -0300",
       "minecraft:snowy_mountains": "2020-09-13 18:18:35 -0300",
       "minecraft:forest": "2020-09-13 16:57:38 -0300",
       "minecraft:mountains": "2020-09-13 16:54:17 -0300",
@@ -1342,6 +1362,7 @@
       "minecraft:river": "2020-09-10 19:36:21 -0300",
       "minecraft:birch_forest_hills": "2020-09-16 19:39:28 -0300",
       "minecraft:wooded_mountains": "2020-09-13 16:55:21 -0300",
+      "minecraft:bamboo_jungle_hills": "2020-09-17 23:08:53 -0300",
       "minecraft:wooded_hills": "2020-09-13 16:52:47 -0300",
       "minecraft:swamp": "2020-09-13 17:01:13 -0300",
       "minecraft:plains": "2020-09-13 16:32:34 -0300"
@@ -1399,6 +1420,12 @@
   "minecraft:recipes/building_blocks/quartz_bricks": {
     "criteria": {
       "has_quartz_block": "2020-09-16 20:37:36 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/redstone_from_smelting": {
+    "criteria": {
+      "has_redstone_ore": "2020-09-18 00:18:27 -0300"
     },
     "done": true
   },
@@ -1542,6 +1569,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/diamond_from_blasting": {
+    "criteria": {
+      "has_diamond_ore": "2020-09-17 23:49:33 -0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/polished_diorite": {
     "criteria": {
       "has_stone": "2020-09-12 00:44:02 -0300"
@@ -1647,6 +1680,12 @@
   "minecraft:recipes/misc/writable_book": {
     "criteria": {
       "has_book": "2020-09-13 16:35:33 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/wheat": {
+    "criteria": {
+      "has_hay_block": "2020-09-18 01:46:53 -0300"
     },
     "done": true
   },
@@ -1902,6 +1941,7 @@
       "mutton": "2020-09-13 23:49:04 -0300",
       "bread": "2020-09-13 16:55:59 -0300",
       "melon_slice": "2020-09-14 22:21:31 -0300",
+      "cooked_chicken": "2020-09-18 00:15:25 -0300",
       "carrot": "2020-09-14 22:06:03 -0300"
     },
     "done": false
@@ -2014,6 +2054,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/mossy_cobblestone_wall": {
+    "criteria": {
+      "has_mossy_cobblestone": "2020-09-18 02:13:25 -0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/leather_horse_armor": {
     "criteria": {
       "has_leather": "2020-09-13 16:33:02 -0300"
@@ -2053,6 +2099,12 @@
   "minecraft:recipes/misc/magenta_dye_from_blue_red_white_dye": {
     "criteria": {
       "has_blue_dye": "2020-09-17 19:47:45 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/mossy_cobblestone_wall_from_mossy_cobblestone_stonecutting": {
+    "criteria": {
+      "has_mossy_cobblestone": "2020-09-18 02:13:25 -0300"
     },
     "done": true
   },
@@ -2287,6 +2339,12 @@
   "minecraft:recipes/misc/bowl": {
     "criteria": {
       "has_red_mushroom": "2020-09-17 01:20:04 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/diamond_from_smelting": {
+    "criteria": {
+      "has_diamond_ore": "2020-09-17 23:49:33 -0300"
     },
     "done": true
   },
@@ -2536,6 +2594,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/redstone_from_blasting": {
+    "criteria": {
+      "has_redstone_ore": "2020-09-18 00:18:27 -0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/cyan_concrete_powder": {
     "criteria": {
       "has_gravel": "2020-09-12 01:06:48 -0300"
@@ -2575,6 +2639,12 @@
   "minecraft:recipes/building_blocks/lime_wool": {
     "criteria": {
       "has_white_wool": "2020-09-13 22:35:45 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_stone_bricks": {
+    "criteria": {
+      "has_mossy_cobblestone": "2020-09-18 02:13:25 -0300"
     },
     "done": true
   },
@@ -2701,6 +2771,12 @@
   "minecraft:recipes/building_blocks/blue_concrete_powder": {
     "criteria": {
       "has_gravel": "2020-09-12 01:06:48 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_cobblestone_slab": {
+    "criteria": {
+      "has_mossy_cobblestone": "2020-09-18 02:13:25 -0300"
     },
     "done": true
   },
@@ -3199,6 +3275,12 @@
   "minecraft:recipes/building_blocks/melon": {
     "criteria": {
       "has_melon": "2020-09-14 22:03:22 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_cobblestone_stairs": {
+    "criteria": {
+      "has_mossy_cobblestone": "2020-09-18 02:13:25 -0300"
     },
     "done": true
   },

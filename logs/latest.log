@@ -1,446 +1,347 @@
-[20:06:00] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', name='PROD'
-[20:06:00] [main/WARN]: Missing data pack file/anti creeper grief v1.1.0.zip
-[20:06:01] [main/INFO]: Reloading ResourceManager: Default, multiplayer sleep v2.4.3.zip, silk-touch-spawners-v1-3-1565027733.zip, timber v2.1.0.zip, bukkit
-[20:06:01] [Worker-Main-14/INFO]: Loaded 7 recipes
-[20:06:02] [Worker-Main-14/ERROR]: Failed to load function silk_touch_spawners:players/settype_mainhand
-java.util.concurrent.CompletionException: java.lang.NullPointerException
-	at java.util.concurrent.CompletableFuture.encodeThrowable(Unknown Source) ~[?:1.8.0_261]
-	at java.util.concurrent.CompletableFuture.completeThrowable(Unknown Source) [?:1.8.0_261]
-	at java.util.concurrent.CompletableFuture$AsyncSupply.run(Unknown Source) [?:1.8.0_261]
-	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(Unknown Source) [?:1.8.0_261]
-	at java.util.concurrent.ForkJoinTask.doExec(Unknown Source) [?:1.8.0_261]
-	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(Unknown Source) [?:1.8.0_261]
-	at java.util.concurrent.ForkJoinPool.runWorker(Unknown Source) [?:1.8.0_261]
-	at java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source) [?:1.8.0_261]
-Caused by: java.lang.NullPointerException
-	at org.bukkit.craftbukkit.v1_16_R2.command.VanillaCommandWrapper.getPermission(VanillaCommandWrapper.java:90) ~[spigot.jar:git-Spigot-379750e-43c7ff9]
-	at net.minecraft.server.v1_16_R2.CommandListenerWrapper.hasPermission(CommandListenerWrapper.java:135) ~[spigot.jar:git-Spigot-379750e-43c7ff9]
-	at net.minecraft.server.v1_16_R2.CommandScoreboard.c(SourceFile:64) ~[spigot.jar:git-Spigot-379750e-43c7ff9]
-	at com.mojang.brigadier.tree.CommandNode.canUse(CommandNode.java:79) ~[spigot.jar:git-Spigot-379750e-43c7ff9]
-	at com.mojang.brigadier.CommandDispatcher.parseNodes(CommandDispatcher.java:357) ~[spigot.jar:git-Spigot-379750e-43c7ff9]
-	at com.mojang.brigadier.CommandDispatcher.parse(CommandDispatcher.java:347) ~[spigot.jar:git-Spigot-379750e-43c7ff9]
-	at net.minecraft.server.v1_16_R2.CustomFunction.a(SourceFile:55) ~[spigot.jar:git-Spigot-379750e-43c7ff9]
-	at net.minecraft.server.v1_16_R2.CustomFunctionManager.a(SourceFile:86) ~[spigot.jar:git-Spigot-379750e-43c7ff9]
-	... 6 more
-[20:06:03] [Server thread/INFO]: Starting minecraft server version 1.16.2
-[20:06:03] [Server thread/INFO]: Loading properties
-[20:06:04] [Server thread/INFO]: This server is running CraftBukkit version git-Spigot-379750e-43c7ff9 (MC: 1.16.2) (Implementing API version 1.16.2-R0.1-SNAPSHOT)
-[20:06:04] [Server thread/INFO]: Using 4 threads for Netty based IO
-[20:06:04] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[20:06:04] [Server thread/INFO]: Debug logging is disabled
-[20:06:04] [Server thread/INFO]: Default game type: SURVIVAL
-[20:06:04] [Server thread/INFO]: Generating keypair
-[20:06:04] [Server thread/INFO]: Starting Minecraft server on *:25565
-[20:06:04] [Server thread/INFO]: Using default channel type
-[20:06:07] [Server thread/INFO]: [SkinsRestorer] Loading SkinsRestorer v13.8.4
-[20:06:07] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v7.2.0-beta-04+98f71a3
-[20:06:08] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@6f0ac47f]
-[20:06:08] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.0-beta-04+98f71a3
-[20:06:08] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
-[20:06:08] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_16_R2 as the Bukkit adapter
-[20:06:09] [Server thread/WARN]: [WorldEdit] ====================================================
-[20:06:09] [Server thread/WARN]: [WorldEdit]  WorldEdit works better if you use Paper 
-[20:06:09] [Server thread/WARN]: [WorldEdit]  as your server software. 
-[20:06:09] [Server thread/WARN]: [WorldEdit]   
-[20:06:09] [Server thread/WARN]: [WorldEdit]  Paper offers significant performance improvements,
-[20:06:09] [Server thread/WARN]: [WorldEdit]  bug fixes, security enhancements and optional
-[20:06:09] [Server thread/WARN]: [WorldEdit]  features for server owners to enhance their server.
-[20:06:09] [Server thread/WARN]: [WorldEdit]   
-[20:06:09] [Server thread/WARN]: [WorldEdit]  Paper includes Timings v2, which is significantly
-[20:06:09] [Server thread/WARN]: [WorldEdit]  better at diagnosing lag problems over v1.
-[20:06:09] [Server thread/WARN]: [WorldEdit]   
-[20:06:09] [Server thread/WARN]: [WorldEdit]  All of your plugins should still work, and the
-[20:06:09] [Server thread/WARN]: [WorldEdit]  Paper community will gladly help you fix any issues.
-[20:06:09] [Server thread/WARN]: [WorldEdit]   
-[20:06:09] [Server thread/WARN]: [WorldEdit]  Join the Paper Community @ https://papermc.io
-[20:06:09] [Server thread/WARN]: [WorldEdit] ====================================================
-[20:06:09] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[20:06:09] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[20:06:09] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[20:06:09] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[20:06:09] [Server thread/INFO]: Preparing level "world"
-[20:06:09] [Server thread/INFO]: -------- World Settings For [world] --------
-[20:06:09] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
-[20:06:09] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[20:06:09] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[20:06:09] [Server thread/INFO]: Item Despawn Rate: 6000
-[20:06:09] [Server thread/INFO]: Item Merge Radius: 2.5
-[20:06:09] [Server thread/INFO]: View Distance: 10
-[20:06:09] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[20:06:09] [Server thread/INFO]: Mob Spawn Range: 6
-[20:06:09] [Server thread/INFO]: Experience Merge Radius: 3.0
-[20:06:09] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[20:06:09] [Server thread/INFO]: Cane Growth Modifier: 100%
-[20:06:09] [Server thread/INFO]: Melon Growth Modifier: 100%
-[20:06:09] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[20:06:09] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[20:06:09] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[20:06:09] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[20:06:09] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[20:06:09] [Server thread/INFO]: Potato Growth Modifier: 100%
-[20:06:09] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[20:06:09] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[20:06:09] [Server thread/INFO]: Vine Growth Modifier: 100%
-[20:06:09] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[20:06:09] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[20:06:09] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[20:06:09] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[20:06:09] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[20:06:09] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
-[20:06:09] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[20:06:09] [Server thread/INFO]: Max TNT Explosions: 100
-[20:06:09] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[20:06:09] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[20:06:10] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
-[20:06:10] [Server thread/INFO]: -------- World Settings For [world_nether] --------
-[20:06:10] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
-[20:06:10] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[20:06:10] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[20:06:10] [Server thread/INFO]: Item Despawn Rate: 6000
-[20:06:10] [Server thread/INFO]: Item Merge Radius: 2.5
-[20:06:10] [Server thread/INFO]: View Distance: 10
-[20:06:10] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[20:06:10] [Server thread/INFO]: Mob Spawn Range: 6
-[20:06:10] [Server thread/INFO]: Experience Merge Radius: 3.0
-[20:06:10] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[20:06:10] [Server thread/INFO]: Cane Growth Modifier: 100%
-[20:06:10] [Server thread/INFO]: Melon Growth Modifier: 100%
-[20:06:10] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[20:06:10] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[20:06:10] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[20:06:10] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[20:06:10] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[20:06:10] [Server thread/INFO]: Potato Growth Modifier: 100%
-[20:06:10] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[20:06:10] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[20:06:10] [Server thread/INFO]: Vine Growth Modifier: 100%
-[20:06:10] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[20:06:10] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[20:06:10] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[20:06:10] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[20:06:10] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[20:06:10] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
-[20:06:10] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[20:06:10] [Server thread/INFO]: Max TNT Explosions: 100
-[20:06:10] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[20:06:10] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[20:06:10] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
-[20:06:10] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
-[20:06:10] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[20:06:10] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[20:06:10] [Server thread/INFO]: Item Despawn Rate: 6000
-[20:06:10] [Server thread/INFO]: Item Merge Radius: 2.5
-[20:06:10] [Server thread/INFO]: View Distance: 10
-[20:06:10] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[20:06:10] [Server thread/INFO]: Mob Spawn Range: 6
-[20:06:10] [Server thread/INFO]: Experience Merge Radius: 3.0
-[20:06:10] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[20:06:10] [Server thread/INFO]: Cane Growth Modifier: 100%
-[20:06:10] [Server thread/INFO]: Melon Growth Modifier: 100%
-[20:06:10] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[20:06:10] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[20:06:10] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[20:06:10] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[20:06:10] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[20:06:10] [Server thread/INFO]: Potato Growth Modifier: 100%
-[20:06:10] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[20:06:10] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[20:06:10] [Server thread/INFO]: Vine Growth Modifier: 100%
-[20:06:10] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[20:06:10] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[20:06:10] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[20:06:10] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[20:06:10] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[20:06:10] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
-[20:06:10] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[20:06:10] [Server thread/INFO]: Max TNT Explosions: 100
-[20:06:10] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[20:06:10] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[20:06:10] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[20:06:12] [Server thread/INFO]: Preparing spawn area: 0%
-[20:06:12] [Server thread/INFO]: Preparing spawn area: 0%
-[20:06:12] [Server thread/INFO]: Preparing spawn area: 0%
-[20:06:12] [Server thread/INFO]: Preparing spawn area: 0%
-[20:06:12] [Server thread/INFO]: Preparing spawn area: 0%
-[20:06:13] [Server thread/INFO]: Preparing spawn area: 62%
-[20:06:13] [Server thread/INFO]: Time elapsed: 2945 ms
-[20:06:13] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[20:06:16] [Server thread/INFO]: Preparing spawn area: 0%
-[20:06:16] [Server thread/INFO]: Preparing spawn area: 0%
-[20:06:16] [Server thread/INFO]: Preparing spawn area: 0%
-[20:06:16] [Server thread/INFO]: Preparing spawn area: 0%
-[20:06:16] [Server thread/INFO]: Preparing spawn area: 0%
-[20:06:16] [Server thread/INFO]: Preparing spawn area: 0%
-[20:06:16] [Server thread/INFO]: Time elapsed: 2800 ms
-[20:06:16] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[20:06:16] [Server thread/INFO]: Preparing spawn area: 0%
-[20:06:17] [Worker-Main-11/INFO]: Preparing spawn area: 83%
-[20:06:17] [Worker-Main-11/INFO]: Preparing spawn area: 89%
-[20:06:17] [Server thread/INFO]: Time elapsed: 1127 ms
-[20:06:17] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v13.8.4
-[20:06:17] [Server thread/INFO]: [SkinsRestorer] Failed PaperSkinRefresher
-[20:06:17] [Server thread/INFO]: [SkinsRestorer] Using SpigotSkinRefresher
-[20:06:17] [Server thread/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1mDetected Minecraft [0;33;1mv1_16_R2[0;32;1m, using [0;33;1mUniversalSkinFactory[0;32;1m.[m
-[20:06:22] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[20:06:22] [Server thread/INFO]: Done (12.373s)! For help, type "help"
-[20:06:22] [User Authenticator #1/INFO]: UUID of player Bersanii is 890e9fef-3d34-3924-9cad-4f027df79031
-[20:06:22] [Server thread/INFO]: com.mojang.authlib.GameProfile@533cc647[id=890e9fef-3d34-3924-9cad-4f027df79031,name=Bersanii,properties={},legacy=false] (/192.168.0.2:63606) lost connection: Disconnected
-[20:06:23] [Craft Scheduler Thread - 0/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m----------------------------------------------[m
-[20:06:23] [Craft Scheduler Thread - 0/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m    +===============+[m
-[20:06:23] [Craft Scheduler Thread - 0/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m    | SkinsRestorer |[m
-[20:06:23] [Craft Scheduler Thread - 0/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m    |---------------|[m
-[20:06:23] [Craft Scheduler Thread - 0/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m    |  [0;34;1m[4m[21mBukkit only[0;32;1m  |[m
-[20:06:23] [Craft Scheduler Thread - 0/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m    +===============+[m
-[20:06:23] [Craft Scheduler Thread - 0/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m----------------------------------------------[m
-[20:06:23] [Craft Scheduler Thread - 0/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;36;1m    Current version: [0;32;1m13.8.4[m
-[20:06:23] [Craft Scheduler Thread - 0/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m    This is the latest version![m
-[20:06:23] [Craft Scheduler Thread - 0/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m----------------------------------------------[m
-[20:06:27] [User Authenticator #2/INFO]: UUID of player Chavola is fa074574-eb41-3517-848a-2d92151a0d83
-[20:06:28] [Server thread/INFO]: Chavola[/177.131.76.109:2323] logged in with entity id 423 at ([world]-301.47725792520964, 7.839999973773956, 18.30000001192093)
-[20:06:31] [User Authenticator #3/INFO]: UUID of player Bersanii is 890e9fef-3d34-3924-9cad-4f027df79031
-[20:06:32] [Server thread/INFO]: Bersanii[/192.168.0.2:63613] logged in with entity id 513 at ([world]3160.2867503355087, 75.0, -3639.7145052542087)
-[20:06:39] [User Authenticator #4/INFO]: UUID of player BisteK is 4b28f6a2-f5ca-36d5-972a-bb80cf9498d7
-[20:06:39] [Server thread/INFO]: BisteK[/187.255.167.196:56284] logged in with entity id 761 at ([world]549.3872244632693, 73.0, -1675.7596785958733)
-[20:06:40] [User Authenticator #5/INFO]: UUID of player Mader400 is 6c58ad3a-42b1-34d3-9d46-3936faad7ee4
-[20:06:41] [Server thread/INFO]: Mader400[/189.79.174.71:53052] logged in with entity id 989 at ([world]-237.11559643437494, 73.0, -132.78368246435318)
-[20:06:58] [Server thread/INFO]: Bersanii issued server command: /gamemode survival
-[20:06:58] [Server thread/INFO]: [Bersanii: Set own game mode to Survival Mode]
-[20:06:58] [User Authenticator #6/INFO]: UUID of player munaro is f5fe57c2-ddb9-3c7c-9efe-0c776c148433
-[20:06:59] [Server thread/INFO]: munaro[/201.68.78.59:50615] logged in with entity id 1108 at ([world]-214.69999998807907, 9.0, 80.71894155948046)
-[20:07:03] [Async Chat Thread - #0/INFO]: <Bersanii> foi[m
-[20:13:10] [User Authenticator #7/INFO]: UUID of player DezinBugaTudo is 066fa5ba-21a8-32b5-8df4-8d53857e543a
-[20:13:11] [Server thread/INFO]: DezinBugaTudo[/177.131.76.146:19405] logged in with entity id 5334 at ([world]819.3000000119209, 67.0, -2473.8441749541207)
-[20:16:16] [Server thread/INFO]: BisteK issued server command: /tell DezinBugaTudo de quem eh o portal?
-[20:17:19] [Server thread/INFO]: DezinBugaTudo fell from a high place
-[20:17:54] [Server thread/INFO]: Bersanii lost connection: Timed out
-[20:17:54] [Server thread/INFO]: Bersanii left the game
-[20:18:43] [User Authenticator #8/INFO]: UUID of player Bersanii is 890e9fef-3d34-3924-9cad-4f027df79031
-[20:18:43] [Server thread/INFO]: Bersanii[/192.168.0.2:63658] logged in with entity id 10033 at ([world]3160.321384603021, 74.0, -3654.5520104693355)
-[20:21:05] [Server thread/INFO]: DezinBugaTudo tried to swim in lava
-[20:21:29] [Server thread/INFO]: Bersanii fell from a high place
-[20:21:29] [Server thread/INFO]: BisteK burned to death
-[20:21:31] [Server thread/INFO]: Chavola tried to swim in lava
-[20:23:21] [Server thread/INFO]: Bersanii issued server command: /give BisteK minecraft:warped_fungus_on_a_stick 1
-[20:23:21] [Server thread/INFO]: [Bersanii: Gave 1 [Warped Fungus on a Stick] to BisteK]
-[20:23:22] [User Authenticator #9/INFO]: UUID of player LuisGOd is b42f8019-e2bf-3498-a5e2-7cf7a2c13063
-[20:23:22] [Server thread/INFO]: LuisGOd[/177.131.76.146:24823] logged in with entity id 15430 at ([world]812.4970388659181, 75.0, -2468.040579140266)
-[20:25:44] [Server thread/INFO]: Bersanii tried to swim in lava
-[20:26:24] [Server thread/WARN]: Chavola moved too quickly! 0.7535224965402223,-0.20000004768371582,-17.507271559641232
-[20:27:03] [Async Chat Thread - #1/INFO]: <LuisGOd> chavao[m
-[20:27:03] [Server thread/INFO]: Bersanii issued server command: /gamemode creative
-[20:27:03] [Server thread/INFO]: [Bersanii: Set own game mode to Creative Mode]
-[20:27:05] [Async Chat Thread - #1/INFO]: <LuisGOd> pau no cu[m
-[20:27:09] [Server thread/INFO]: Chavola issued server command: /
-[20:27:11] [Server thread/INFO]: Chavola issued server command: /
-[20:27:13] [Server thread/INFO]: Bersanii issued server command: /gamemode survival
-[20:27:13] [Server thread/INFO]: [Bersanii: Set own game mode to Survival Mode]
-[20:27:18] [Async Chat Thread - #1/INFO]: <Chavola> ?[m
-[20:29:37] [Server thread/INFO]: Chavola has made the advancement [Hidden in the Depths]
-[20:29:39] [Server thread/INFO]: BisteK tried to swim in lava
-[20:30:32] [Server thread/INFO]: BisteK fell from a high place
-[20:32:08] [Server thread/INFO]: BisteK tried to swim in lava
-[20:32:41] [Server thread/INFO]: Bersanii issued server command: /time set day
-[20:32:41] [Server thread/INFO]: [Bersanii: Set the time to 1000]
-[20:34:55] [Server thread/INFO]: BisteK has made the advancement [Who is Cutting Onions?]
-[20:37:00] [Server thread/INFO]: Chavola tried to swim in lava
-[20:38:30] [Server thread/WARN]: Boat (vehicle of DezinBugaTudo) moved wrongly! 0.6303521958304827
-[20:38:31] [Server thread/WARN]: Boat (vehicle of DezinBugaTudo) moved wrongly! 0.5104108288237512
-[20:38:31] [Server thread/WARN]: Boat (vehicle of DezinBugaTudo) moved wrongly! 0.2539498261423887
-[20:41:05] [Server thread/INFO]: BisteK lost connection: Disconnected
-[20:41:05] [Server thread/INFO]: BisteK left the game
-[20:41:31] [User Authenticator #10/INFO]: UUID of player BisteK is 4b28f6a2-f5ca-36d5-972a-bb80cf9498d7
-[20:41:32] [Server thread/INFO]: BisteK[/187.255.167.196:56629] logged in with entity id 34385 at ([world]540.4869158163726, 68.8447679954834, -2189.8350542291446)
-[20:42:19] [Server thread/INFO]: Chavola has completed the challenge [Cover Me in Debris]
-[20:42:20] [Server thread/WARN]: Boat (vehicle of BisteK) moved wrongly! 0.2711650603223461
-[20:43:00] [Server thread/INFO]: Bersanii issued server command: /time set day
-[20:43:00] [Server thread/INFO]: [Bersanii: Set the time to 1000]
-[20:43:14] [Server thread/WARN]: Boat (vehicle of DezinBugaTudo) moved wrongly! 0.7953539358419268
-[20:43:14] [Server thread/WARN]: Boat (vehicle of DezinBugaTudo) moved wrongly! 0.7953539358419268
-[20:43:56] [Server thread/INFO]: Bersanii issued server command: /summon minecraft:horse
-[20:43:56] [Server thread/INFO]: [Bersanii: Summoned new Horse]
-[20:44:04] [Server thread/INFO]: Bersanii issued server command: /give Bersanii minecraft:saddle
-[20:44:04] [Server thread/INFO]: [Bersanii: Gave 1 [Saddle] to Bersanii]
-[20:44:06] [Server thread/WARN]: Boat (vehicle of BisteK) moved wrongly! 0.3874078102750817
-[20:44:27] [Server thread/INFO]: munaro has made the advancement [Hot Stuff]
-[20:44:46] [Server thread/INFO]: Bersanii issued server command: /give Bersanii minecraft:apple 64
-[20:44:46] [Server thread/INFO]: [Bersanii: Gave 64 [Apple] to Bersanii]
-[20:45:14] [Server thread/INFO]: Bersanii issued server command: /give Bersanii minecraft:horse_spawn_egg
-[20:45:14] [Server thread/INFO]: [Bersanii: Gave 1 [Horse Spawn Egg] to Bersanii]
-[20:46:24] [Server thread/WARN]: Boat (vehicle of BisteK) moved wrongly! 0.34387820294155214
-[20:46:24] [Server thread/WARN]: Boat (vehicle of BisteK) moved wrongly! 0.34387820294155214
-[20:46:24] [Server thread/WARN]: Boat (vehicle of BisteK) moved wrongly! 0.34387820294155214
-[20:46:24] [Server thread/WARN]: Boat (vehicle of BisteK) moved wrongly! 0.34387820294155214
-[20:46:30] [Server thread/WARN]: DezinBugaTudo moved wrongly!
-[20:49:34] [Server thread/WARN]: Boat (vehicle of BisteK) moved wrongly! 0.3128242403581158
-[20:53:05] [Server thread/WARN]: Horse (vehicle of Mader400) moved wrongly! 0.3288735688745371
-[20:54:04] [Server thread/INFO]: DezinBugaTudo tried to swim in lava
-[20:55:04] [Server thread/INFO]: Bersanii issued server command: /time set day
-[20:55:04] [Server thread/INFO]: [Bersanii: Set the time to 1000]
-[20:55:30] [Server thread/INFO]: LuisGOd was killed by Witch using magic
-[20:55:59] [Async Chat Thread - #2/INFO]: <munaro> seu cachorrooo[m
-[20:56:30] [Async Chat Thread - #2/INFO]: <munaro> senta esse porra ae[m
-[20:57:21] [Async Chat Thread - #2/INFO]: <Mader400> mata o cao[m
-[20:57:24] [Async Chat Thread - #2/INFO]: <munaro> senta o cachorro deabo[m
-[20:57:37] [Async Chat Thread - #2/INFO]: <munaro> faliceu[m
-[20:58:37] [Server thread/INFO]: BisteK burned to death
-[20:58:42] [Server thread/INFO]: DezinBugaTudo burned to death
-[20:59:02] [Server thread/INFO]: Bersanii tried to swim in lava
-[21:00:34] [User Authenticator #11/INFO]: UUID of player M1D4$ is 941e6066-3ab2-3733-a54b-26f4990ee4bc
-[21:00:35] [Server thread/INFO]: M1D4$[/177.101.67.67:49495] logged in with entity id 51720 at ([world]-305.77226170909876, 69.0, -144.1143365043115)
-[21:00:35] [Craft Scheduler Thread - 11/INFO]: [SkinsRestorer] Not applying skin to M1D4$ (invalid username).
-[21:00:37] [Server thread/INFO]: BisteK tried to swim in lava
-[21:01:23] [Server thread/WARN]: M1D4$ moved too quickly! -17.1913838352678,-1.4073954023649407,5.235982964293896
-[21:02:01] [Server thread/INFO]: DezinBugaTudo burned to death
-[21:02:01] [Server thread/INFO]: BisteK tried to swim in lava
-[21:03:16] [Server thread/INFO]: Chavola tried to swim in lava
-[21:04:14] [Server thread/INFO]: BisteK tried to swim in lava
-[21:06:27] [Server thread/WARN]: Bersanii moved wrongly!
-[21:06:27] [Server thread/WARN]: Boat (vehicle of BisteK) moved wrongly! 0.4924515953682089
-[21:06:27] [Server thread/WARN]: Boat (vehicle of BisteK) moved wrongly! 1.1407106145161094
-[21:06:27] [Server thread/WARN]: Boat (vehicle of BisteK) moved wrongly! 0.5694705915377938
-[21:06:27] [Server thread/WARN]: Boat (vehicle of BisteK) moved wrongly! 0.5947494656032859
-[21:06:27] [Server thread/WARN]: Boat (vehicle of BisteK) moved wrongly! 1.3190137366778458
-[21:07:01] [Server thread/INFO]: BisteK tried to swim in lava
-[21:08:15] [Server thread/INFO]: Mader400 lost connection: Disconnected
-[21:08:15] [Server thread/INFO]: Mader400 left the game
-[21:09:33] [Server thread/INFO]: Bersanii fell from a high place
-[21:09:38] [Server thread/WARN]: Boat (vehicle of DezinBugaTudo) moved wrongly! 0.3641313052480655
-[21:09:38] [Server thread/WARN]: Boat (vehicle of DezinBugaTudo) moved wrongly! 0.41744005047610244
-[21:09:49] [Server thread/INFO]: DezinBugaTudo fell from a high place
-[21:10:05] [Server thread/INFO]: munaro tried to swim in lava
-[21:11:14] [Server thread/INFO]: Bersanii fell from a high place
-[21:11:55] [Server thread/INFO]: DezinBugaTudo was fireballed by Ghast
-[21:12:48] [Server thread/INFO]: DezinBugaTudo fell from a high place
-[21:12:50] [Async Chat Thread - #3/INFO]: <munaro> jkkkkkkkkkk[m
-[21:12:58] [Server thread/INFO]: munaro was slain by Enderman
-[21:13:01] [Async Chat Thread - #3/INFO]: <Bersanii> uaehuhaeuhuheauheuhaeuhe[m
-[21:13:06] [Async Chat Thread - #3/INFO]: <munaro> krl akakakakaakakaka[m
-[21:13:12] [Async Chat Thread - #3/INFO]: <Bersanii> ownado[m
-[21:13:15] [Async Chat Thread - #3/INFO]: <DezinBugaTudo> a pista aki é rio de janeiro slc[m
-[21:13:17] [Server thread/INFO]: Bersanii fell from a high place
-[21:15:10] [User Authenticator #12/INFO]: UUID of player Mader400 is 6c58ad3a-42b1-34d3-9d46-3936faad7ee4
-[21:15:11] [Server thread/INFO]: Mader400[/201.92.12.247:53398] logged in with entity id 65200 at ([world_nether]2.170310700145624, 70.0, -288.255023105796)
-[21:15:17] [Server thread/INFO]: munaro has completed the challenge [Cover Me in Debris]
-[21:15:37] [Server thread/INFO]: Mader400 lost connection: Disconnected
-[21:15:37] [Server thread/INFO]: Mader400 left the game
-[21:17:42] [Async Chat Thread - #4/INFO]: <munaro> buceta[m
-[21:18:13] [Async Chat Thread - #4/INFO]: <munaro> comida ae?[m
-[21:18:19] [Async Chat Thread - #4/INFO]: <munaro> god[m
-[21:19:24] [Server thread/INFO]: munaro tried to swim in lava
-[21:23:35] [Server thread/WARN]: Boat (vehicle of DezinBugaTudo) moved wrongly! 0.7120082862232238
-[21:23:35] [Server thread/WARN]: Boat (vehicle of DezinBugaTudo) moved wrongly! 0.8804776249717676
-[21:23:38] [Server thread/WARN]: Boat (vehicle of DezinBugaTudo) moved wrongly! 1.9510487928101767
-[21:24:52] [Server thread/INFO]: M1D4$ lost connection: Disconnected
-[21:24:52] [Server thread/INFO]: M1D4$ left the game
-[21:24:54] [Server thread/INFO]: Bersanii lost connection: Disconnected
-[21:24:54] [Server thread/INFO]: Bersanii left the game
-[21:25:16] [Server thread/INFO]: BisteK lost connection: Disconnected
-[21:25:16] [Server thread/INFO]: BisteK left the game
-[21:27:01] [Server thread/INFO]: munaro was slain by Zombie
-[21:28:23] [Server thread/INFO]: DezinBugaTudo lost connection: Disconnected
-[21:28:23] [Server thread/INFO]: DezinBugaTudo left the game
-[21:29:49] [Server thread/INFO]: LuisGOd was slain by Iron Golem
-[21:37:06] [User Authenticator #13/INFO]: UUID of player DezinBugaTudo is 066fa5ba-21a8-32b5-8df4-8d53857e543a
-[21:37:06] [Server thread/INFO]: DezinBugaTudo[/177.131.76.146:17832] logged in with entity id 75741 at ([world_nether]-0.3124999999999999, 70.5625, -480.31249999999994)
-[21:37:14] [Server thread/INFO]: DezinBugaTudo was fireballed by Ghast
-[21:39:48] [Async Chat Thread - #5/INFO]: <Chavola> escreve ae[m
-[21:39:51] [Async Chat Thread - #5/INFO]: <DezinBugaTudo> oe[m
-[21:39:55] [Async Chat Thread - #5/INFO]: <Chavola> to escutando nada[m
-[21:41:35] [User Authenticator #14/INFO]: UUID of player BisteK is 4b28f6a2-f5ca-36d5-972a-bb80cf9498d7
-[21:41:35] [Server thread/INFO]: BisteK[/187.255.167.196:56940] logged in with entity id 77448 at ([world]535.6999999880791, 63.0, -2182.699999988079)
-[21:42:01] [Server thread/INFO]: munaro issued server command: /tell Chavola cola dd ae
-[21:43:21] [Server thread/INFO]: LuisGOd lost connection: Disconnected
-[21:43:21] [Server thread/INFO]: LuisGOd left the game
-[21:44:03] [Async Chat Thread - #6/INFO]: <munaro> chaves[m
-[21:44:13] [Async Chat Thread - #6/INFO]: <Chavola> olha dd[m
-[21:44:24] [Async Chat Thread - #6/INFO]: <munaro> q tem?[m
-[21:44:27] [Async Chat Thread - #6/INFO]: <munaro> to olhnado[m
-[21:44:31] [Async Chat Thread - #6/INFO]: <Chavola> nos vai no ender[m
-[21:46:32] [Server thread/INFO]: munaro was slain by Zombie
-[21:46:44] [Server thread/INFO]: munaro has made the advancement [Take Aim]
-[21:46:50] [Server thread/INFO]: munaro was slain by Zombie
-[21:46:58] [Server thread/WARN]: munaro moved wrongly!
-[21:47:14] [Server thread/INFO]: BisteK drowned
-[21:48:15] [Server thread/INFO]: munaro was shot by Skeleton
-[21:49:50] [Server thread/INFO]: munaro was slain by Enderman
-[21:51:07] [Server thread/INFO]: [Server] mader gay
-[21:51:23] [Server thread/INFO]: munaro was blown up by Creeper
-[21:52:46] [Server thread/INFO]: Chavola tried to swim in lava
-[21:56:24] [Server thread/INFO]: BisteK lost connection: Disconnected
-[21:56:24] [Server thread/INFO]: BisteK left the game
-[21:57:06] [Server thread/WARN]: munaro moved wrongly!
-[21:57:11] [Server thread/WARN]: munaro was kicked for floating too long!
-[21:57:11] [Server thread/INFO]: munaro lost connection: Flying is not enabled on this server
-[21:57:11] [Server thread/INFO]: munaro left the game
-[21:57:15] [User Authenticator #15/INFO]: UUID of player munaro is f5fe57c2-ddb9-3c7c-9efe-0c776c148433
-[21:57:15] [Server thread/INFO]: munaro[/201.68.78.59:50867] logged in with entity id 85333 at ([world]-154.75935210257205, 88.7425278134708, -152.78839932233984)
-[21:57:33] [Server thread/WARN]: munaro was kicked for floating too long!
-[21:57:33] [Server thread/INFO]: munaro lost connection: Flying is not enabled on this server
-[21:57:33] [Server thread/INFO]: munaro left the game
-[21:57:35] [User Authenticator #16/INFO]: UUID of player munaro is f5fe57c2-ddb9-3c7c-9efe-0c776c148433
-[21:57:35] [Server thread/INFO]: munaro[/201.68.78.59:50870] logged in with entity id 85487 at ([world]-143.3152181270124, 92.71270331500926, -189.44908393551935)
-[21:57:43] [Async Chat Thread - #7/INFO]: <munaro> oxi[m
-[21:58:14] [Server thread/INFO]: munaro has made the advancement [Best Friends Forever]
-[21:59:58] [Server thread/WARN]: munaro was kicked for floating too long!
-[21:59:58] [Server thread/INFO]: munaro lost connection: Flying is not enabled on this server
-[21:59:59] [Server thread/INFO]: munaro left the game
-[22:00:00] [User Authenticator #17/INFO]: UUID of player munaro is f5fe57c2-ddb9-3c7c-9efe-0c776c148433
-[22:00:00] [Server thread/INFO]: munaro[/201.68.78.59:50892] logged in with entity id 86546 at ([world]-108.77288831736861, 106.60239616312309, -222.18157577676274)
-[22:00:13] [Server thread/WARN]: munaro was kicked for floating too long!
-[22:00:13] [Server thread/INFO]: munaro lost connection: Flying is not enabled on this server
-[22:00:13] [Server thread/INFO]: munaro left the game
-[22:00:14] [User Authenticator #18/INFO]: UUID of player munaro is f5fe57c2-ddb9-3c7c-9efe-0c776c148433
-[22:00:14] [Server thread/INFO]: munaro[/201.68.78.59:50893] logged in with entity id 86621 at ([world]-74.55841384693944, 93.96029431448558, -258.9684473537336)
-[22:00:16] [Server thread/WARN]: munaro moved too quickly! 0.30720690608966095,17.96029431448558,0.7451619635972975
-[22:00:54] [Server thread/INFO]: munaro drowned
-[22:04:04] [Server thread/INFO]: munaro issued server command: /back
-[22:05:14] [Server thread/WARN]: munaro was kicked for floating too long!
-[22:05:14] [Server thread/INFO]: munaro lost connection: Flying is not enabled on this server
-[22:05:14] [Server thread/INFO]: munaro left the game
-[22:05:16] [User Authenticator #19/INFO]: UUID of player munaro is f5fe57c2-ddb9-3c7c-9efe-0c776c148433
-[22:05:16] [Server thread/INFO]: munaro[/201.68.78.59:50897] logged in with entity id 88361 at ([world]-135.06797321242857, 90.21282125470688, -332.08581908828785)
-[22:05:23] [Server thread/INFO]: munaro fell from a high place
-[22:06:53] [Server thread/INFO]: DezinBugaTudo issued server command: /w DezinBugaTudo -35 -23
-[22:07:46] [Server thread/INFO]: [Server] to vendo esses comando deh
-[22:08:21] [Server thread/INFO]: Chavola tried to swim in lava
-[22:08:37] [Server thread/INFO]: Chavola lost connection: Disconnected
-[22:08:37] [Server thread/INFO]: Chavola left the game
-[22:09:18] [User Authenticator #20/INFO]: UUID of player Chavola is fa074574-eb41-3517-848a-2d92151a0d83
-[22:09:18] [Server thread/INFO]: Chavola[/177.131.76.109:3077] logged in with entity id 89773 at ([world]-229.9015299699624, 69.0, -8.122123569482968)
-[22:11:38] [Server thread/INFO]: DezinBugaTudo issued server command: /w DezinBugaTudo -8 -4
-[22:14:57] [User Authenticator #21/INFO]: UUID of player Semensato is 3a509864-c19b-35ca-aef5-d344edafcd12
-[22:14:57] [Server thread/INFO]: Semensato[/187.123.177.186:52546] logged in with entity id 91526 at ([world]-246.5, 69.0, -136.5)
-[22:15:13] [Server thread/INFO]: [Server] vou salvat o mundo pq ja faz tempo q n subo
-[22:15:18] [Server thread/INFO]: Semensato lost connection: Disconnected
-[22:15:18] [Server thread/INFO]: Semensato left the game
-[22:15:27] [Server thread/INFO]: [Server] 2 min
-[22:15:33] [Server thread/INFO]: [Server] ja abre dnv
-[22:15:35] [Async Chat Thread - #8/INFO]: <munaro> clam[m
-[22:15:38] [Async Chat Thread - #8/INFO]: <munaro> calmaaa[m
-[22:15:44] [Async Chat Thread - #8/INFO]: <munaro> rapido, vai sumir meu coelho pera[m
-[22:15:49] [Server thread/INFO]: [Server] to esperando
-[22:16:04] [Server thread/INFO]: [Server] manda ai qndo puder
-[22:16:12] [Async Chat Thread - #8/INFO]: <munaro> ok to chegandio[m
-[22:16:24] [Async Chat Thread - #8/INFO]: <munaro> o creeper explodiu ele, pode reiniciar kakaakakaka[m
-[22:16:44] [Server thread/INFO]: Stopping the server
-[22:16:44] [Server thread/INFO]: Stopping server
-[22:16:44] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.0-beta-04+98f71a3
-[22:16:44] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
-[22:16:45] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v13.8.4
-[22:16:45] [Server thread/INFO]: Saving players
-[22:16:45] [Server thread/INFO]: DezinBugaTudo lost connection: Server closed
-[22:16:45] [Server thread/INFO]: DezinBugaTudo left the game
-[22:16:45] [Server thread/INFO]: munaro lost connection: Server closed
-[22:16:45] [Server thread/INFO]: munaro left the game
-[22:16:45] [Server thread/INFO]: Chavola lost connection: Server closed
-[22:16:45] [Server thread/INFO]: Chavola left the game
-[22:16:45] [Server thread/INFO]: Saving worlds
-[22:16:45] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[22:16:46] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[22:16:46] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[22:16:46] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[22:16:46] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[22:16:46] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[22:16:46] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[22:16:48] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[22:16:48] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[00:00:05] [Server thread/INFO]: Bersanii issued server command: /kill @e[type=minecraft:item]
+[00:00:05] [Server thread/INFO]: [Bersanii: Killed 49 entities]
+[00:00:51] [User Authenticator #10/INFO]: UUID of player M1D4$ is 941e6066-3ab2-3733-a54b-26f4990ee4bc
+[00:00:51] [Server thread/INFO]: M1D4$[/177.101.67.67:50839] logged in with entity id 76898 at ([world]385.39916556043073, 66.0, -1586.8537680414681)
+[00:00:51] [Craft Scheduler Thread - 18/INFO]: [SkinsRestorer] Not applying skin to M1D4$ (invalid username).
+[00:01:34] [Server thread/INFO]: M1D4$ drowned
+[00:01:58] [Server thread/INFO]: M1D4$ lost connection: Disconnected
+[00:01:58] [Server thread/INFO]: M1D4$ left the game
+[00:02:32] [User Authenticator #11/INFO]: UUID of player Guigodinho is bc55e28e-e46f-3527-b14c-d8c7d95e9d34
+[00:02:32] [Server thread/INFO]: Guigodinho[/177.64.162.196:51365] logged in with entity id 77944 at ([world]400.7074088385687, 70.0, -1597.7521919373326)
+[00:07:09] [Server thread/INFO]: BisteK tried to swim in lava
+[00:10:36] [Server thread/INFO]: Chavola has made the advancement [Country Lode, Take Me Home]
+[00:15:01] [Server thread/INFO]: Bersanii issued server command: /kill @e[type=minecraft:item]
+[00:15:01] [Server thread/INFO]: [Bersanii: Killed 77 entities]
+[00:15:20] [Server thread/INFO]: BisteK tried to swim in lava
+[00:17:09] [Server thread/INFO]: BisteK tried to swim in lava
+[00:17:39] [Server thread/INFO]: Villager EntityVillager['Villager'/88830, l='ServerLevel[world]', x=687.17, y=71.00, z=-1547.97] died, message: 'Villager was slain by Husk'
+[00:18:17] [Server thread/INFO]: Villager EntityVillager['Villager'/88910, l='ServerLevel[world]', x=717.52, y=76.00, z=-1545.06] died, message: 'Villager was slain by Husk'
+[00:20:04] [Async Chat Thread - #9/INFO]: <Bersanii> ta de pé o livro de p4 deh?[m
+[00:20:15] [Async Chat Thread - #9/INFO]: <DezinBugaTudo> quanto custa?[m
+[00:20:53] [Async Chat Thread - #9/INFO]: <Bersanii> tem netherite?[m
+[00:21:03] [Async Chat Thread - #9/INFO]: <DezinBugaTudo> tenho um pedaço aki[m
+[00:21:13] [Async Chat Thread - #9/INFO]: <Bersanii> fragmento?[m
+[00:21:16] [Async Chat Thread - #9/INFO]: <DezinBugaTudo> isso[m
+[00:21:21] [Async Chat Thread - #9/INFO]: <Bersanii> qnts?[m
+[00:21:26] [Async Chat Thread - #9/INFO]: <DezinBugaTudo> so 1[m
+[00:21:50] [Async Chat Thread - #9/INFO]: <Bersanii> 4 scrap 1 p4[m
+[00:22:01] [Async Chat Thread - #9/INFO]: <DezinBugaTudo> o q tu vai fazer com o ingot?[m
+[00:22:13] [Async Chat Thread - #9/INFO]: <Bersanii> upgrade[m
+[00:22:26] [Async Chat Thread - #9/INFO]: <DezinBugaTudo> eu sei mas dependendo nois pode negocia a ferramenta pronta[m
+[00:22:31] [Server thread/INFO]: BisteK tried to swim in lava
+[00:22:43] [Async Chat Thread - #9/INFO]: <Bersanii> é armadura[m
+[00:22:45] [Async Chat Thread - #9/INFO]: <Bersanii> ctz?[m
+[00:23:10] [Async Chat Thread - #9/INFO]: <DezinBugaTudo> te dou 1 peitoral mas vai ter que ter algo mais que o livro[m
+[00:23:32] [Async Chat Thread - #9/INFO]: <Bersanii> tipo o q[m
+[00:23:46] [Async Chat Thread - #9/INFO]: <DezinBugaTudo> alguns dima ou talvez outra coisa interessante que vc tenha[m
+[00:23:58] [Async Chat Thread - #9/INFO]: <Bersanii> qnts dima?[m
+[00:24:08] [Async Chat Thread - #9/INFO]: <DezinBugaTudo> pensei em 5[m
+[00:24:53] [Server thread/INFO]: BisteK has completed the challenge [Cover Me in Debris]
+[00:24:54] [Async Chat Thread - #9/INFO]: <Bersanii> 4 faz?[m
+[00:25:30] [Async Chat Thread - #9/INFO]: <Bersanii> deh?[m
+[00:25:49] [Async Chat Thread - #9/INFO]: <DezinBugaTudo> faço[m
+[00:25:54] [Async Chat Thread - #9/INFO]: <DezinBugaTudo> mas quero prioridade para o proximo[m
+[00:26:07] [Async Chat Thread - #9/INFO]: <Bersanii> tenho q pega uns pra mim[m
+[00:26:26] [Async Chat Thread - #9/INFO]: <Bersanii> mas vo faze o seu p4 primeiro[m
+[00:27:16] [Server thread/INFO]: Bersanii fell from a high place
+[00:27:51] [Async Chat Thread - #10/INFO]: <Chavola> limpa ochao ae[m
+[00:28:09] [Server thread/INFO]: Bersanii issued server command: /kill @e[type=minecraft:item]
+[00:28:09] [Server thread/INFO]: [Bersanii: Killed 122 entities]
+[00:28:19] [Async Chat Thread - #10/INFO]: <DezinBugaTudo> to indo ae bersa[m
+[00:28:52] [Async Chat Thread - #10/INFO]: <Bersanii> calma deh[m
+[00:29:03] [Async Chat Thread - #10/INFO]: <Bersanii> n to com o livro ainda[m
+[00:29:09] [Async Chat Thread - #10/INFO]: <Bersanii> to com o level[m
+[00:29:18] [Async Chat Thread - #10/INFO]: <DezinBugaTudo> o seu diamante ja ta negocioado em outra troca[m
+[00:29:33] [Async Chat Thread - #10/INFO]: <Semensato> not stonks[m
+[00:29:34] [Async Chat Thread - #10/INFO]: <DezinBugaTudo> bistecao ta vendendo quartz[m
+[00:29:57] [Async Chat Thread - #10/INFO]: <Bersanii> adianto os dima[m
+[00:30:13] [Async Chat Thread - #10/INFO]: <Bersanii> ta na base la[m
+[00:30:20] [Async Chat Thread - #10/INFO]: <Bersanii> espera no sudoku[m
+[00:30:26] [Async Chat Thread - #10/INFO]: <DezinBugaTudo> bl[m
+[00:30:38] [Server thread/INFO]: DezinBugaTudo tried to swim in lava
+[00:30:47] [Server thread/INFO]: BisteK was slain by Piglin
+[00:31:32] [Async Chat Thread - #11/INFO]: <Bersanii> pega na base lá os dima[m
+[00:31:34] [Server thread/INFO]: Semensato has made the advancement [Enchanter]
+[00:31:41] [Async Chat Thread - #11/INFO]: <DezinBugaTudo> onde é a base la?[m
+[00:31:50] [Async Chat Thread - #11/INFO]: <Bersanii> tu sabe aonde é deh[m
+[00:31:52] [Async Chat Thread - #11/INFO]: <Bersanii> auhehuaeuheuha[m
+[00:32:01] [Async Chat Thread - #11/INFO]: <DezinBugaTudo> pdp a sua entao[m
+[00:32:04] [Async Chat Thread - #11/INFO]: <Bersanii> s[m
+[00:32:30] [Server thread/INFO]: Bersanii issued server command: /tell DezinBugaTudo ta no andar de baixo no bau com o ferro no item frame
+[00:32:38] [Server thread/INFO]: Semensato has made the advancement [Take Aim]
+[00:33:59] [Async Chat Thread - #12/INFO]: <Bersanii> bistek[m
+[00:34:02] [Async Chat Thread - #12/INFO]: <BisteK> ?[m
+[00:34:02] [Async Chat Thread - #12/INFO]: <Bersanii> opa[m
+[00:34:04] [Async Chat Thread - #12/INFO]: <Bersanii> deh[m
+[00:34:11] [Async Chat Thread - #12/INFO]: <BisteK> :([m
+[00:34:14] [Async Chat Thread - #12/INFO]: <Bersanii> vai bota o p4 aonde?[m
+[00:34:32] [Async Chat Thread - #12/INFO]: <DezinBugaTudo> quero monta um set[m
+[00:34:38] [Async Chat Thread - #12/INFO]: <DezinBugaTudo> por enqnto nao tenho nenhum ainda[m
+[00:35:00] [Async Chat Thread - #12/INFO]: <DezinBugaTudo> vo encanta so vem blast resistance e fire[m
+[00:35:03] [Async Chat Thread - #12/INFO]: <Bersanii> se eu bota o p4 num peitoral[m
+[00:35:17] [Async Chat Thread - #12/INFO]: <Bersanii> faz duas netherite?[m
+[00:35:23] [Async Chat Thread - #12/INFO]: <Bersanii> ou 8 scrap?[m
+[00:35:38] [Async Chat Thread - #12/INFO]: <DezinBugaTudo> é q eu so tenho o peitoral craftado aki[m
+[00:35:52] [Async Chat Thread - #12/INFO]: <DezinBugaTudo> e 1 scrap sobrando[m
+[00:36:04] [Async Chat Thread - #12/INFO]: <Bersanii> dropa o peitoral ent[m
+[00:36:11] [Async Chat Thread - #12/INFO]: <Bersanii> q o semen ja ta com p4 na mesa[m
+[00:36:20] [Server thread/INFO]: Villager EntityVillager['Villager'/105680, l='ServerLevel[world]', x=1211.08, y=68.00, z=-1839.30] died, message: 'Villager was slain by Zombie'
+[00:36:22] [Async Chat Thread - #12/INFO]: <DezinBugaTudo> to aki na famigerada[m
+[00:36:30] [Async Chat Thread - #12/INFO]: <Semensato> sorta[m
+[00:36:31] [Async Chat Thread - #12/INFO]: <Bersanii> sudoku?[m
+[00:36:36] [Async Chat Thread - #12/INFO]: <DezinBugaTudo> n sua casa[m
+[00:36:44] [Server thread/INFO]: Bersanii drowned
+[00:36:57] [Async Chat Thread - #12/INFO]: <Bersanii> vem co o peitoral, nois ja bate o rolo[m
+[00:36:59] [Async Chat Thread - #12/INFO]: <DezinBugaTudo> faz um escudo comunista[m
+[00:37:05] [Async Chat Thread - #12/INFO]: <Bersanii> vo faze[m
+[00:37:07] [Async Chat Thread - #12/INFO]: <Bersanii> auheuahehua[m
+[00:37:13] [Async Chat Thread - #12/INFO]: <Semensato> mussolini aqui amigao[m
+[00:37:14] [Async Chat Thread - #12/INFO]: <DezinBugaTudo> ta ae o precioso[m
+[00:38:00] [Async Chat Thread - #12/INFO]: <Bersanii> solta as scrap[m
+[00:38:04] [Async Chat Thread - #12/INFO]: <DezinBugaTudo> ue mas o peitoral é o pagamento[m
+[00:38:18] [Async Chat Thread - #12/INFO]: <DezinBugaTudo> fica com ele entao vo tenta axa o precioso[m
+[00:38:25] [Async Chat Thread - #12/INFO]: <Bersanii> n po[m
+[00:38:34] [Async Chat Thread - #12/INFO]: <Bersanii> a p4 no peitoral é o produto[m
+[00:38:42] [Async Chat Thread - #12/INFO]: <Bersanii> o scrap é o pagamento[m
+[00:38:59] [Async Chat Thread - #12/INFO]: <DezinBugaTudo> a ideia minha era paga livro de p4 com o peitoral[m
+[00:39:13] [Async Chat Thread - #12/INFO]: <Bersanii> auehauheuhaeuhauhe[m
+[00:39:19] [Async Chat Thread - #12/INFO]: <DezinBugaTudo> faz assim[m
+[00:39:32] [Async Chat Thread - #12/INFO]: <Bersanii> eu tenho um ingot[m
+[00:39:43] [Async Chat Thread - #12/INFO]: <DezinBugaTudo> fica co p4 e me arranja um de dima p4 dps eu te reembolso alguns dima[m
+[00:39:51] [Async Chat Thread - #12/INFO]: <Bersanii> safe[m
+[00:40:32] [Async Chat Thread - #12/INFO]: <DezinBugaTudo> pode colhe a platançao aki?[m
+[00:40:35] [Async Chat Thread - #12/INFO]: <Bersanii> pode[m
+[00:42:49] [Server thread/INFO]: Semensato has made the advancement [Cover Me With Diamonds]
+[00:44:10] [Async Chat Thread - #13/INFO]: <DezinBugaTudo> se tem um destruidor de item neh?[m
+[00:44:17] [Async Chat Thread - #13/INFO]: <DezinBugaTudo> to xeio de semente[m
+[00:44:17] [Async Chat Thread - #13/INFO]: <Bersanii> aqui n[m
+[00:44:22] [Async Chat Thread - #13/INFO]: <Bersanii> vem k[m
+[00:44:26] [Async Chat Thread - #13/INFO]: <Bersanii> ta pronto o p4[m
+[00:44:39] [Async Chat Thread - #13/INFO]: <DezinBugaTudo> maravilhoso[m
+[00:44:56] [Async Chat Thread - #13/INFO]: <Bersanii> vo da os 4 dima[m
+[00:45:09] [Server thread/INFO]: Bersanii was shot by Semensato
+[00:45:25] [Async Chat Thread - #13/INFO]: <DezinBugaTudo> faz a boa semensato aproveitando q se ta de arco[m
+[00:45:30] [Async Chat Thread - #13/INFO]: <Semensato> fala tu[m
+[00:45:31] [Async Chat Thread - #13/INFO]: <DezinBugaTudo> vo pra casa mais rapido[m
+[00:45:35] [Async Chat Thread - #13/INFO]: <Bersanii> auheuhaehuea[m
+[00:45:38] [Server thread/INFO]: DezinBugaTudo was burnt to a crisp whilst fighting Semensato
+[00:45:42] [Async Chat Thread - #13/INFO]: <Semensato> boa kowkokdawkod[m
+[00:45:45] [Async Chat Thread - #13/INFO]: <DezinBugaTudo> esse e do bao[m
+[00:45:57] [Async Chat Thread - #13/INFO]: <Semensato> sim mano[m
+[00:46:04] [Server thread/INFO]: BisteK tried to swim in lava
+[00:46:08] [Async Chat Thread - #13/INFO]: <Semensato> unb 3 infinity e power 5[m
+[00:46:23] [Async Chat Thread - #13/INFO]: <Semensato> e flame2[m
+[00:50:40] [Server thread/INFO]: Bersanii issued server command: /tell DezinBugaTudo ta no andar de baixo no bau com o ferro no item frame
+[00:50:50] [Async Chat Thread - #14/INFO]: <Bersanii> errei[m
+[00:50:58] [Async Chat Thread - #14/INFO]: <Bersanii> fui matar as entidade[m
+[00:51:31] [Server thread/INFO]: Bersanii issued server command: /kill @e[type=minecraft:item]
+[00:51:31] [Server thread/INFO]: [Bersanii: Killed 25 entities]
+[00:51:36] [Server thread/INFO]: Bersanii issued server command: /kill @e[type=minecraft:item]
+[00:51:36] [Server thread/INFO]: [Bersanii: Killed Diamond]
+[00:52:05] [Async Chat Thread - #15/INFO]: <DezinBugaTudo> se acabo de limpa?[m
+[00:52:07] [Async Chat Thread - #15/INFO]: <DezinBugaTudo> bersa[m
+[00:52:11] [Async Chat Thread - #15/INFO]: <Bersanii> s[m
+[00:52:13] [Async Chat Thread - #15/INFO]: <DezinBugaTudo> kkkkk[m
+[00:52:17] [Async Chat Thread - #15/INFO]: <DezinBugaTudo> nem fudendo um timing perfeito[m
+[00:52:20] [Async Chat Thread - #15/INFO]: <Bersanii> auheuhaehuauheuheah[m
+[00:52:25] [Async Chat Thread - #15/INFO]: <Bersanii> qq tu perdeu[m
+[00:52:27] [Async Chat Thread - #15/INFO]: <DezinBugaTudo> acabei de dropa 4 dima pro bistek e ele nao pego[m
+[00:52:35] [Async Chat Thread - #15/INFO]: <Bersanii> boa[m
+[00:52:37] [Async Chat Thread - #15/INFO]: <Bersanii> auehuaeuahuehu[m
+[00:52:52] [Server thread/INFO]: Bersanii issued server command: /give DezinBugaTudo minecraft:diamond 5
+[00:52:52] [Server thread/INFO]: [Bersanii: Gave 5 [Diamond] to DezinBugaTudo]
+[00:52:58] [Async Chat Thread - #15/INFO]: <Bersanii> justo[m
+[00:53:30] [Server thread/INFO]: Bersanii was shot by Skeleton
+[00:53:46] [Async Chat Thread - #15/INFO]: <Bersanii> pego ai?[m
+[00:54:57] [Server thread/INFO]: Bersanii was shot by Skeleton
+[00:55:02] [Async Chat Thread - #16/INFO]: <Bersanii> deh[m
+[01:00:18] [Server thread/INFO]: BisteK lost connection: Disconnected
+[01:00:19] [Server thread/INFO]: BisteK left the game
+[01:00:37] [Server thread/INFO]: DezinBugaTudo was slain by Zombie
+[01:01:51] [Server thread/INFO]: Chavola lost connection: Disconnected
+[01:01:51] [Server thread/INFO]: Chavola left the game
+[01:04:47] [Server thread/INFO]: Semensato lost connection: Disconnected
+[01:04:47] [Server thread/INFO]: Semensato left the game
+[01:05:22] [Async Chat Thread - #17/INFO]: <Bersanii> deh[m
+[01:05:26] [Async Chat Thread - #17/INFO]: <DezinBugaTudo> oe[m
+[01:05:34] [Async Chat Thread - #17/INFO]: <Bersanii> vai fazer enderdragon amanhã?[m
+[01:05:39] [Async Chat Thread - #17/INFO]: <DezinBugaTudo> vou[m
+[01:05:44] [Async Chat Thread - #17/INFO]: <Bersanii> vou n krai[m
+[01:05:45] [Async Chat Thread - #17/INFO]: <Bersanii> vamo[m
+[01:05:50] [Server thread/WARN]: Horse (vehicle of Guigodinho) moved wrongly! 0.4216005894334103
+[01:05:59] [Async Chat Thread - #17/INFO]: <Bersanii> tem q matar junto[m
+[01:06:19] [Async Chat Thread - #17/INFO]: <Bersanii> marca de noite ai entra td mundo[m
+[01:06:47] [Async Chat Thread - #17/INFO]: <Bersanii> fmz?[m
+[01:06:55] [Async Chat Thread - #17/INFO]: <DezinBugaTudo> blz[m
+[01:06:59] [Async Chat Thread - #17/INFO]: <DezinBugaTudo> mas n sei se vo participa[m
+[01:07:02] [Async Chat Thread - #17/INFO]: <Bersanii> pq[m
+[01:07:10] [Async Chat Thread - #17/INFO]: <DezinBugaTudo> pq meu horario e meio fudido[m
+[01:07:16] [Async Chat Thread - #17/INFO]: <Bersanii> nois espera ent[m
+[01:08:45] [Server thread/WARN]: Horse (vehicle of Guigodinho) moved wrongly! 0.33587534702951416
+[01:09:09] [Server thread/WARN]: Horse (vehicle of Guigodinho) moved wrongly! 0.3255687615766192
+[01:14:22] [Server thread/WARN]: Horse (vehicle of Guigodinho) moved wrongly! 0.2715738034730748
+[01:14:51] [Server thread/INFO]: Guigodinho lost connection: Disconnected
+[01:14:51] [Server thread/INFO]: Guigodinho left the game
+[01:15:49] [User Authenticator #12/INFO]: UUID of player Guigodinho is bc55e28e-e46f-3527-b14c-d8c7d95e9d34
+[01:15:49] [Server thread/INFO]: Guigodinho[/177.64.162.196:61373] logged in with entity id 135332 at ([world]1281.1882071712644, 77.8500000178814, -400.41596725412705)
+[01:21:25] [Server thread/INFO]: Guigodinho lost connection: Disconnected
+[01:21:25] [Server thread/INFO]: Guigodinho left the game
+[01:30:47] [Async Chat Thread - #18/INFO]: <Bersanii> dehzão[m
+[01:30:50] [Async Chat Thread - #18/INFO]: <DezinBugaTudo> oe[m
+[01:30:54] [Async Chat Thread - #18/INFO]: <Bersanii> tem vaca?[m
+[01:30:59] [Async Chat Thread - #18/INFO]: <DezinBugaTudo> axava q tinha[m
+[01:31:04] [Async Chat Thread - #18/INFO]: <DezinBugaTudo> tinha sobrado 2 no bistek[m
+[01:31:09] [Async Chat Thread - #18/INFO]: <DezinBugaTudo> dae fui busca agora[m
+[01:31:11] [Async Chat Thread - #18/INFO]: <DezinBugaTudo> tinha[m
+[01:31:11] [Async Chat Thread - #18/INFO]: <Bersanii> auhehuaeuheuh[m
+[01:31:14] [Async Chat Thread - #18/INFO]: <Bersanii> fudeu[m
+[01:31:17] [Async Chat Thread - #18/INFO]: <Bersanii> ngm tem?[m
+[01:31:21] [Async Chat Thread - #18/INFO]: <DezinBugaTudo> eu sei onde tem[m
+[01:31:29] [Async Chat Thread - #18/INFO]: <Bersanii> bora lá[m
+[01:31:34] [Async Chat Thread - #18/INFO]: <DezinBugaTudo> vo busca e procria[m
+[01:31:42] [Async Chat Thread - #18/INFO]: <Bersanii> vo com tu[m
+[01:31:44] [Async Chat Thread - #18/INFO]: <Bersanii> ta aonde?[m
+[01:31:48] [Async Chat Thread - #18/INFO]: <DezinBugaTudo> la na minha milicia tem por perto[m
+[01:31:52] [Async Chat Thread - #18/INFO]: <DezinBugaTudo> perae to trazendoa a ovelha[m
+[01:32:17] [Async Chat Thread - #18/INFO]: <DezinBugaTudo> a grama espalha no nehter?[m
+[01:32:23] [Async Chat Thread - #18/INFO]: <Bersanii> n sei[m
+[01:34:57] [Async Chat Thread - #19/INFO]: <DezinBugaTudo> blz acabei de oprimir uma familha de ovelha[m
+[01:35:05] [Async Chat Thread - #19/INFO]: <Bersanii> to colando[m
+[01:35:59] [Async Chat Thread - #19/INFO]: <Bersanii> achei o golem[m
+[01:36:14] [Async Chat Thread - #19/INFO]: <Bersanii> do sudoku[m
+[01:36:15] [Async Chat Thread - #19/INFO]: <DezinBugaTudo> do nether?[m
+[01:36:31] [Async Chat Thread - #19/INFO]: <Bersanii> ta aonde?[m
+[01:36:51] [Async Chat Thread - #19/INFO]: <DezinBugaTudo> to ino[m
+[01:36:58] [Async Chat Thread - #19/INFO]: <DezinBugaTudo> tava organizando[m
+[01:38:18] [Async Chat Thread - #20/INFO]: <DezinBugaTudo> vai faze o novo sudoku?[m
+[01:38:43] [Async Chat Thread - #20/INFO]: <Bersanii> tem ferro?[m
+[01:38:52] [Async Chat Thread - #20/INFO]: <DezinBugaTudo> tenho madera[m
+[01:39:12] [Server thread/INFO]: Bersanii was fireballed by Ghast
+[01:39:24] [Async Chat Thread - #20/INFO]: <DezinBugaTudo> o bixo e perigoso slc[m
+[01:39:24] [Server thread/INFO]: Bersanii issued server command: /tp DezinBugaTudo
+[01:39:25] [Server thread/INFO]: [Bersanii: Teleported Bersanii to DezinBugaTudo]
+[01:39:28] [Async Chat Thread - #20/INFO]: <DezinBugaTudo> vo reforça isso aki dps[m
+[01:39:37] [Async Chat Thread - #20/INFO]: <Bersanii> ta foda[m
+[01:40:23] [Async Chat Thread - #20/INFO]: <DezinBugaTudo> vo la ve se axo[m
+[01:40:37] [Async Chat Thread - #20/INFO]: <DezinBugaTudo> tem corda ae?[m
+[01:40:47] [Async Chat Thread - #20/INFO]: <Bersanii> 3[m
+[01:41:08] [Async Chat Thread - #20/INFO]: <DezinBugaTudo> nesse boske geralmente tem[m
+[01:41:36] [Async Chat Thread - #20/INFO]: <DezinBugaTudo> axei uma[m
+[01:41:59] [Async Chat Thread - #20/INFO]: <DezinBugaTudo> tem trigo?[m
+[01:42:04] [Async Chat Thread - #20/INFO]: <Bersanii> nop[m
+[01:42:12] [Async Chat Thread - #20/INFO]: <DezinBugaTudo> tem uma ali[m
+[01:42:18] [Server thread/INFO]: Bersanii lost connection: Disconnected
+[01:42:18] [Server thread/INFO]: Bersanii left the game
+[01:42:21] [User Authenticator #13/INFO]: UUID of player Bersanii is 890e9fef-3d34-3924-9cad-4f027df79031
+[01:42:21] [Server thread/INFO]: Bersanii[/192.168.0.2:65242] logged in with entity id 145635 at ([world]538.8850871017761, 77.0, -1608.0514825272166)
+[01:42:29] [Async Chat Thread - #20/INFO]: <DezinBugaTudo> aki[m
+[01:42:36] [Async Chat Thread - #20/INFO]: <DezinBugaTudo> pega essa nois reproduz a otra[m
+[01:42:47] [Async Chat Thread - #20/INFO]: <Bersanii> tem outra ali[m
+[01:43:18] [Async Chat Thread - #20/INFO]: <DezinBugaTudo> se quiser pego o arco e faço cobertura pra vc[m
+[01:43:33] [Async Chat Thread - #20/INFO]: <DezinBugaTudo> vo leva as minha la[m
+[01:43:34] [Async Chat Thread - #20/INFO]: <Bersanii> dmr[m
+[01:43:39] [Async Chat Thread - #20/INFO]: <Bersanii> aonde[m
+[01:43:43] [Async Chat Thread - #20/INFO]: <DezinBugaTudo> la no nether[m
+[01:43:53] [Async Chat Thread - #20/INFO]: <Bersanii> dmr[m
+[01:45:53] [Async Chat Thread - #21/INFO]: <DezinBugaTudo> da pra criar elas aki tbm[m
+[01:46:05] [Async Chat Thread - #21/INFO]: <Bersanii> vamo leva memo[m
+[01:49:10] [Async Chat Thread - #22/INFO]: <Bersanii> vai vir de arco?[m
+[01:49:14] [Async Chat Thread - #22/INFO]: <DezinBugaTudo> vou[m
+[01:49:22] [Async Chat Thread - #22/INFO]: <DezinBugaTudo> vo so guarda elas la[m
+[01:52:29] [Async Chat Thread - #23/INFO]: <DezinBugaTudo> perae q tenho q axa onde guardei[m
+[01:52:37] [Async Chat Thread - #23/INFO]: <Bersanii> to aqui[m
+[01:52:46] [Async Chat Thread - #23/INFO]: <DezinBugaTudo> axei[m
+[01:57:14] [Async Chat Thread - #24/INFO]: <Bersanii> ahueuhaehuehua[m
+[01:57:18] [Server thread/INFO]: Bersanii was slain by Zombified Piglin
+[01:57:24] [Async Chat Thread - #24/INFO]: <Bersanii> toma no cu[m
+[01:57:44] [Async Chat Thread - #24/INFO]: <DezinBugaTudo> oloko pq tu mexeu cos bixo[m
+[01:57:47] [Async Chat Thread - #24/INFO]: <DezinBugaTudo> mo gente boa[m
+[01:57:51] [Async Chat Thread - #24/INFO]: <Bersanii> bati sem quere[m
+[01:58:02] [Async Chat Thread - #24/INFO]: <DezinBugaTudo> to duplicando sua pista aki[m
+[01:58:14] [Async Chat Thread - #24/INFO]: <DezinBugaTudo> vo leva essa aki e volto la procriar a outra[m
+[01:58:28] [Async Chat Thread - #24/INFO]: <Bersanii> a outra morreu[m
+[01:58:34] [Async Chat Thread - #24/INFO]: <DezinBugaTudo> s[m
+[01:58:37] [Async Chat Thread - #24/INFO]: <DezinBugaTudo> uma morreu[m
+[02:00:15] [Async Chat Thread - #25/INFO]: <DezinBugaTudo> carai bersa[m
+[02:00:20] [Async Chat Thread - #25/INFO]: <DezinBugaTudo> ta indo o bonde cobra vc[m
+[02:00:26] [Async Chat Thread - #25/INFO]: <Bersanii> to vendo[m
+[02:00:27] [Async Chat Thread - #25/INFO]: <Bersanii> aeuhaehu[m
+[02:00:41] [Async Chat Thread - #25/INFO]: <DezinBugaTudo> kkkkkk slc ate os da fortaleza ta indo[m
+[02:01:29] [Server thread/INFO]: DezinBugaTudo was burnt to a crisp whilst fighting Ghast
+[02:01:46] [Async Chat Thread - #26/INFO]: <DezinBugaTudo> os bixo indo atras de tu parecia cena das animação do rainimator[m
+[02:01:56] [Async Chat Thread - #26/INFO]: <Bersanii> eles n esqueceram[m
+[02:04:43] [Server thread/INFO]: Bersanii tried to swim in lava
+[02:05:09] [Async Chat Thread - #27/INFO]: <Bersanii> otavio mesquita é mt chato vtnc[m
+[02:05:17] [Async Chat Thread - #27/INFO]: <Bersanii> sbt ta foda[m
+[02:05:20] [Async Chat Thread - #27/INFO]: <DezinBugaTudo> kkkkk pq?[m
+[02:05:32] [Async Chat Thread - #27/INFO]: <Bersanii> é chato[m
+[02:05:33] [Async Chat Thread - #27/INFO]: <DezinBugaTudo> viro fan memo[m
+[02:05:34] [Async Chat Thread - #27/INFO]: <Bersanii> ponto[m
+[02:05:44] [Async Chat Thread - #27/INFO]: <Bersanii> legalzin[m
+[02:06:27] [Async Chat Thread - #27/INFO]: <DezinBugaTudo> esse tlauncher ae é bom?[m
+[02:06:33] [Async Chat Thread - #27/INFO]: <Bersanii> s[m
+[02:06:47] [Async Chat Thread - #27/INFO]: <Bersanii> msa tem q desabilitar as skin dele pra funfa o plugin[m
+[02:10:15] [Async Chat Thread - #28/INFO]: <Bersanii> vo procura perto da minha casa[m
+[02:10:20] [Server thread/INFO]: Bersanii issued server command: /kill
+[02:10:20] [Server thread/INFO]: Bersanii fell out of the world
+[02:10:20] [Server thread/INFO]: [Bersanii: Killed Bersanii]
+[02:10:28] [Async Chat Thread - #28/INFO]: <DezinBugaTudo> to trazendo o cleiton jr ja[m
+[02:10:34] [Async Chat Thread - #28/INFO]: <DezinBugaTudo> xegae busca[m
+[02:10:44] [Async Chat Thread - #28/INFO]: <DezinBugaTudo> o no sudoku indo ae[m
+[02:12:59] [Async Chat Thread - #29/INFO]: <DezinBugaTudo> carai bixo burro[m
+[02:13:05] [Async Chat Thread - #29/INFO]: <Bersanii> n tem mob aqui[m
+[02:13:06] [Async Chat Thread - #29/INFO]: <DezinBugaTudo> se jogo[m
+[02:13:33] [Async Chat Thread - #29/INFO]: <DezinBugaTudo> vo procria otro la[m
+[02:14:04] [Async Chat Thread - #29/INFO]: <Bersanii> n nasce mob aqui[m
+[02:14:11] [Async Chat Thread - #29/INFO]: <Bersanii> reproduz uma vaca sua[m
+[02:14:14] [Async Chat Thread - #29/INFO]: <DezinBugaTudo> na jungle e foda[m
+[02:14:27] [Async Chat Thread - #29/INFO]: <DezinBugaTudo> tava trazendo uma mas o bixo burro se jogo na curva[m
+[02:14:34] [Async Chat Thread - #29/INFO]: <Bersanii> aeuhauehaue[m
+[02:14:46] [Server thread/INFO]: Bersanii issued server command: /tp DezinBugaTudo
+[02:14:46] [Server thread/INFO]: [Bersanii: Teleported Bersanii to DezinBugaTudo]
+[02:16:45] [Async Chat Thread - #30/INFO]: <Bersanii> deixa eu levo[m
+[02:16:47] [Async Chat Thread - #30/INFO]: <Bersanii> to sem arco[m
+[02:18:21] [Async Chat Thread - #31/INFO]: <DezinBugaTudo> ja foi um guest[m
+[02:18:51] [Async Chat Thread - #31/INFO]: <DezinBugaTudo> se ainda ta tretado cos pig?[m
+[02:18:55] [Async Chat Thread - #31/INFO]: <DezinBugaTudo> tem uma creche aki[m
+[02:18:56] [Async Chat Thread - #31/INFO]: <Bersanii> n[m
+[02:18:59] [Async Chat Thread - #31/INFO]: <DezinBugaTudo> 4 mini pig zombie[m
+[02:19:19] [Async Chat Thread - #31/INFO]: <DezinBugaTudo> [[m
+[02:19:24] [Async Chat Thread - #31/INFO]: <DezinBugaTudo> ue os bixo se jogo[m
+[02:19:30] [Async Chat Thread - #31/INFO]: <DezinBugaTudo> sera q gelo faz eles toma dano?[m
+[02:19:32] [Async Chat Thread - #31/INFO]: <Bersanii> sla bixo[m
+[02:22:30] [Async Chat Thread - #32/INFO]: <Bersanii> nice[m
+[02:22:34] [Async Chat Thread - #32/INFO]: <DezinBugaTudo> holy[m
+[02:22:44] [Async Chat Thread - #32/INFO]: <DezinBugaTudo> depois dessa viaje daki a poco ele ta adulto ja[m
+[02:22:55] [Async Chat Thread - #32/INFO]: <Bersanii> vo quita dé[m
+[02:23:07] [Async Chat Thread - #32/INFO]: <DezinBugaTudo> bl[m
+[02:23:12] [Async Chat Thread - #32/INFO]: <Bersanii> vai jogar mais?[m
+[02:23:15] [Async Chat Thread - #32/INFO]: <DezinBugaTudo> axo q vo da uma estudada[m
+[02:23:20] [Async Chat Thread - #32/INFO]: <Bersanii> safe[m
+[02:23:21] [Async Chat Thread - #32/INFO]: <DezinBugaTudo> que hora abre amanha?[m
+[02:23:25] [Async Chat Thread - #32/INFO]: <Bersanii> vou subir o mapa lá[m
+[02:23:32] [Async Chat Thread - #32/INFO]: <Bersanii> se for baixar espera um pouco[m
+[02:23:44] [Async Chat Thread - #32/INFO]: <Bersanii> amanhã de tarde abro[m
+[02:23:52] [Async Chat Thread - #32/INFO]: <DezinBugaTudo> blz[m
+[02:24:01] [Async Chat Thread - #32/INFO]: <Bersanii> boa[m
+[02:24:04] [Async Chat Thread - #32/INFO]: <DezinBugaTudo> boa[m
+[02:24:13] [Server thread/INFO]: Bersanii lost connection: Disconnected
+[02:24:13] [Server thread/INFO]: Bersanii left the game
+[02:24:15] [Server thread/INFO]: DezinBugaTudo lost connection: Disconnected
+[02:24:15] [Server thread/INFO]: DezinBugaTudo left the game
+[02:24:19] [Server thread/INFO]: Stopping the server
+[02:24:19] [Server thread/INFO]: Stopping server
+[02:24:19] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.0-beta-04+98f71a3
+[02:24:19] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[02:24:20] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v13.8.4
+[02:24:20] [Server thread/INFO]: Saving players
+[02:24:20] [Server thread/INFO]: Saving worlds
+[02:24:20] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[02:24:21] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[02:24:21] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[02:24:22] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[02:24:22] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[02:24:22] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[02:24:22] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[02:24:26] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[02:24:26] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved

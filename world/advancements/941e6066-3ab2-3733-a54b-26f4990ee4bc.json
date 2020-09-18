@@ -125,6 +125,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/birch_pressure_plate": {
+    "criteria": {
+      "has_the_recipe": "2020-09-17 23:56:40 -0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/crafting_table": {
     "criteria": {
       "has_planks": "2020-09-13 21:58:51 -0300"
@@ -458,6 +464,12 @@
   "minecraft:recipes/redstone/hopper": {
     "criteria": {
       "has_iron_ingot": "2020-09-13 22:37:46 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/birch_slab": {
+    "criteria": {
+      "has_planks": "2020-09-17 23:56:48 -0300"
     },
     "done": true
   },
@@ -852,6 +864,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/birch_sign": {
+    "criteria": {
+      "has_birch_planks": "2020-09-17 23:56:48 -0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/cyan_bed_from_white_bed": {
     "criteria": {
       "has_bed": "2020-09-13 22:45:09 -0300"
@@ -1012,6 +1030,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/birch_wood": {
+    "criteria": {
+      "has_log": "2020-09-17 23:56:17 -0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/redstone_block": {
     "criteria": {
       "has_redstone": "2020-09-16 20:04:44 -0300"
@@ -1081,6 +1105,12 @@
   "minecraft:recipes/misc/iron_nugget_from_smelting": {
     "criteria": {
       "has_iron_boots": "2020-09-13 21:57:47 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/birch_door": {
+    "criteria": {
+      "has_planks": "2020-09-17 23:56:48 -0300"
     },
     "done": true
   },
@@ -1168,9 +1198,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/anvil": {
+    "criteria": {
+      "has_the_recipe": "2020-09-17 23:03:39 -0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/blue_bed_from_white_bed": {
     "criteria": {
       "has_bed": "2020-09-13 22:45:09 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/birch_fence": {
+    "criteria": {
+      "has_planks": "2020-09-17 23:56:48 -0300"
     },
     "done": true
   },
@@ -1345,6 +1387,12 @@
   "minecraft:recipes/building_blocks/iron_block": {
     "criteria": {
       "has_iron_ingot": "2020-09-13 22:37:46 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/birch_button": {
+    "criteria": {
+      "has_planks": "2020-09-17 23:56:48 -0300"
     },
     "done": true
   },
@@ -1588,6 +1636,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/birch_planks": {
+    "criteria": {
+      "has_logs": "2020-09-17 23:56:17 -0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/black_concrete_powder": {
     "criteria": {
       "has_gravel": "2020-09-15 14:40:44 -0300"
@@ -1627,6 +1681,12 @@
   "minecraft:recipes/decorations/polished_blackstone_brick_wall_from_blackstone_stonecutting": {
     "criteria": {
       "has_blackstone": "2020-09-16 20:48:26 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/birch_fence_gate": {
+    "criteria": {
+      "has_planks": "2020-09-17 23:56:48 -0300"
     },
     "done": true
   },
@@ -1807,15 +1867,21 @@
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:jungle_edge": "2020-09-17 19:01:14 -0300",
+      "minecraft:snowy_mountains": "2020-09-17 23:32:04 -0300",
       "minecraft:forest": "2020-09-13 23:04:04 -0300",
       "minecraft:mountains": "2020-09-14 19:49:31 -0300",
       "minecraft:taiga": "2020-09-13 21:57:03 -0300",
       "minecraft:giant_tree_taiga": "2020-09-16 21:25:45 -0300",
+      "minecraft:snowy_tundra": "2020-09-17 23:30:42 -0300",
       "minecraft:taiga_hills": "2020-09-13 21:57:57 -0300",
       "minecraft:desert": "2020-09-17 00:18:55 -0300",
+      "minecraft:frozen_river": "2020-09-17 23:30:41 -0300",
       "minecraft:jungle": "2020-09-17 18:45:49 -0300",
       "minecraft:birch_forest": "2020-09-16 21:46:44 -0300",
       "minecraft:jungle_hills": "2020-09-17 18:50:44 -0300",
+      "minecraft:snowy_beach": "2020-09-17 23:34:07 -0300",
+      "minecraft:warm_ocean": "2020-09-17 23:20:20 -0300",
+      "minecraft:deep_lukewarm_ocean": "2020-09-17 23:19:48 -0300",
       "minecraft:beach": "2020-09-16 21:56:56 -0300",
       "minecraft:river": "2020-09-13 22:10:52 -0300",
       "minecraft:lukewarm_ocean": "2020-09-16 21:57:39 -0300",
@@ -1823,6 +1889,7 @@
       "minecraft:wooded_mountains": "2020-09-17 13:20:36 -0300",
       "minecraft:wooded_hills": "2020-09-13 22:54:46 -0300",
       "minecraft:giant_tree_taiga_hills": "2020-09-16 21:25:59 -0300",
+      "minecraft:stone_shore": "2020-09-17 23:30:04 -0300",
       "minecraft:swamp": "2020-09-16 21:52:51 -0300",
       "minecraft:plains": "2020-09-13 22:53:56 -0300"
     },
@@ -1936,6 +2003,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/birch_stairs": {
+    "criteria": {
+      "has_planks": "2020-09-17 23:56:48 -0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/jungle_stairs": {
     "criteria": {
       "has_planks": "2020-09-17 21:07:18 -0300"
@@ -2035,6 +2108,12 @@
   "minecraft:recipes/building_blocks/polished_blackstone_brick_slab_from_blackstone_stonecutting": {
     "criteria": {
       "has_blackstone": "2020-09-16 20:48:26 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/birch_trapdoor": {
+    "criteria": {
+      "has_planks": "2020-09-17 23:56:48 -0300"
     },
     "done": true
   },
