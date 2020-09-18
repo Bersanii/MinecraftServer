@@ -1,173 +1,446 @@
-[12:37:49] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', name='PROD'
-[12:37:50] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[12:37:50] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[12:37:50] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
-[12:37:50] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[12:37:50] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[12:37:50] [main/INFO]: Reloading ResourceManager: Default, anti creeper grief v1.1.0.zip, multiplayer sleep v2.4.3.zip, silk-touch-spawners-v1-3-1565027733.zip, timber v2.1.0.zip
-[12:37:52] [Worker-Main-13/INFO]: Loaded 7 recipes
-[12:37:52] [Worker-Main-13/INFO]: Loaded 932 advancements
-[12:37:53] [Server thread/INFO]: Starting minecraft server version 1.16.3
-[12:37:53] [Server thread/INFO]: Loading properties
-[12:37:53] [Server thread/INFO]: Default game type: SURVIVAL
-[12:37:53] [Server thread/INFO]: Generating keypair
-[12:37:54] [Server thread/INFO]: Starting Minecraft server on *:25565
-[12:37:54] [Server thread/INFO]: Using default channel type
-[12:37:54] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[12:37:54] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[12:37:54] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[12:37:54] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[12:37:54] [Server thread/INFO]: Preparing level "world"
-[12:37:54] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[12:37:58] [Server thread/INFO]: Preparing spawn area: 0%
-[12:37:58] [Server thread/INFO]: Preparing spawn area: 0%
-[12:37:58] [Server thread/INFO]: Preparing spawn area: 0%
-[12:37:58] [Server thread/INFO]: Preparing spawn area: 0%
-[12:37:58] [Server thread/INFO]: Preparing spawn area: 0%
-[12:37:58] [Server thread/INFO]: Preparing spawn area: 0%
-[12:37:58] [Server thread/INFO]: Preparing spawn area: 0%
-[12:37:58] [Server thread/INFO]: Preparing spawn area: 0%
-[12:37:58] [Server thread/INFO]: Preparing spawn area: 0%
-[12:37:59] [Server thread/INFO]: Time elapsed: 4330 ms
-[12:37:59] [Server thread/INFO]: Done (4.474s)! For help, type "help"
-[12:38:05] [Server thread/INFO]: There are 0 of a max of 20 players online: 
-[12:38:09] [Server thread/INFO]: /advancement (grant|revoke)
-[12:38:09] [Server thread/INFO]: /attribute <target> <attribute> (base|get|modifier)
-[12:38:09] [Server thread/INFO]: /ban <targets> [<reason>]
-[12:38:09] [Server thread/INFO]: /ban-ip <target> [<reason>]
-[12:38:09] [Server thread/INFO]: /banlist [ips|players]
-[12:38:09] [Server thread/INFO]: /bossbar (add|get|list|remove|set)
-[12:38:09] [Server thread/INFO]: /clear [<targets>]
-[12:38:09] [Server thread/INFO]: /clone <begin> <end> <destination> [filtered|masked|replace]
-[12:38:09] [Server thread/INFO]: /data (get|merge|modify|remove)
-[12:38:09] [Server thread/INFO]: /datapack (disable|enable|list)
-[12:38:09] [Server thread/INFO]: /debug (report|start|stop)
-[12:38:09] [Server thread/INFO]: /defaultgamemode (adventure|creative|spectator|survival)
-[12:38:09] [Server thread/INFO]: /deop <targets>
-[12:38:09] [Server thread/INFO]: /difficulty [easy|hard|normal|peaceful]
-[12:38:09] [Server thread/INFO]: /effect (clear|give)
-[12:38:09] [Server thread/INFO]: /enchant <targets> <enchantment> [<level>]
-[12:38:09] [Server thread/INFO]: /execute (align|anchored|as|at|facing|if|in|positioned|rotated|run|store|unless)
-[12:38:09] [Server thread/INFO]: /experience (add|query|set)
-[12:38:09] [Server thread/INFO]: /fill <from> <to> <block> [destroy|hollow|keep|outline|replace]
-[12:38:09] [Server thread/INFO]: /forceload (add|query|remove)
-[12:38:09] [Server thread/INFO]: /function <name>
-[12:38:09] [Server thread/INFO]: /gamemode (adventure|creative|spectator|survival)
-[12:38:09] [Server thread/INFO]: /gamerule (announceAdvancements|commandBlockOutput|disableElytraMovementCheck|disableRaids|doDaylightCycle|doEntityDrops|doFireTick|doImmediateRespawn|doInsomnia|doLimitedCrafting|doMobLoot|doMobSpawning|doPatrolSpawning|doTileDrops|doTraderSpawning|doWeatherCycle|drowningDamage|fallDamage|fireDamage|forgiveDeadPlayers|keepInventory|logAdminCommands|maxCommandChainLength|maxEntityCramming|mobGriefing|naturalRegeneration|randomTickSpeed|reducedDebugInfo|sendCommandFeedback|showDeathMessages|spawnRadius|spectatorsGenerateChunks|universalAnger)
-[12:38:09] [Server thread/INFO]: /give <targets> <item> [<count>]
-[12:38:09] [Server thread/INFO]: /help [<command>]
-[12:38:09] [Server thread/INFO]: /kick <targets> [<reason>]
-[12:38:09] [Server thread/INFO]: /kill [<targets>]
-[12:38:09] [Server thread/INFO]: /list [uuids]
-[12:38:09] [Server thread/INFO]: /locate (bastion_remnant|buried_treasure|desert_pyramid|endcity|fortress|igloo|jungle_pyramid|mansion|mineshaft|monument|nether_fossil|ocean_ruin|pillager_outpost|ruined_portal|shipwreck|stronghold|swamp_hut|village)
-[12:38:09] [Server thread/INFO]: /locatebiome <biome>
-[12:38:09] [Server thread/INFO]: /loot (give|insert|replace|spawn)
-[12:38:09] [Server thread/INFO]: /me <action>
-[12:38:09] [Server thread/INFO]: /msg <targets> <message>
-[12:38:09] [Server thread/INFO]: /op <targets>
-[12:38:09] [Server thread/INFO]: /pardon <targets>
-[12:38:09] [Server thread/INFO]: /pardon-ip <target>
-[12:38:09] [Server thread/INFO]: /particle <name> [<pos>]
-[12:38:09] [Server thread/INFO]: /playsound <sound> (ambient|block|hostile|master|music|neutral|player|record|voice|weather)
-[12:38:09] [Server thread/INFO]: /recipe (give|take)
-[12:38:09] [Server thread/INFO]: /reload
-[12:38:09] [Server thread/INFO]: /replaceitem (block|entity)
-[12:38:09] [Server thread/INFO]: /save-all [flush]
-[12:38:09] [Server thread/INFO]: /save-off
-[12:38:09] [Server thread/INFO]: /save-on
-[12:38:09] [Server thread/INFO]: /say <message>
-[12:38:09] [Server thread/INFO]: /schedule (clear|function)
-[12:38:09] [Server thread/INFO]: /scoreboard (objectives|players)
-[12:38:09] [Server thread/INFO]: /seed
-[12:38:09] [Server thread/INFO]: /setblock <pos> <block> [destroy|keep|replace]
-[12:38:09] [Server thread/INFO]: /setidletimeout <minutes>
-[12:38:09] [Server thread/INFO]: /setworldspawn [<pos>]
-[12:38:09] [Server thread/INFO]: /spawnpoint [<targets>]
-[12:38:09] [Server thread/INFO]: /spectate [<target>]
-[12:38:09] [Server thread/INFO]: /spreadplayers <center> <spreadDistance> <maxRange> (under|<respectTeams>)
-[12:38:09] [Server thread/INFO]: /stop
-[12:38:09] [Server thread/INFO]: /stopsound <targets> [*|ambient|block|hostile|master|music|neutral|player|record|voice|weather]
-[12:38:09] [Server thread/INFO]: /summon <entity> [<pos>]
-[12:38:09] [Server thread/INFO]: /tag <targets> (add|list|remove)
-[12:38:09] [Server thread/INFO]: /team (add|empty|join|leave|list|modify|remove)
-[12:38:09] [Server thread/INFO]: /teammsg <message>
-[12:38:09] [Server thread/INFO]: /teleport (<destination>|<location>|<targets>)
-[12:38:09] [Server thread/INFO]: /tell -> msg
-[12:38:09] [Server thread/INFO]: /tellraw <targets> <message>
-[12:38:09] [Server thread/INFO]: /time (add|query|set)
-[12:38:09] [Server thread/INFO]: /title <targets> (actionbar|clear|reset|subtitle|times|title)
-[12:38:09] [Server thread/INFO]: /tm -> teammsg
-[12:38:09] [Server thread/INFO]: /tp -> teleport
-[12:38:09] [Server thread/INFO]: /trigger <objective> [add|set]
-[12:38:09] [Server thread/INFO]: /w -> msg
-[12:38:09] [Server thread/INFO]: /weather (clear|rain|thunder)
-[12:38:09] [Server thread/INFO]: /whitelist (add|list|off|on|reload|remove)
-[12:38:09] [Server thread/INFO]: /worldborder (add|center|damage|get|set|warning)
-[12:38:09] [Server thread/INFO]: /xp -> experience
-[12:38:13] [Server thread/INFO]: There are 0 of a max of 20 players online: 
-[12:38:21] [Server thread/INFO]: LuisGOd[/177.131.79.170:23785] logged in with entity id 367 at (812.1906795097898, 70.0, -2459.549263223992)
-[12:38:21] [Server thread/INFO]: LuisGOd joined the game
-[12:38:25] [Server thread/INFO]: Mader400[/189.79.174.71:52567] logged in with entity id 642 at (-267.4234551413766, 75.0, -170.52915723808763)
-[12:38:25] [Server thread/INFO]: Mader400 joined the game
-[12:49:17] [Server thread/INFO]: M1D4$[/177.101.67.67:50133] logged in with entity id 4676 at (-273.6563039877767, 24.0, -135.9736381496243)
-[12:49:17] [Server thread/INFO]: M1D4$ joined the game
-[12:49:36] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/4989, l='ServerLevel[world]', x=-300.22, y=55.00, z=-181.46]
-[12:50:18] [Server thread/INFO]: Mader400 tried to swim in lava
-[12:50:42] [Server thread/INFO]: LuisGOd was shot by Skeleton
-[12:51:08] [Server thread/INFO]: Chavola[/177.131.79.110:63968] logged in with entity id 6032 at (-236.508259953093, 77.0, -17.19410222426313)
-[12:51:08] [Server thread/INFO]: Chavola joined the game
-[12:52:46] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/7053, l='ServerLevel[world]', x=-252.92, y=77.00, z=-21.85]
-[12:52:46] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/7053, l='ServerLevel[world]', x=-252.92, y=77.00, z=-21.85]
-[12:53:00] [Server thread/WARN]: Mader400 moved too quickly! -0.3740747696865583,-10.856489120741138,-0.787148674082772
-[12:53:04] [Server thread/INFO]: Mader400 tried to swim in lava
-[12:54:11] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/7879, l='ServerLevel[world]', x=-238.45, y=65.00, z=-65.41]
-[12:54:11] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/7879, l='ServerLevel[world]', x=-238.45, y=65.00, z=-65.41]
-[12:55:02] [Server thread/INFO]: Mader400 burned to death
-[12:57:42] [Server thread/INFO]: Mader400 tried to swim in lava
-[12:58:49] [Server thread/INFO]: M1D4$ tried to swim in lava
-[13:01:21] [Server thread/INFO]: Mader400 fell from a high place
-[13:01:41] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/12103, l='ServerLevel[world]', x=-298.80, y=55.00, z=-181.74]
-[13:01:41] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/12103, l='ServerLevel[world]', x=-298.80, y=55.00, z=-181.74]
-[13:05:08] [Server thread/INFO]: LuisGOd was shot by Skeleton
-[13:06:03] [Server thread/INFO]: M1D4$ lost connection: Timed out
-[13:06:03] [Server thread/INFO]: M1D4$ left the game
-[13:06:07] [Server thread/INFO]: M1D4$[/177.101.67.67:50158] logged in with entity id 15132 at (-304.7673750017722, 10.0, -123.83609736731441)
-[13:06:07] [Server thread/INFO]: M1D4$ joined the game
-[13:07:33] [Server thread/INFO]: Mader400 fell from a high place
-[13:07:53] [Server thread/INFO]: Chavola was slain by Zombified Piglin
-[13:13:35] [Server thread/INFO]: Mader400 lost connection: Disconnected
-[13:13:35] [Server thread/INFO]: Mader400 left the game
-[13:13:57] [Server thread/INFO]: Mader400[/189.79.174.71:52813] logged in with entity id 19660 at (71.00991822586411, 15.0, -493.69999998807907)
-[13:13:57] [Server thread/INFO]: Mader400 joined the game
-[13:18:03] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2102ms or 42 ticks behind
-[13:21:28] [Server thread/INFO]: Mader400 lost connection: Disconnected
-[13:21:28] [Server thread/INFO]: Mader400 left the game
-[13:24:21] [Server thread/INFO]: LuisGOd lost connection: Disconnected
-[13:24:21] [Server thread/INFO]: LuisGOd left the game
-[13:24:51] [Server thread/WARN]: M1D4$ moved too quickly! 7.161325299425812,1.7531999805212024,7.031571981672528
-[13:24:53] [Server thread/INFO]: M1D4$ lost connection: Disconnected
-[13:24:53] [Server thread/INFO]: M1D4$ left the game
-[13:30:00] [Server thread/INFO]: There are 1 of a max of 20 players online: Chavola
-[13:43:22] [Server thread/INFO]: Chavola withered away
-[13:48:51] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/32041, l='ServerLevel[world]', x=-258.74, y=77.00, z=-24.58]
-[13:54:49] [Server thread/INFO]: Chavola lost connection: Disconnected
-[13:54:49] [Server thread/INFO]: Chavola left the game
-[13:59:03] [Server thread/INFO]: There are 0 of a max of 20 players online: 
-[13:59:33] [Server thread/INFO]: Chavola[/177.131.79.110:65129] logged in with entity id 32876 at (-239.39127495380072, 77.0, -24.733886730988647)
-[13:59:33] [Server thread/INFO]: Chavola joined the game
-[14:04:46] [Server thread/INFO]: Chavola burned to death
-[14:04:57] [Server thread/INFO]: Chavola lost connection: Disconnected
-[14:04:57] [Server thread/INFO]: Chavola left the game
-[15:37:17] [Server thread/INFO]: Stopping the server
-[15:37:17] [Server thread/INFO]: Stopping server
-[15:37:17] [Server thread/INFO]: Saving players
-[15:37:17] [Server thread/INFO]: Saving worlds
-[15:37:17] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[15:37:18] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[15:37:18] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[15:37:18] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[15:37:18] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[15:37:18] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[15:37:18] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[15:37:18] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[15:37:18] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[20:06:00] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', name='PROD'
+[20:06:00] [main/WARN]: Missing data pack file/anti creeper grief v1.1.0.zip
+[20:06:01] [main/INFO]: Reloading ResourceManager: Default, multiplayer sleep v2.4.3.zip, silk-touch-spawners-v1-3-1565027733.zip, timber v2.1.0.zip, bukkit
+[20:06:01] [Worker-Main-14/INFO]: Loaded 7 recipes
+[20:06:02] [Worker-Main-14/ERROR]: Failed to load function silk_touch_spawners:players/settype_mainhand
+java.util.concurrent.CompletionException: java.lang.NullPointerException
+	at java.util.concurrent.CompletableFuture.encodeThrowable(Unknown Source) ~[?:1.8.0_261]
+	at java.util.concurrent.CompletableFuture.completeThrowable(Unknown Source) [?:1.8.0_261]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(Unknown Source) [?:1.8.0_261]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(Unknown Source) [?:1.8.0_261]
+	at java.util.concurrent.ForkJoinTask.doExec(Unknown Source) [?:1.8.0_261]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(Unknown Source) [?:1.8.0_261]
+	at java.util.concurrent.ForkJoinPool.runWorker(Unknown Source) [?:1.8.0_261]
+	at java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source) [?:1.8.0_261]
+Caused by: java.lang.NullPointerException
+	at org.bukkit.craftbukkit.v1_16_R2.command.VanillaCommandWrapper.getPermission(VanillaCommandWrapper.java:90) ~[spigot.jar:git-Spigot-379750e-43c7ff9]
+	at net.minecraft.server.v1_16_R2.CommandListenerWrapper.hasPermission(CommandListenerWrapper.java:135) ~[spigot.jar:git-Spigot-379750e-43c7ff9]
+	at net.minecraft.server.v1_16_R2.CommandScoreboard.c(SourceFile:64) ~[spigot.jar:git-Spigot-379750e-43c7ff9]
+	at com.mojang.brigadier.tree.CommandNode.canUse(CommandNode.java:79) ~[spigot.jar:git-Spigot-379750e-43c7ff9]
+	at com.mojang.brigadier.CommandDispatcher.parseNodes(CommandDispatcher.java:357) ~[spigot.jar:git-Spigot-379750e-43c7ff9]
+	at com.mojang.brigadier.CommandDispatcher.parse(CommandDispatcher.java:347) ~[spigot.jar:git-Spigot-379750e-43c7ff9]
+	at net.minecraft.server.v1_16_R2.CustomFunction.a(SourceFile:55) ~[spigot.jar:git-Spigot-379750e-43c7ff9]
+	at net.minecraft.server.v1_16_R2.CustomFunctionManager.a(SourceFile:86) ~[spigot.jar:git-Spigot-379750e-43c7ff9]
+	... 6 more
+[20:06:03] [Server thread/INFO]: Starting minecraft server version 1.16.2
+[20:06:03] [Server thread/INFO]: Loading properties
+[20:06:04] [Server thread/INFO]: This server is running CraftBukkit version git-Spigot-379750e-43c7ff9 (MC: 1.16.2) (Implementing API version 1.16.2-R0.1-SNAPSHOT)
+[20:06:04] [Server thread/INFO]: Using 4 threads for Netty based IO
+[20:06:04] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[20:06:04] [Server thread/INFO]: Debug logging is disabled
+[20:06:04] [Server thread/INFO]: Default game type: SURVIVAL
+[20:06:04] [Server thread/INFO]: Generating keypair
+[20:06:04] [Server thread/INFO]: Starting Minecraft server on *:25565
+[20:06:04] [Server thread/INFO]: Using default channel type
+[20:06:07] [Server thread/INFO]: [SkinsRestorer] Loading SkinsRestorer v13.8.4
+[20:06:07] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v7.2.0-beta-04+98f71a3
+[20:06:08] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@6f0ac47f]
+[20:06:08] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.0-beta-04+98f71a3
+[20:06:08] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[20:06:08] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_16_R2 as the Bukkit adapter
+[20:06:09] [Server thread/WARN]: [WorldEdit] ====================================================
+[20:06:09] [Server thread/WARN]: [WorldEdit]  WorldEdit works better if you use Paper 
+[20:06:09] [Server thread/WARN]: [WorldEdit]  as your server software. 
+[20:06:09] [Server thread/WARN]: [WorldEdit]   
+[20:06:09] [Server thread/WARN]: [WorldEdit]  Paper offers significant performance improvements,
+[20:06:09] [Server thread/WARN]: [WorldEdit]  bug fixes, security enhancements and optional
+[20:06:09] [Server thread/WARN]: [WorldEdit]  features for server owners to enhance their server.
+[20:06:09] [Server thread/WARN]: [WorldEdit]   
+[20:06:09] [Server thread/WARN]: [WorldEdit]  Paper includes Timings v2, which is significantly
+[20:06:09] [Server thread/WARN]: [WorldEdit]  better at diagnosing lag problems over v1.
+[20:06:09] [Server thread/WARN]: [WorldEdit]   
+[20:06:09] [Server thread/WARN]: [WorldEdit]  All of your plugins should still work, and the
+[20:06:09] [Server thread/WARN]: [WorldEdit]  Paper community will gladly help you fix any issues.
+[20:06:09] [Server thread/WARN]: [WorldEdit]   
+[20:06:09] [Server thread/WARN]: [WorldEdit]  Join the Paper Community @ https://papermc.io
+[20:06:09] [Server thread/WARN]: [WorldEdit] ====================================================
+[20:06:09] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[20:06:09] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[20:06:09] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[20:06:09] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[20:06:09] [Server thread/INFO]: Preparing level "world"
+[20:06:09] [Server thread/INFO]: -------- World Settings For [world] --------
+[20:06:09] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[20:06:09] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[20:06:09] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[20:06:09] [Server thread/INFO]: Item Despawn Rate: 6000
+[20:06:09] [Server thread/INFO]: Item Merge Radius: 2.5
+[20:06:09] [Server thread/INFO]: View Distance: 10
+[20:06:09] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[20:06:09] [Server thread/INFO]: Mob Spawn Range: 6
+[20:06:09] [Server thread/INFO]: Experience Merge Radius: 3.0
+[20:06:09] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[20:06:09] [Server thread/INFO]: Cane Growth Modifier: 100%
+[20:06:09] [Server thread/INFO]: Melon Growth Modifier: 100%
+[20:06:09] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[20:06:09] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[20:06:09] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[20:06:09] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[20:06:09] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[20:06:09] [Server thread/INFO]: Potato Growth Modifier: 100%
+[20:06:09] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[20:06:09] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[20:06:09] [Server thread/INFO]: Vine Growth Modifier: 100%
+[20:06:09] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[20:06:09] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[20:06:09] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[20:06:09] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[20:06:09] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[20:06:09] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[20:06:09] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[20:06:09] [Server thread/INFO]: Max TNT Explosions: 100
+[20:06:09] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[20:06:09] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[20:06:10] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[20:06:10] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[20:06:10] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[20:06:10] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[20:06:10] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[20:06:10] [Server thread/INFO]: Item Despawn Rate: 6000
+[20:06:10] [Server thread/INFO]: Item Merge Radius: 2.5
+[20:06:10] [Server thread/INFO]: View Distance: 10
+[20:06:10] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[20:06:10] [Server thread/INFO]: Mob Spawn Range: 6
+[20:06:10] [Server thread/INFO]: Experience Merge Radius: 3.0
+[20:06:10] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[20:06:10] [Server thread/INFO]: Cane Growth Modifier: 100%
+[20:06:10] [Server thread/INFO]: Melon Growth Modifier: 100%
+[20:06:10] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[20:06:10] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[20:06:10] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[20:06:10] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[20:06:10] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[20:06:10] [Server thread/INFO]: Potato Growth Modifier: 100%
+[20:06:10] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[20:06:10] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[20:06:10] [Server thread/INFO]: Vine Growth Modifier: 100%
+[20:06:10] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[20:06:10] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[20:06:10] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[20:06:10] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[20:06:10] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[20:06:10] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[20:06:10] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[20:06:10] [Server thread/INFO]: Max TNT Explosions: 100
+[20:06:10] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[20:06:10] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[20:06:10] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[20:06:10] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[20:06:10] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[20:06:10] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[20:06:10] [Server thread/INFO]: Item Despawn Rate: 6000
+[20:06:10] [Server thread/INFO]: Item Merge Radius: 2.5
+[20:06:10] [Server thread/INFO]: View Distance: 10
+[20:06:10] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[20:06:10] [Server thread/INFO]: Mob Spawn Range: 6
+[20:06:10] [Server thread/INFO]: Experience Merge Radius: 3.0
+[20:06:10] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[20:06:10] [Server thread/INFO]: Cane Growth Modifier: 100%
+[20:06:10] [Server thread/INFO]: Melon Growth Modifier: 100%
+[20:06:10] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[20:06:10] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[20:06:10] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[20:06:10] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[20:06:10] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[20:06:10] [Server thread/INFO]: Potato Growth Modifier: 100%
+[20:06:10] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[20:06:10] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[20:06:10] [Server thread/INFO]: Vine Growth Modifier: 100%
+[20:06:10] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[20:06:10] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[20:06:10] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[20:06:10] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[20:06:10] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[20:06:10] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[20:06:10] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[20:06:10] [Server thread/INFO]: Max TNT Explosions: 100
+[20:06:10] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[20:06:10] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[20:06:10] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[20:06:12] [Server thread/INFO]: Preparing spawn area: 0%
+[20:06:12] [Server thread/INFO]: Preparing spawn area: 0%
+[20:06:12] [Server thread/INFO]: Preparing spawn area: 0%
+[20:06:12] [Server thread/INFO]: Preparing spawn area: 0%
+[20:06:12] [Server thread/INFO]: Preparing spawn area: 0%
+[20:06:13] [Server thread/INFO]: Preparing spawn area: 62%
+[20:06:13] [Server thread/INFO]: Time elapsed: 2945 ms
+[20:06:13] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[20:06:16] [Server thread/INFO]: Preparing spawn area: 0%
+[20:06:16] [Server thread/INFO]: Preparing spawn area: 0%
+[20:06:16] [Server thread/INFO]: Preparing spawn area: 0%
+[20:06:16] [Server thread/INFO]: Preparing spawn area: 0%
+[20:06:16] [Server thread/INFO]: Preparing spawn area: 0%
+[20:06:16] [Server thread/INFO]: Preparing spawn area: 0%
+[20:06:16] [Server thread/INFO]: Time elapsed: 2800 ms
+[20:06:16] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[20:06:16] [Server thread/INFO]: Preparing spawn area: 0%
+[20:06:17] [Worker-Main-11/INFO]: Preparing spawn area: 83%
+[20:06:17] [Worker-Main-11/INFO]: Preparing spawn area: 89%
+[20:06:17] [Server thread/INFO]: Time elapsed: 1127 ms
+[20:06:17] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v13.8.4
+[20:06:17] [Server thread/INFO]: [SkinsRestorer] Failed PaperSkinRefresher
+[20:06:17] [Server thread/INFO]: [SkinsRestorer] Using SpigotSkinRefresher
+[20:06:17] [Server thread/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1mDetected Minecraft [0;33;1mv1_16_R2[0;32;1m, using [0;33;1mUniversalSkinFactory[0;32;1m.[m
+[20:06:22] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[20:06:22] [Server thread/INFO]: Done (12.373s)! For help, type "help"
+[20:06:22] [User Authenticator #1/INFO]: UUID of player Bersanii is 890e9fef-3d34-3924-9cad-4f027df79031
+[20:06:22] [Server thread/INFO]: com.mojang.authlib.GameProfile@533cc647[id=890e9fef-3d34-3924-9cad-4f027df79031,name=Bersanii,properties={},legacy=false] (/192.168.0.2:63606) lost connection: Disconnected
+[20:06:23] [Craft Scheduler Thread - 0/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m----------------------------------------------[m
+[20:06:23] [Craft Scheduler Thread - 0/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m    +===============+[m
+[20:06:23] [Craft Scheduler Thread - 0/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m    | SkinsRestorer |[m
+[20:06:23] [Craft Scheduler Thread - 0/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m    |---------------|[m
+[20:06:23] [Craft Scheduler Thread - 0/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m    |  [0;34;1m[4m[21mBukkit only[0;32;1m  |[m
+[20:06:23] [Craft Scheduler Thread - 0/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m    +===============+[m
+[20:06:23] [Craft Scheduler Thread - 0/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m----------------------------------------------[m
+[20:06:23] [Craft Scheduler Thread - 0/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;36;1m    Current version: [0;32;1m13.8.4[m
+[20:06:23] [Craft Scheduler Thread - 0/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m    This is the latest version![m
+[20:06:23] [Craft Scheduler Thread - 0/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m----------------------------------------------[m
+[20:06:27] [User Authenticator #2/INFO]: UUID of player Chavola is fa074574-eb41-3517-848a-2d92151a0d83
+[20:06:28] [Server thread/INFO]: Chavola[/177.131.76.109:2323] logged in with entity id 423 at ([world]-301.47725792520964, 7.839999973773956, 18.30000001192093)
+[20:06:31] [User Authenticator #3/INFO]: UUID of player Bersanii is 890e9fef-3d34-3924-9cad-4f027df79031
+[20:06:32] [Server thread/INFO]: Bersanii[/192.168.0.2:63613] logged in with entity id 513 at ([world]3160.2867503355087, 75.0, -3639.7145052542087)
+[20:06:39] [User Authenticator #4/INFO]: UUID of player BisteK is 4b28f6a2-f5ca-36d5-972a-bb80cf9498d7
+[20:06:39] [Server thread/INFO]: BisteK[/187.255.167.196:56284] logged in with entity id 761 at ([world]549.3872244632693, 73.0, -1675.7596785958733)
+[20:06:40] [User Authenticator #5/INFO]: UUID of player Mader400 is 6c58ad3a-42b1-34d3-9d46-3936faad7ee4
+[20:06:41] [Server thread/INFO]: Mader400[/189.79.174.71:53052] logged in with entity id 989 at ([world]-237.11559643437494, 73.0, -132.78368246435318)
+[20:06:58] [Server thread/INFO]: Bersanii issued server command: /gamemode survival
+[20:06:58] [Server thread/INFO]: [Bersanii: Set own game mode to Survival Mode]
+[20:06:58] [User Authenticator #6/INFO]: UUID of player munaro is f5fe57c2-ddb9-3c7c-9efe-0c776c148433
+[20:06:59] [Server thread/INFO]: munaro[/201.68.78.59:50615] logged in with entity id 1108 at ([world]-214.69999998807907, 9.0, 80.71894155948046)
+[20:07:03] [Async Chat Thread - #0/INFO]: <Bersanii> foi[m
+[20:13:10] [User Authenticator #7/INFO]: UUID of player DezinBugaTudo is 066fa5ba-21a8-32b5-8df4-8d53857e543a
+[20:13:11] [Server thread/INFO]: DezinBugaTudo[/177.131.76.146:19405] logged in with entity id 5334 at ([world]819.3000000119209, 67.0, -2473.8441749541207)
+[20:16:16] [Server thread/INFO]: BisteK issued server command: /tell DezinBugaTudo de quem eh o portal?
+[20:17:19] [Server thread/INFO]: DezinBugaTudo fell from a high place
+[20:17:54] [Server thread/INFO]: Bersanii lost connection: Timed out
+[20:17:54] [Server thread/INFO]: Bersanii left the game
+[20:18:43] [User Authenticator #8/INFO]: UUID of player Bersanii is 890e9fef-3d34-3924-9cad-4f027df79031
+[20:18:43] [Server thread/INFO]: Bersanii[/192.168.0.2:63658] logged in with entity id 10033 at ([world]3160.321384603021, 74.0, -3654.5520104693355)
+[20:21:05] [Server thread/INFO]: DezinBugaTudo tried to swim in lava
+[20:21:29] [Server thread/INFO]: Bersanii fell from a high place
+[20:21:29] [Server thread/INFO]: BisteK burned to death
+[20:21:31] [Server thread/INFO]: Chavola tried to swim in lava
+[20:23:21] [Server thread/INFO]: Bersanii issued server command: /give BisteK minecraft:warped_fungus_on_a_stick 1
+[20:23:21] [Server thread/INFO]: [Bersanii: Gave 1 [Warped Fungus on a Stick] to BisteK]
+[20:23:22] [User Authenticator #9/INFO]: UUID of player LuisGOd is b42f8019-e2bf-3498-a5e2-7cf7a2c13063
+[20:23:22] [Server thread/INFO]: LuisGOd[/177.131.76.146:24823] logged in with entity id 15430 at ([world]812.4970388659181, 75.0, -2468.040579140266)
+[20:25:44] [Server thread/INFO]: Bersanii tried to swim in lava
+[20:26:24] [Server thread/WARN]: Chavola moved too quickly! 0.7535224965402223,-0.20000004768371582,-17.507271559641232
+[20:27:03] [Async Chat Thread - #1/INFO]: <LuisGOd> chavao[m
+[20:27:03] [Server thread/INFO]: Bersanii issued server command: /gamemode creative
+[20:27:03] [Server thread/INFO]: [Bersanii: Set own game mode to Creative Mode]
+[20:27:05] [Async Chat Thread - #1/INFO]: <LuisGOd> pau no cu[m
+[20:27:09] [Server thread/INFO]: Chavola issued server command: /
+[20:27:11] [Server thread/INFO]: Chavola issued server command: /
+[20:27:13] [Server thread/INFO]: Bersanii issued server command: /gamemode survival
+[20:27:13] [Server thread/INFO]: [Bersanii: Set own game mode to Survival Mode]
+[20:27:18] [Async Chat Thread - #1/INFO]: <Chavola> ?[m
+[20:29:37] [Server thread/INFO]: Chavola has made the advancement [Hidden in the Depths]
+[20:29:39] [Server thread/INFO]: BisteK tried to swim in lava
+[20:30:32] [Server thread/INFO]: BisteK fell from a high place
+[20:32:08] [Server thread/INFO]: BisteK tried to swim in lava
+[20:32:41] [Server thread/INFO]: Bersanii issued server command: /time set day
+[20:32:41] [Server thread/INFO]: [Bersanii: Set the time to 1000]
+[20:34:55] [Server thread/INFO]: BisteK has made the advancement [Who is Cutting Onions?]
+[20:37:00] [Server thread/INFO]: Chavola tried to swim in lava
+[20:38:30] [Server thread/WARN]: Boat (vehicle of DezinBugaTudo) moved wrongly! 0.6303521958304827
+[20:38:31] [Server thread/WARN]: Boat (vehicle of DezinBugaTudo) moved wrongly! 0.5104108288237512
+[20:38:31] [Server thread/WARN]: Boat (vehicle of DezinBugaTudo) moved wrongly! 0.2539498261423887
+[20:41:05] [Server thread/INFO]: BisteK lost connection: Disconnected
+[20:41:05] [Server thread/INFO]: BisteK left the game
+[20:41:31] [User Authenticator #10/INFO]: UUID of player BisteK is 4b28f6a2-f5ca-36d5-972a-bb80cf9498d7
+[20:41:32] [Server thread/INFO]: BisteK[/187.255.167.196:56629] logged in with entity id 34385 at ([world]540.4869158163726, 68.8447679954834, -2189.8350542291446)
+[20:42:19] [Server thread/INFO]: Chavola has completed the challenge [Cover Me in Debris]
+[20:42:20] [Server thread/WARN]: Boat (vehicle of BisteK) moved wrongly! 0.2711650603223461
+[20:43:00] [Server thread/INFO]: Bersanii issued server command: /time set day
+[20:43:00] [Server thread/INFO]: [Bersanii: Set the time to 1000]
+[20:43:14] [Server thread/WARN]: Boat (vehicle of DezinBugaTudo) moved wrongly! 0.7953539358419268
+[20:43:14] [Server thread/WARN]: Boat (vehicle of DezinBugaTudo) moved wrongly! 0.7953539358419268
+[20:43:56] [Server thread/INFO]: Bersanii issued server command: /summon minecraft:horse
+[20:43:56] [Server thread/INFO]: [Bersanii: Summoned new Horse]
+[20:44:04] [Server thread/INFO]: Bersanii issued server command: /give Bersanii minecraft:saddle
+[20:44:04] [Server thread/INFO]: [Bersanii: Gave 1 [Saddle] to Bersanii]
+[20:44:06] [Server thread/WARN]: Boat (vehicle of BisteK) moved wrongly! 0.3874078102750817
+[20:44:27] [Server thread/INFO]: munaro has made the advancement [Hot Stuff]
+[20:44:46] [Server thread/INFO]: Bersanii issued server command: /give Bersanii minecraft:apple 64
+[20:44:46] [Server thread/INFO]: [Bersanii: Gave 64 [Apple] to Bersanii]
+[20:45:14] [Server thread/INFO]: Bersanii issued server command: /give Bersanii minecraft:horse_spawn_egg
+[20:45:14] [Server thread/INFO]: [Bersanii: Gave 1 [Horse Spawn Egg] to Bersanii]
+[20:46:24] [Server thread/WARN]: Boat (vehicle of BisteK) moved wrongly! 0.34387820294155214
+[20:46:24] [Server thread/WARN]: Boat (vehicle of BisteK) moved wrongly! 0.34387820294155214
+[20:46:24] [Server thread/WARN]: Boat (vehicle of BisteK) moved wrongly! 0.34387820294155214
+[20:46:24] [Server thread/WARN]: Boat (vehicle of BisteK) moved wrongly! 0.34387820294155214
+[20:46:30] [Server thread/WARN]: DezinBugaTudo moved wrongly!
+[20:49:34] [Server thread/WARN]: Boat (vehicle of BisteK) moved wrongly! 0.3128242403581158
+[20:53:05] [Server thread/WARN]: Horse (vehicle of Mader400) moved wrongly! 0.3288735688745371
+[20:54:04] [Server thread/INFO]: DezinBugaTudo tried to swim in lava
+[20:55:04] [Server thread/INFO]: Bersanii issued server command: /time set day
+[20:55:04] [Server thread/INFO]: [Bersanii: Set the time to 1000]
+[20:55:30] [Server thread/INFO]: LuisGOd was killed by Witch using magic
+[20:55:59] [Async Chat Thread - #2/INFO]: <munaro> seu cachorrooo[m
+[20:56:30] [Async Chat Thread - #2/INFO]: <munaro> senta esse porra ae[m
+[20:57:21] [Async Chat Thread - #2/INFO]: <Mader400> mata o cao[m
+[20:57:24] [Async Chat Thread - #2/INFO]: <munaro> senta o cachorro deabo[m
+[20:57:37] [Async Chat Thread - #2/INFO]: <munaro> faliceu[m
+[20:58:37] [Server thread/INFO]: BisteK burned to death
+[20:58:42] [Server thread/INFO]: DezinBugaTudo burned to death
+[20:59:02] [Server thread/INFO]: Bersanii tried to swim in lava
+[21:00:34] [User Authenticator #11/INFO]: UUID of player M1D4$ is 941e6066-3ab2-3733-a54b-26f4990ee4bc
+[21:00:35] [Server thread/INFO]: M1D4$[/177.101.67.67:49495] logged in with entity id 51720 at ([world]-305.77226170909876, 69.0, -144.1143365043115)
+[21:00:35] [Craft Scheduler Thread - 11/INFO]: [SkinsRestorer] Not applying skin to M1D4$ (invalid username).
+[21:00:37] [Server thread/INFO]: BisteK tried to swim in lava
+[21:01:23] [Server thread/WARN]: M1D4$ moved too quickly! -17.1913838352678,-1.4073954023649407,5.235982964293896
+[21:02:01] [Server thread/INFO]: DezinBugaTudo burned to death
+[21:02:01] [Server thread/INFO]: BisteK tried to swim in lava
+[21:03:16] [Server thread/INFO]: Chavola tried to swim in lava
+[21:04:14] [Server thread/INFO]: BisteK tried to swim in lava
+[21:06:27] [Server thread/WARN]: Bersanii moved wrongly!
+[21:06:27] [Server thread/WARN]: Boat (vehicle of BisteK) moved wrongly! 0.4924515953682089
+[21:06:27] [Server thread/WARN]: Boat (vehicle of BisteK) moved wrongly! 1.1407106145161094
+[21:06:27] [Server thread/WARN]: Boat (vehicle of BisteK) moved wrongly! 0.5694705915377938
+[21:06:27] [Server thread/WARN]: Boat (vehicle of BisteK) moved wrongly! 0.5947494656032859
+[21:06:27] [Server thread/WARN]: Boat (vehicle of BisteK) moved wrongly! 1.3190137366778458
+[21:07:01] [Server thread/INFO]: BisteK tried to swim in lava
+[21:08:15] [Server thread/INFO]: Mader400 lost connection: Disconnected
+[21:08:15] [Server thread/INFO]: Mader400 left the game
+[21:09:33] [Server thread/INFO]: Bersanii fell from a high place
+[21:09:38] [Server thread/WARN]: Boat (vehicle of DezinBugaTudo) moved wrongly! 0.3641313052480655
+[21:09:38] [Server thread/WARN]: Boat (vehicle of DezinBugaTudo) moved wrongly! 0.41744005047610244
+[21:09:49] [Server thread/INFO]: DezinBugaTudo fell from a high place
+[21:10:05] [Server thread/INFO]: munaro tried to swim in lava
+[21:11:14] [Server thread/INFO]: Bersanii fell from a high place
+[21:11:55] [Server thread/INFO]: DezinBugaTudo was fireballed by Ghast
+[21:12:48] [Server thread/INFO]: DezinBugaTudo fell from a high place
+[21:12:50] [Async Chat Thread - #3/INFO]: <munaro> jkkkkkkkkkk[m
+[21:12:58] [Server thread/INFO]: munaro was slain by Enderman
+[21:13:01] [Async Chat Thread - #3/INFO]: <Bersanii> uaehuhaeuhuheauheuhaeuhe[m
+[21:13:06] [Async Chat Thread - #3/INFO]: <munaro> krl akakakakaakakaka[m
+[21:13:12] [Async Chat Thread - #3/INFO]: <Bersanii> ownado[m
+[21:13:15] [Async Chat Thread - #3/INFO]: <DezinBugaTudo> a pista aki é rio de janeiro slc[m
+[21:13:17] [Server thread/INFO]: Bersanii fell from a high place
+[21:15:10] [User Authenticator #12/INFO]: UUID of player Mader400 is 6c58ad3a-42b1-34d3-9d46-3936faad7ee4
+[21:15:11] [Server thread/INFO]: Mader400[/201.92.12.247:53398] logged in with entity id 65200 at ([world_nether]2.170310700145624, 70.0, -288.255023105796)
+[21:15:17] [Server thread/INFO]: munaro has completed the challenge [Cover Me in Debris]
+[21:15:37] [Server thread/INFO]: Mader400 lost connection: Disconnected
+[21:15:37] [Server thread/INFO]: Mader400 left the game
+[21:17:42] [Async Chat Thread - #4/INFO]: <munaro> buceta[m
+[21:18:13] [Async Chat Thread - #4/INFO]: <munaro> comida ae?[m
+[21:18:19] [Async Chat Thread - #4/INFO]: <munaro> god[m
+[21:19:24] [Server thread/INFO]: munaro tried to swim in lava
+[21:23:35] [Server thread/WARN]: Boat (vehicle of DezinBugaTudo) moved wrongly! 0.7120082862232238
+[21:23:35] [Server thread/WARN]: Boat (vehicle of DezinBugaTudo) moved wrongly! 0.8804776249717676
+[21:23:38] [Server thread/WARN]: Boat (vehicle of DezinBugaTudo) moved wrongly! 1.9510487928101767
+[21:24:52] [Server thread/INFO]: M1D4$ lost connection: Disconnected
+[21:24:52] [Server thread/INFO]: M1D4$ left the game
+[21:24:54] [Server thread/INFO]: Bersanii lost connection: Disconnected
+[21:24:54] [Server thread/INFO]: Bersanii left the game
+[21:25:16] [Server thread/INFO]: BisteK lost connection: Disconnected
+[21:25:16] [Server thread/INFO]: BisteK left the game
+[21:27:01] [Server thread/INFO]: munaro was slain by Zombie
+[21:28:23] [Server thread/INFO]: DezinBugaTudo lost connection: Disconnected
+[21:28:23] [Server thread/INFO]: DezinBugaTudo left the game
+[21:29:49] [Server thread/INFO]: LuisGOd was slain by Iron Golem
+[21:37:06] [User Authenticator #13/INFO]: UUID of player DezinBugaTudo is 066fa5ba-21a8-32b5-8df4-8d53857e543a
+[21:37:06] [Server thread/INFO]: DezinBugaTudo[/177.131.76.146:17832] logged in with entity id 75741 at ([world_nether]-0.3124999999999999, 70.5625, -480.31249999999994)
+[21:37:14] [Server thread/INFO]: DezinBugaTudo was fireballed by Ghast
+[21:39:48] [Async Chat Thread - #5/INFO]: <Chavola> escreve ae[m
+[21:39:51] [Async Chat Thread - #5/INFO]: <DezinBugaTudo> oe[m
+[21:39:55] [Async Chat Thread - #5/INFO]: <Chavola> to escutando nada[m
+[21:41:35] [User Authenticator #14/INFO]: UUID of player BisteK is 4b28f6a2-f5ca-36d5-972a-bb80cf9498d7
+[21:41:35] [Server thread/INFO]: BisteK[/187.255.167.196:56940] logged in with entity id 77448 at ([world]535.6999999880791, 63.0, -2182.699999988079)
+[21:42:01] [Server thread/INFO]: munaro issued server command: /tell Chavola cola dd ae
+[21:43:21] [Server thread/INFO]: LuisGOd lost connection: Disconnected
+[21:43:21] [Server thread/INFO]: LuisGOd left the game
+[21:44:03] [Async Chat Thread - #6/INFO]: <munaro> chaves[m
+[21:44:13] [Async Chat Thread - #6/INFO]: <Chavola> olha dd[m
+[21:44:24] [Async Chat Thread - #6/INFO]: <munaro> q tem?[m
+[21:44:27] [Async Chat Thread - #6/INFO]: <munaro> to olhnado[m
+[21:44:31] [Async Chat Thread - #6/INFO]: <Chavola> nos vai no ender[m
+[21:46:32] [Server thread/INFO]: munaro was slain by Zombie
+[21:46:44] [Server thread/INFO]: munaro has made the advancement [Take Aim]
+[21:46:50] [Server thread/INFO]: munaro was slain by Zombie
+[21:46:58] [Server thread/WARN]: munaro moved wrongly!
+[21:47:14] [Server thread/INFO]: BisteK drowned
+[21:48:15] [Server thread/INFO]: munaro was shot by Skeleton
+[21:49:50] [Server thread/INFO]: munaro was slain by Enderman
+[21:51:07] [Server thread/INFO]: [Server] mader gay
+[21:51:23] [Server thread/INFO]: munaro was blown up by Creeper
+[21:52:46] [Server thread/INFO]: Chavola tried to swim in lava
+[21:56:24] [Server thread/INFO]: BisteK lost connection: Disconnected
+[21:56:24] [Server thread/INFO]: BisteK left the game
+[21:57:06] [Server thread/WARN]: munaro moved wrongly!
+[21:57:11] [Server thread/WARN]: munaro was kicked for floating too long!
+[21:57:11] [Server thread/INFO]: munaro lost connection: Flying is not enabled on this server
+[21:57:11] [Server thread/INFO]: munaro left the game
+[21:57:15] [User Authenticator #15/INFO]: UUID of player munaro is f5fe57c2-ddb9-3c7c-9efe-0c776c148433
+[21:57:15] [Server thread/INFO]: munaro[/201.68.78.59:50867] logged in with entity id 85333 at ([world]-154.75935210257205, 88.7425278134708, -152.78839932233984)
+[21:57:33] [Server thread/WARN]: munaro was kicked for floating too long!
+[21:57:33] [Server thread/INFO]: munaro lost connection: Flying is not enabled on this server
+[21:57:33] [Server thread/INFO]: munaro left the game
+[21:57:35] [User Authenticator #16/INFO]: UUID of player munaro is f5fe57c2-ddb9-3c7c-9efe-0c776c148433
+[21:57:35] [Server thread/INFO]: munaro[/201.68.78.59:50870] logged in with entity id 85487 at ([world]-143.3152181270124, 92.71270331500926, -189.44908393551935)
+[21:57:43] [Async Chat Thread - #7/INFO]: <munaro> oxi[m
+[21:58:14] [Server thread/INFO]: munaro has made the advancement [Best Friends Forever]
+[21:59:58] [Server thread/WARN]: munaro was kicked for floating too long!
+[21:59:58] [Server thread/INFO]: munaro lost connection: Flying is not enabled on this server
+[21:59:59] [Server thread/INFO]: munaro left the game
+[22:00:00] [User Authenticator #17/INFO]: UUID of player munaro is f5fe57c2-ddb9-3c7c-9efe-0c776c148433
+[22:00:00] [Server thread/INFO]: munaro[/201.68.78.59:50892] logged in with entity id 86546 at ([world]-108.77288831736861, 106.60239616312309, -222.18157577676274)
+[22:00:13] [Server thread/WARN]: munaro was kicked for floating too long!
+[22:00:13] [Server thread/INFO]: munaro lost connection: Flying is not enabled on this server
+[22:00:13] [Server thread/INFO]: munaro left the game
+[22:00:14] [User Authenticator #18/INFO]: UUID of player munaro is f5fe57c2-ddb9-3c7c-9efe-0c776c148433
+[22:00:14] [Server thread/INFO]: munaro[/201.68.78.59:50893] logged in with entity id 86621 at ([world]-74.55841384693944, 93.96029431448558, -258.9684473537336)
+[22:00:16] [Server thread/WARN]: munaro moved too quickly! 0.30720690608966095,17.96029431448558,0.7451619635972975
+[22:00:54] [Server thread/INFO]: munaro drowned
+[22:04:04] [Server thread/INFO]: munaro issued server command: /back
+[22:05:14] [Server thread/WARN]: munaro was kicked for floating too long!
+[22:05:14] [Server thread/INFO]: munaro lost connection: Flying is not enabled on this server
+[22:05:14] [Server thread/INFO]: munaro left the game
+[22:05:16] [User Authenticator #19/INFO]: UUID of player munaro is f5fe57c2-ddb9-3c7c-9efe-0c776c148433
+[22:05:16] [Server thread/INFO]: munaro[/201.68.78.59:50897] logged in with entity id 88361 at ([world]-135.06797321242857, 90.21282125470688, -332.08581908828785)
+[22:05:23] [Server thread/INFO]: munaro fell from a high place
+[22:06:53] [Server thread/INFO]: DezinBugaTudo issued server command: /w DezinBugaTudo -35 -23
+[22:07:46] [Server thread/INFO]: [Server] to vendo esses comando deh
+[22:08:21] [Server thread/INFO]: Chavola tried to swim in lava
+[22:08:37] [Server thread/INFO]: Chavola lost connection: Disconnected
+[22:08:37] [Server thread/INFO]: Chavola left the game
+[22:09:18] [User Authenticator #20/INFO]: UUID of player Chavola is fa074574-eb41-3517-848a-2d92151a0d83
+[22:09:18] [Server thread/INFO]: Chavola[/177.131.76.109:3077] logged in with entity id 89773 at ([world]-229.9015299699624, 69.0, -8.122123569482968)
+[22:11:38] [Server thread/INFO]: DezinBugaTudo issued server command: /w DezinBugaTudo -8 -4
+[22:14:57] [User Authenticator #21/INFO]: UUID of player Semensato is 3a509864-c19b-35ca-aef5-d344edafcd12
+[22:14:57] [Server thread/INFO]: Semensato[/187.123.177.186:52546] logged in with entity id 91526 at ([world]-246.5, 69.0, -136.5)
+[22:15:13] [Server thread/INFO]: [Server] vou salvat o mundo pq ja faz tempo q n subo
+[22:15:18] [Server thread/INFO]: Semensato lost connection: Disconnected
+[22:15:18] [Server thread/INFO]: Semensato left the game
+[22:15:27] [Server thread/INFO]: [Server] 2 min
+[22:15:33] [Server thread/INFO]: [Server] ja abre dnv
+[22:15:35] [Async Chat Thread - #8/INFO]: <munaro> clam[m
+[22:15:38] [Async Chat Thread - #8/INFO]: <munaro> calmaaa[m
+[22:15:44] [Async Chat Thread - #8/INFO]: <munaro> rapido, vai sumir meu coelho pera[m
+[22:15:49] [Server thread/INFO]: [Server] to esperando
+[22:16:04] [Server thread/INFO]: [Server] manda ai qndo puder
+[22:16:12] [Async Chat Thread - #8/INFO]: <munaro> ok to chegandio[m
+[22:16:24] [Async Chat Thread - #8/INFO]: <munaro> o creeper explodiu ele, pode reiniciar kakaakakaka[m
+[22:16:44] [Server thread/INFO]: Stopping the server
+[22:16:44] [Server thread/INFO]: Stopping server
+[22:16:44] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.0-beta-04+98f71a3
+[22:16:44] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[22:16:45] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v13.8.4
+[22:16:45] [Server thread/INFO]: Saving players
+[22:16:45] [Server thread/INFO]: DezinBugaTudo lost connection: Server closed
+[22:16:45] [Server thread/INFO]: DezinBugaTudo left the game
+[22:16:45] [Server thread/INFO]: munaro lost connection: Server closed
+[22:16:45] [Server thread/INFO]: munaro left the game
+[22:16:45] [Server thread/INFO]: Chavola lost connection: Server closed
+[22:16:45] [Server thread/INFO]: Chavola left the game
+[22:16:45] [Server thread/INFO]: Saving worlds
+[22:16:45] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[22:16:46] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[22:16:46] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[22:16:46] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[22:16:46] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[22:16:46] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[22:16:46] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[22:16:48] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[22:16:48] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved

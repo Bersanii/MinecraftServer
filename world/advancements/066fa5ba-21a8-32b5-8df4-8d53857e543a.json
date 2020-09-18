@@ -389,6 +389,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/sandstone_slab": {
+    "criteria": {
+      "has_sandstone": "2020-09-17 19:42:16 -0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/lectern": {
     "criteria": {
       "has_book": "2020-09-14 04:25:14 -0300"
@@ -628,6 +634,7 @@
       "minecraft:slime": "2020-09-14 03:03:42 -0300",
       "minecraft:zombified_piglin": "2020-09-13 21:50:34 -0300",
       "minecraft:wither_skeleton": "2020-09-15 09:03:38 -0300",
+      "minecraft:husk": "2020-09-17 19:52:58 -0300",
       "minecraft:piglin": "2020-09-15 08:46:44 -0300",
       "minecraft:silverfish": "2020-09-07 21:45:13 -0300",
       "minecraft:enderman": "2020-09-13 21:15:51 -0300",
@@ -646,6 +653,12 @@
   "minecraft:recipes/misc/ender_eye": {
     "criteria": {
       "has_blaze_powder": "2020-09-15 07:56:51 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/netherite_scrap": {
+    "criteria": {
+      "has_ancient_debris": "2020-09-17 18:10:52 -0300"
     },
     "done": true
   },
@@ -1141,6 +1154,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/sandstone_stairs_from_sandstone_stonecutting": {
+    "criteria": {
+      "has_sandstone": "2020-09-17 19:42:16 -0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/polished_blackstone_brick_wall_from_blackstone_stonecutting": {
     "criteria": {
       "has_blackstone": "2020-09-13 21:56:52 -0300"
@@ -1317,10 +1336,12 @@
       "minecraft:forest": "2020-09-13 21:50:01 -0300",
       "minecraft:taiga": "2020-09-07 20:25:48 -0300",
       "minecraft:desert_hills": "2020-09-14 07:07:00 -0300",
+      "minecraft:deep_cold_ocean": "2020-09-17 20:38:29 -0300",
       "minecraft:snowy_tundra": "2020-09-14 00:10:33 -0300",
       "minecraft:taiga_hills": "2020-09-07 20:38:23 -0300",
       "minecraft:desert": "2020-09-14 06:59:13 -0300",
       "minecraft:frozen_river": "2020-09-14 00:10:42 -0300",
+      "minecraft:deep_frozen_ocean": "2020-09-17 20:39:30 -0300",
       "minecraft:jungle": "2020-09-17 02:42:44 -0300",
       "minecraft:birch_forest": "2020-09-14 06:58:21 -0300",
       "minecraft:jungle_hills": "2020-09-17 02:39:04 -0300",
@@ -1452,6 +1473,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/netherite_ingot": {
+    "criteria": {
+      "has_netherite_scrap": "2020-09-17 18:52:04 -0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/cut_sandstone_slab": {
     "criteria": {
       "has_cut_sandstone": "2020-09-14 07:00:13 -0300"
@@ -1537,6 +1564,12 @@
       "minecraft:basalt_deltas": "2020-09-13 21:51:03 -0300"
     },
     "done": false
+  },
+  "minecraft:recipes/decorations/sandstone_wall": {
+    "criteria": {
+      "has_sandstone": "2020-09-17 19:42:16 -0300"
+    },
+    "done": true
   },
   "minecraft:recipes/misc/gold_nugget_from_smelting": {
     "criteria": {
@@ -1724,6 +1757,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/cut_sandstone_from_sandstone_stonecutting": {
+    "criteria": {
+      "has_sandstone": "2020-09-17 19:42:16 -0300"
+    },
+    "done": true
+  },
   "minecraft:nether/root": {
     "criteria": {
       "entered_nether": "2020-09-13 21:51:02 -0300"
@@ -1808,6 +1847,12 @@
     },
     "done": true
   },
+  "minecraft:nether/obtain_ancient_debris": {
+    "criteria": {
+      "ancient_debris": "2020-09-17 18:10:52 -0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/black_bed_from_white_bed": {
     "criteria": {
       "has_bed": "2020-09-13 23:50:18 -0300"
@@ -1817,6 +1862,12 @@
   "minecraft:recipes/decorations/blue_stained_glass_pane_from_glass_pane": {
     "criteria": {
       "has_glass_pane": "2020-09-16 01:57:16 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/netherite_scrap_from_blasting": {
+    "criteria": {
+      "has_ancient_debris": "2020-09-17 18:10:52 -0300"
     },
     "done": true
   },
@@ -1847,6 +1898,12 @@
   "minecraft:recipes/decorations/red_carpet_from_white_carpet": {
     "criteria": {
       "has_red_dye": "2020-09-16 12:07:49 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/packed_ice": {
+    "criteria": {
+      "has_ice": "2020-09-17 20:43:18 -0300"
     },
     "done": true
   },
@@ -1989,6 +2046,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/chiseled_sandstone_from_sandstone_stonecutting": {
+    "criteria": {
+      "has_sandstone": "2020-09-17 19:42:16 -0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/yellow_bed_from_white_bed": {
     "criteria": {
       "has_bed": "2020-09-13 23:50:18 -0300"
@@ -2109,6 +2172,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/smooth_sandstone": {
+    "criteria": {
+      "has_sandstone": "2020-09-17 19:42:16 -0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/granite": {
     "criteria": {
       "has_quartz": "2020-09-13 21:56:06 -0300"
@@ -2118,6 +2187,12 @@
   "minecraft:recipes/building_blocks/purple_concrete_powder": {
     "criteria": {
       "has_gravel": "2020-09-07 20:47:56 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cut_sandstone_slab_from_cut_sandstone_stonecutting": {
+    "criteria": {
+      "has_cut_sandstone": "2020-09-17 19:42:16 -0300"
     },
     "done": true
   },
@@ -2398,6 +2473,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/blue_ice": {
+    "criteria": {
+      "has_packed_ice": "2020-09-17 20:39:28 -0300"
+    },
+    "done": true
+  },
   "minecraft:adventure/trade": {
     "criteria": {
       "traded": "2020-09-16 00:21:28 -0300"
@@ -2557,6 +2638,12 @@
   "minecraft:recipes/decorations/birch_fence": {
     "criteria": {
       "has_planks": "2020-09-15 20:27:49 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/sandstone_wall_from_sandstone_stonecutting": {
+    "criteria": {
+      "has_sandstone": "2020-09-17 19:42:16 -0300"
     },
     "done": true
   },
@@ -2836,6 +2923,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/cut_sandstone_slab_from_sandstone_stonecutting": {
+    "criteria": {
+      "has_sandstone": "2020-09-17 19:42:16 -0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/oak_pressure_plate": {
     "criteria": {
       "has_planks": "2020-09-14 20:37:18 -0300"
@@ -2851,6 +2944,12 @@
   "minecraft:recipes/decorations/white_stained_glass_pane_from_glass_pane": {
     "criteria": {
       "has_glass_pane": "2020-09-16 01:57:16 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cut_sandstone": {
+    "criteria": {
+      "has_sandstone": "2020-09-17 19:42:16 -0300"
     },
     "done": true
   },
@@ -2896,6 +2995,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/sandstone_slab_from_sandstone_stonecutting": {
+    "criteria": {
+      "has_sandstone": "2020-09-17 19:42:16 -0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/coal": {
     "criteria": {
       "has_coal_block": "2020-09-15 23:16:24 -0300"
@@ -2917,6 +3022,12 @@
   "minecraft:recipes/building_blocks/jungle_slab": {
     "criteria": {
       "has_planks": "2020-09-17 02:41:14 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/quartz_from_blasting": {
+    "criteria": {
+      "has_nether_quartz_ore": "2020-09-17 18:13:36 -0300"
     },
     "done": true
   },
@@ -3232,6 +3343,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/quartz": {
+    "criteria": {
+      "has_nether_quartz_ore": "2020-09-17 18:13:36 -0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/yellow_carpet_from_white_carpet": {
     "criteria": {
       "has_yellow_dye": "2020-09-16 12:08:40 -0300"
@@ -3247,12 +3364,6 @@
   "minecraft:recipes/combat/diamond_boots": {
     "criteria": {
       "has_diamond": "2020-09-07 21:19:47 -0300"
-    },
-    "done": true
-  },
-  "vanillatweaks:anti_creeper_grief": {
-    "criteria": {
-      "tick": "2020-09-13 21:41:00 -0300"
     },
     "done": true
   },
@@ -3286,5 +3397,5 @@
     },
     "done": true
   },
-  "DataVersion": 2580
+  "DataVersion": 2578
 }

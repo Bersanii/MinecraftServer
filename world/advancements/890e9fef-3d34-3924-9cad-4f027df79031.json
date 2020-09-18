@@ -377,6 +377,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/lime_dye": {
+    "criteria": {
+      "has_white_dye": "2020-09-17 19:47:54 -0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/leather_leggings": {
     "criteria": {
       "has_leather": "2020-09-13 16:33:02 -0300"
@@ -446,6 +452,12 @@
   "minecraft:recipes/building_blocks/blue_wool": {
     "criteria": {
       "has_white_wool": "2020-09-13 22:35:45 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/magenta_dye_from_purple_and_pink": {
+    "criteria": {
+      "has_purple_dye": "2020-09-17 19:47:47 -0300"
     },
     "done": true
   },
@@ -803,6 +815,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/light_blue_dye_from_blue_white_dye": {
+    "criteria": {
+      "has_blue_dye": "2020-09-17 19:47:45 -0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/blue_dye": {
     "criteria": {
       "has_lapis_lazuli": "2020-09-13 17:07:33 -0300"
@@ -869,9 +887,27 @@
     },
     "done": true
   },
+  "minecraft:husbandry/tame_an_animal": {
+    "criteria": {
+      "tamed_animal": "2020-09-17 18:27:01 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/pink_dye_from_red_white_dye": {
+    "criteria": {
+      "has_white_dye": "2020-09-17 19:47:54 -0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/granite_stairs": {
     "criteria": {
       "has_granite": "2020-09-10 19:43:23 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/cyan_dye": {
+    "criteria": {
+      "has_blue_dye": "2020-09-17 19:47:45 -0300"
     },
     "done": true
   },
@@ -1277,6 +1313,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/gray_dye": {
+    "criteria": {
+      "has_white_dye": "2020-09-17 19:47:54 -0300"
+    },
+    "done": true
+  },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:cold_ocean": "2020-09-17 01:03:00 -0300",
@@ -1285,13 +1327,16 @@
       "minecraft:mountains": "2020-09-13 16:54:17 -0300",
       "minecraft:taiga": "2020-09-10 19:32:10 -0300",
       "minecraft:desert_hills": "2020-09-16 19:21:34 -0300",
+      "minecraft:deep_cold_ocean": "2020-09-17 20:38:28 -0300",
       "minecraft:snowy_tundra": "2020-09-13 18:23:19 -0300",
       "minecraft:taiga_hills": "2020-09-10 19:35:22 -0300",
       "minecraft:desert": "2020-09-15 21:02:13 -0300",
       "minecraft:frozen_river": "2020-09-13 18:23:24 -0300",
+      "minecraft:deep_frozen_ocean": "2020-09-17 20:39:14 -0300",
       "minecraft:jungle": "2020-09-17 01:58:08 -0300",
       "minecraft:birch_forest": "2020-09-16 19:18:41 -0300",
       "minecraft:jungle_hills": "2020-09-17 01:21:48 -0300",
+      "minecraft:bamboo_jungle": "2020-09-17 18:07:30 -0300",
       "minecraft:beach": "2020-09-16 19:19:05 -0300",
       "minecraft:dark_forest": "2020-09-13 17:01:06 -0300",
       "minecraft:river": "2020-09-10 19:36:21 -0300",
@@ -1387,6 +1432,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/purple_dye": {
+    "criteria": {
+      "has_blue_dye": "2020-09-17 19:47:45 -0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/cobblestone_wall_from_cobblestone_stonecutting": {
     "criteria": {
       "has_cobblestone": "2020-09-10 19:35:16 -0300"
@@ -1426,6 +1477,12 @@
   "minecraft:recipes/building_blocks/quartz_bricks_from_quartz_block_stonecutting": {
     "criteria": {
       "has_quartz_block": "2020-09-16 20:37:36 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/light_gray_dye_from_gray_white_dye": {
+    "criteria": {
+      "has_white_dye": "2020-09-17 19:47:54 -0300"
     },
     "done": true
   },
@@ -1539,6 +1596,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/orange_dye_from_red_yellow": {
+    "criteria": {
+      "has_yellow_dye": "2020-09-17 19:47:04 -0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/stone_axe": {
     "criteria": {
       "has_cobblestone": "2020-09-10 19:35:16 -0300"
@@ -1548,6 +1611,12 @@
   "minecraft:recipes/food/cooked_mutton": {
     "criteria": {
       "has_mutton": "2020-09-13 22:35:45 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/light_gray_dye_from_black_white_dye": {
+    "criteria": {
+      "has_white_dye": "2020-09-17 19:47:54 -0300"
     },
     "done": true
   },
@@ -1614,6 +1683,12 @@
   "minecraft:nether/root": {
     "criteria": {
       "entered_nether": "2020-09-12 00:53:35 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/green_dye": {
+    "criteria": {
+      "has_cactus": "2020-09-17 20:31:18 -0300"
     },
     "done": true
   },
@@ -1975,6 +2050,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/magenta_dye_from_blue_red_white_dye": {
+    "criteria": {
+      "has_blue_dye": "2020-09-17 19:47:45 -0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/tnt": {
     "criteria": {
       "has_gunpowder": "2020-09-12 02:24:26 -0300"
@@ -2284,6 +2365,12 @@
   "minecraft:recipes/decorations/green_bed_from_white_bed": {
     "criteria": {
       "has_bed": "2020-09-16 21:11:24 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/blue_ice": {
+    "criteria": {
+      "has_packed_ice": "2020-09-17 20:39:14 -0300"
     },
     "done": true
   },
@@ -2815,6 +2902,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/magenta_dye_from_blue_red_pink": {
+    "criteria": {
+      "has_blue_dye": "2020-09-17 19:47:45 -0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/blue_carpet_from_white_carpet": {
     "criteria": {
       "has_white_carpet": "2020-09-13 17:54:28 -0300"
@@ -3085,12 +3178,6 @@
     },
     "done": true
   },
-  "vanillatweaks:anti_creeper_grief": {
-    "criteria": {
-      "tick": "2020-09-13 21:41:00 -0300"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/soul_campfire": {
     "criteria": {
       "has_stick": "2020-09-10 19:43:11 -0300"
@@ -3133,5 +3220,5 @@
     },
     "done": true
   },
-  "DataVersion": 2580
+  "DataVersion": 2578
 }
