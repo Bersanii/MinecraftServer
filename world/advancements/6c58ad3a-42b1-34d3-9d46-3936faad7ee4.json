@@ -311,6 +311,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/emerald_block": {
+    "criteria": {
+      "has_emerald": "2020-09-18 18:41:41 -0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/food/cake": {
     "criteria": {
       "has_egg": "2020-09-15 18:10:52 -0300"
@@ -345,8 +351,10 @@
     "criteria": {
       "cooked_porkchop": "2020-09-17 21:05:37 -0300",
       "chicken": "2020-09-17 20:34:35 -0300",
+      "cooked_mutton": "2020-09-18 18:43:06 -0300",
       "sweet_berries": "2020-09-17 20:36:26 -0300",
       "beef": "2020-09-17 20:22:30 -0300",
+      "baked_potato": "2020-09-18 18:43:01 -0300",
       "porkchop": "2020-09-17 20:14:06 -0300",
       "mutton": "2020-09-17 13:01:17 -0300",
       "bread": "2020-09-16 18:46:43 -0300",
@@ -561,6 +569,12 @@
     },
     "done": true
   },
+  "minecraft:husbandry/bred_all_animals": {
+    "criteria": {
+      "minecraft:fox": "2020-09-18 20:53:29 -0300"
+    },
+    "done": false
+  },
   "minecraft:recipes/building_blocks/andesite_stairs_from_andesite_stonecutting": {
     "criteria": {
       "has_andesite": "2020-09-14 21:33:21 -0300"
@@ -684,6 +698,12 @@
   "minecraft:recipes/tools/iron_hoe": {
     "criteria": {
       "has_iron_ingot": "2020-09-14 22:08:08 -0300"
+    },
+    "done": true
+  },
+  "minecraft:story/lava_bucket": {
+    "criteria": {
+      "lava_bucket": "2020-09-18 19:06:00 -0300"
     },
     "done": true
   },
@@ -888,10 +908,12 @@
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
       "minecraft:skeleton": "2020-09-15 18:49:55 -0300",
+      "minecraft:magma_cube": "2020-09-18 21:05:44 -0300",
       "minecraft:spider": "2020-09-15 18:17:24 -0300",
       "minecraft:slime": "2020-09-16 18:04:12 -0300",
       "minecraft:zombified_piglin": "2020-09-17 13:07:18 -0300",
       "minecraft:enderman": "2020-09-17 20:20:23 -0300",
+      "minecraft:silverfish": "2020-09-18 19:18:17 -0300",
       "minecraft:zombie": "2020-09-15 18:05:33 -0300"
     },
     "done": false
@@ -1783,6 +1805,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/netherite_ingot": {
+    "criteria": {
+      "has_netherite_scrap": "2020-09-18 21:02:05 -0300"
+    },
+    "done": true
+  },
   "minecraft:nether/netherite_armor": {
     "criteria": {
       "netherite_armor": "2020-09-17 19:08:01 -0300"
@@ -1864,6 +1892,12 @@
   "minecraft:recipes/building_blocks/polished_granite": {
     "criteria": {
       "has_stone": "2020-09-14 22:02:15 -0300"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/breed_an_animal": {
+    "criteria": {
+      "bred": "2020-09-18 20:53:29 -0300"
     },
     "done": true
   },

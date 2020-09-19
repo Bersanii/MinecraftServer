@@ -1396,6 +1396,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/light_gray_bed": {
+    "criteria": {
+      "has_light_gray_wool": "2020-09-18 19:10:03 -0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/painting": {
     "criteria": {
       "has_wool": "2020-09-13 22:38:16 -0300"
@@ -1525,6 +1531,12 @@
   "minecraft:recipes/building_blocks/gray_concrete_powder": {
     "criteria": {
       "has_gravel": "2020-09-15 14:40:44 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/light_gray_banner": {
+    "criteria": {
+      "has_light_gray_wool": "2020-09-18 19:10:03 -0300"
     },
     "done": true
   },
@@ -1883,6 +1895,7 @@
       "minecraft:warm_ocean": "2020-09-17 23:20:20 -0300",
       "minecraft:deep_lukewarm_ocean": "2020-09-17 23:19:48 -0300",
       "minecraft:beach": "2020-09-16 21:56:56 -0300",
+      "minecraft:dark_forest": "2020-09-18 18:48:23 -0300",
       "minecraft:river": "2020-09-13 22:10:52 -0300",
       "minecraft:lukewarm_ocean": "2020-09-16 21:57:39 -0300",
       "minecraft:birch_forest_hills": "2020-09-16 21:47:21 -0300",
@@ -1916,6 +1929,12 @@
   "minecraft:recipes/combat/stone_sword": {
     "criteria": {
       "has_cobblestone": "2020-09-13 22:01:32 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/light_gray_carpet": {
+    "criteria": {
+      "has_light_gray_wool": "2020-09-18 19:10:03 -0300"
     },
     "done": true
   },
