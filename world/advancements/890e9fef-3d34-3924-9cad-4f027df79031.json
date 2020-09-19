@@ -864,6 +864,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/coal_from_blasting": {
+    "criteria": {
+      "has_coal_ore": "2020-09-19 01:26:43 -0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/gold_ingot_from_gold_block": {
     "criteria": {
       "has_gold_block": "2020-09-14 21:21:37 -0300"
@@ -1941,6 +1947,7 @@
       "mutton": "2020-09-13 23:49:04 -0300",
       "bread": "2020-09-13 16:55:59 -0300",
       "melon_slice": "2020-09-14 22:21:31 -0300",
+      "golden_carrot": "2020-09-19 01:19:11 -0300",
       "cooked_chicken": "2020-09-18 00:15:25 -0300",
       "carrot": "2020-09-14 22:06:03 -0300"
     },
@@ -2801,6 +2808,12 @@
   "minecraft:recipes/tools/netherite_axe_smithing": {
     "criteria": {
       "has_netherite_ingot": "2020-09-12 02:32:30 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/coal_from_smelting": {
+    "criteria": {
+      "has_coal_ore": "2020-09-19 01:26:43 -0300"
     },
     "done": true
   },
