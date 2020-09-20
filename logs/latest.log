@@ -1,270 +1,204 @@
-[16:21:41] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', name='PROD'
-[16:21:42] [main/INFO]: Reloading ResourceManager: Default, multiplayer sleep v2.4.3.zip, silk-touch-spawners-v1-3-1565027733.zip, timber v2.1.0.zip, bukkit
-[16:21:42] [Worker-Main-10/INFO]: Loaded 7 recipes
-[16:21:43] [Worker-Main-10/ERROR]: Failed to load function silk_touch_spawners:detection/detect
-java.util.concurrent.CompletionException: java.lang.NullPointerException
-	at java.util.concurrent.CompletableFuture.encodeThrowable(Unknown Source) ~[?:1.8.0_111]
-	at java.util.concurrent.CompletableFuture.completeThrowable(Unknown Source) [?:1.8.0_111]
-	at java.util.concurrent.CompletableFuture$AsyncSupply.run(Unknown Source) [?:1.8.0_111]
-	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(Unknown Source) [?:1.8.0_111]
-	at java.util.concurrent.ForkJoinTask.doExec(Unknown Source) [?:1.8.0_111]
-	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(Unknown Source) [?:1.8.0_111]
-	at java.util.concurrent.ForkJoinPool.runWorker(Unknown Source) [?:1.8.0_111]
-	at java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source) [?:1.8.0_111]
-Caused by: java.lang.NullPointerException
-	at org.bukkit.craftbukkit.v1_16_R2.command.VanillaCommandWrapper.getPermission(VanillaCommandWrapper.java:90) ~[spigot.jar:git-Spigot-379750e-43c7ff9]
-	at net.minecraft.server.v1_16_R2.CommandListenerWrapper.hasPermission(CommandListenerWrapper.java:135) ~[spigot.jar:git-Spigot-379750e-43c7ff9]
-	at net.minecraft.server.v1_16_R2.CommandFunction.a(SourceFile:29) ~[spigot.jar:git-Spigot-379750e-43c7ff9]
-	at com.mojang.brigadier.tree.CommandNode.canUse(CommandNode.java:79) ~[spigot.jar:git-Spigot-379750e-43c7ff9]
-	at com.mojang.brigadier.CommandDispatcher.parseNodes(CommandDispatcher.java:357) ~[spigot.jar:git-Spigot-379750e-43c7ff9]
-	at com.mojang.brigadier.CommandDispatcher.parseNodes(CommandDispatcher.java:387) ~[spigot.jar:git-Spigot-379750e-43c7ff9]
-	at com.mojang.brigadier.CommandDispatcher.parseNodes(CommandDispatcher.java:387) ~[spigot.jar:git-Spigot-379750e-43c7ff9]
-	at com.mojang.brigadier.CommandDispatcher.parseNodes(CommandDispatcher.java:391) ~[spigot.jar:git-Spigot-379750e-43c7ff9]
-	at com.mojang.brigadier.CommandDispatcher.parseNodes(CommandDispatcher.java:391) ~[spigot.jar:git-Spigot-379750e-43c7ff9]
-	at com.mojang.brigadier.CommandDispatcher.parseNodes(CommandDispatcher.java:391) ~[spigot.jar:git-Spigot-379750e-43c7ff9]
-	at com.mojang.brigadier.CommandDispatcher.parseNodes(CommandDispatcher.java:387) ~[spigot.jar:git-Spigot-379750e-43c7ff9]
-	at com.mojang.brigadier.CommandDispatcher.parseNodes(CommandDispatcher.java:391) ~[spigot.jar:git-Spigot-379750e-43c7ff9]
-	at com.mojang.brigadier.CommandDispatcher.parseNodes(CommandDispatcher.java:391) ~[spigot.jar:git-Spigot-379750e-43c7ff9]
-	at com.mojang.brigadier.CommandDispatcher.parse(CommandDispatcher.java:347) ~[spigot.jar:git-Spigot-379750e-43c7ff9]
-	at net.minecraft.server.v1_16_R2.CustomFunction.a(SourceFile:55) ~[spigot.jar:git-Spigot-379750e-43c7ff9]
-	at net.minecraft.server.v1_16_R2.CustomFunctionManager.a(SourceFile:86) ~[spigot.jar:git-Spigot-379750e-43c7ff9]
-	... 6 more
-[16:21:43] [Worker-Main-10/ERROR]: Failed to load function silk_touch_spawners:spawner/settype
-java.util.concurrent.CompletionException: java.lang.NullPointerException
-	at java.util.concurrent.CompletableFuture.encodeThrowable(Unknown Source) ~[?:1.8.0_111]
-	at java.util.concurrent.CompletableFuture.completeThrowable(Unknown Source) [?:1.8.0_111]
-	at java.util.concurrent.CompletableFuture$AsyncSupply.run(Unknown Source) [?:1.8.0_111]
-	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(Unknown Source) [?:1.8.0_111]
-	at java.util.concurrent.ForkJoinTask.doExec(Unknown Source) [?:1.8.0_111]
-	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(Unknown Source) [?:1.8.0_111]
-	at java.util.concurrent.ForkJoinPool.runWorker(Unknown Source) [?:1.8.0_111]
-	at java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source) [?:1.8.0_111]
-Caused by: java.lang.NullPointerException
-	at org.bukkit.craftbukkit.v1_16_R2.command.VanillaCommandWrapper.getPermission(VanillaCommandWrapper.java:90) ~[spigot.jar:git-Spigot-379750e-43c7ff9]
-	at net.minecraft.server.v1_16_R2.CommandListenerWrapper.hasPermission(CommandListenerWrapper.java:135) ~[spigot.jar:git-Spigot-379750e-43c7ff9]
-	at net.minecraft.server.v1_16_R2.CommandExecute.b(SourceFile:123) ~[spigot.jar:git-Spigot-379750e-43c7ff9]
-	at com.mojang.brigadier.tree.CommandNode.canUse(CommandNode.java:79) ~[spigot.jar:git-Spigot-379750e-43c7ff9]
-	at com.mojang.brigadier.CommandDispatcher.parseNodes(CommandDispatcher.java:357) ~[spigot.jar:git-Spigot-379750e-43c7ff9]
-	at com.mojang.brigadier.CommandDispatcher.parse(CommandDispatcher.java:347) ~[spigot.jar:git-Spigot-379750e-43c7ff9]
-	at net.minecraft.server.v1_16_R2.CustomFunction.a(SourceFile:55) ~[spigot.jar:git-Spigot-379750e-43c7ff9]
-	at net.minecraft.server.v1_16_R2.CustomFunctionManager.a(SourceFile:86) ~[spigot.jar:git-Spigot-379750e-43c7ff9]
-	... 6 more
-[16:21:44] [Server thread/INFO]: Starting minecraft server version 1.16.2
-[16:21:44] [Server thread/INFO]: Loading properties
-[16:21:44] [Server thread/INFO]: This server is running CraftBukkit version git-Spigot-379750e-43c7ff9 (MC: 1.16.2) (Implementing API version 1.16.2-R0.1-SNAPSHOT)
-[16:21:44] [Server thread/INFO]: Debug logging is disabled
-[16:21:44] [Server thread/INFO]: Using 4 threads for Netty based IO
-[16:21:44] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[16:21:44] [Server thread/INFO]: Default game type: SURVIVAL
-[16:21:44] [Server thread/INFO]: Generating keypair
-[16:21:44] [Server thread/INFO]: Starting Minecraft server on *:25565
-[16:21:44] [Server thread/INFO]: Using default channel type
-[16:21:47] [Server thread/INFO]: [SkinsRestorer] Loading SkinsRestorer v13.8.4
-[16:21:47] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v7.2.0-beta-04+98f71a3
-[16:21:47] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@7e052fda]
-[16:21:47] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.0-beta-04+98f71a3
-[16:21:47] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
-[16:21:48] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_16_R2 as the Bukkit adapter
-[16:21:49] [Server thread/WARN]: [WorldEdit] ====================================================
-[16:21:49] [Server thread/WARN]: [WorldEdit]  WorldEdit works better if you use Paper 
-[16:21:49] [Server thread/WARN]: [WorldEdit]  as your server software. 
-[16:21:49] [Server thread/WARN]: [WorldEdit]   
-[16:21:49] [Server thread/WARN]: [WorldEdit]  Paper offers significant performance improvements,
-[16:21:49] [Server thread/WARN]: [WorldEdit]  bug fixes, security enhancements and optional
-[16:21:49] [Server thread/WARN]: [WorldEdit]  features for server owners to enhance their server.
-[16:21:49] [Server thread/WARN]: [WorldEdit]   
-[16:21:49] [Server thread/WARN]: [WorldEdit]  Paper includes Timings v2, which is significantly
-[16:21:49] [Server thread/WARN]: [WorldEdit]  better at diagnosing lag problems over v1.
-[16:21:49] [Server thread/WARN]: [WorldEdit]   
-[16:21:49] [Server thread/WARN]: [WorldEdit]  All of your plugins should still work, and the
-[16:21:49] [Server thread/WARN]: [WorldEdit]  Paper community will gladly help you fix any issues.
-[16:21:49] [Server thread/WARN]: [WorldEdit]   
-[16:21:49] [Server thread/WARN]: [WorldEdit]  Join the Paper Community @ https://papermc.io
-[16:21:49] [Server thread/WARN]: [WorldEdit] ====================================================
-[16:21:49] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[16:21:49] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[16:21:49] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[16:21:49] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[16:21:49] [Server thread/INFO]: Preparing level "world"
-[16:21:49] [Server thread/INFO]: -------- World Settings For [world] --------
-[16:21:49] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[16:21:49] [Server thread/INFO]: Cane Growth Modifier: 100%
-[16:21:49] [Server thread/INFO]: Melon Growth Modifier: 100%
-[16:21:49] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[16:21:49] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[16:21:49] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[16:21:49] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[16:21:49] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[16:21:49] [Server thread/INFO]: Potato Growth Modifier: 100%
-[16:21:49] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[16:21:49] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[16:21:49] [Server thread/INFO]: Vine Growth Modifier: 100%
-[16:21:49] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[16:21:49] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[16:21:49] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[16:21:49] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[16:21:49] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[16:21:49] [Server thread/INFO]: Experience Merge Radius: 3.0
-[16:21:49] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[16:21:49] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[16:21:49] [Server thread/INFO]: Item Despawn Rate: 6000
-[16:21:49] [Server thread/INFO]: Item Merge Radius: 2.5
-[16:21:49] [Server thread/INFO]: View Distance: 10
-[16:21:49] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[16:21:49] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
-[16:21:49] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[16:21:49] [Server thread/INFO]: Max TNT Explosions: 100
-[16:21:49] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[16:21:49] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[16:21:49] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
-[16:21:49] [Server thread/INFO]: Mob Spawn Range: 6
-[16:21:49] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
-[16:21:49] [Server thread/INFO]: -------- World Settings For [world_nether] --------
-[16:21:49] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[16:21:49] [Server thread/INFO]: Cane Growth Modifier: 100%
-[16:21:49] [Server thread/INFO]: Melon Growth Modifier: 100%
-[16:21:49] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[16:21:49] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[16:21:49] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[16:21:49] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[16:21:49] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[16:21:49] [Server thread/INFO]: Potato Growth Modifier: 100%
-[16:21:49] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[16:21:49] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[16:21:49] [Server thread/INFO]: Vine Growth Modifier: 100%
-[16:21:49] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[16:21:49] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[16:21:49] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[16:21:49] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[16:21:49] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[16:21:49] [Server thread/INFO]: Experience Merge Radius: 3.0
-[16:21:49] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[16:21:49] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[16:21:49] [Server thread/INFO]: Item Despawn Rate: 6000
-[16:21:49] [Server thread/INFO]: Item Merge Radius: 2.5
-[16:21:49] [Server thread/INFO]: View Distance: 10
-[16:21:49] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[16:21:49] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
-[16:21:49] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[16:21:49] [Server thread/INFO]: Max TNT Explosions: 100
-[16:21:49] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[16:21:49] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[16:21:49] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
-[16:21:49] [Server thread/INFO]: Mob Spawn Range: 6
-[16:21:50] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
-[16:21:50] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[16:21:50] [Server thread/INFO]: Cane Growth Modifier: 100%
-[16:21:50] [Server thread/INFO]: Melon Growth Modifier: 100%
-[16:21:50] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[16:21:50] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[16:21:50] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[16:21:50] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[16:21:50] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[16:21:50] [Server thread/INFO]: Potato Growth Modifier: 100%
-[16:21:50] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[16:21:50] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[16:21:50] [Server thread/INFO]: Vine Growth Modifier: 100%
-[16:21:50] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[16:21:50] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[16:21:50] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[16:21:50] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[16:21:50] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[16:21:50] [Server thread/INFO]: Experience Merge Radius: 3.0
-[16:21:50] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[16:21:50] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[16:21:50] [Server thread/INFO]: Item Despawn Rate: 6000
-[16:21:50] [Server thread/INFO]: Item Merge Radius: 2.5
-[16:21:50] [Server thread/INFO]: View Distance: 10
-[16:21:50] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[16:21:50] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
-[16:21:50] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[16:21:50] [Server thread/INFO]: Max TNT Explosions: 100
-[16:21:50] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[16:21:50] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[16:21:50] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
-[16:21:50] [Server thread/INFO]: Mob Spawn Range: 6
-[16:21:50] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[16:21:51] [Server thread/INFO]: Preparing spawn area: 0%
-[16:21:51] [Server thread/INFO]: Preparing spawn area: 0%
-[16:21:51] [Server thread/INFO]: Preparing spawn area: 0%
-[16:21:51] [Server thread/INFO]: Time elapsed: 1612 ms
-[16:21:51] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[16:21:53] [Server thread/INFO]: Preparing spawn area: 0%
-[16:21:53] [Server thread/INFO]: Preparing spawn area: 0%
-[16:21:53] [Server thread/INFO]: Preparing spawn area: 0%
-[16:21:53] [Server thread/INFO]: Preparing spawn area: 0%
-[16:21:53] [Server thread/INFO]: Time elapsed: 1935 ms
-[16:21:53] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[16:21:54] [Server thread/INFO]: Preparing spawn area: 0%
-[16:21:54] [Server thread/INFO]: Preparing spawn area: 0%
-[16:21:54] [Worker-Main-9/INFO]: Preparing spawn area: 83%
-[16:21:55] [Server thread/INFO]: Time elapsed: 1401 ms
-[16:21:55] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v13.8.4
-[16:21:55] [Server thread/INFO]: [SkinsRestorer] Failed PaperSkinRefresher
-[16:21:55] [Server thread/INFO]: [SkinsRestorer] Using SpigotSkinRefresher
-[16:21:55] [Server thread/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1mDetected Minecraft [0;33;1mv1_16_R2[0;32;1m, using [0;33;1mUniversalSkinFactory[0;32;1m.[m
-[16:21:58] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[16:21:58] [Server thread/INFO]: Done (9.499s)! For help, type "help"
-[16:21:59] [Craft Scheduler Thread - 0/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m----------------------------------------------[m
-[16:21:59] [Craft Scheduler Thread - 0/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m    +===============+[m
-[16:21:59] [Craft Scheduler Thread - 0/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m    | SkinsRestorer |[m
-[16:21:59] [Craft Scheduler Thread - 0/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m    |---------------|[m
-[16:21:59] [Craft Scheduler Thread - 0/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m    |  [0;34;1m[4m[21mBukkit only[0;32;1m  |[m
-[16:21:59] [Craft Scheduler Thread - 0/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m    +===============+[m
-[16:21:59] [Craft Scheduler Thread - 0/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m----------------------------------------------[m
-[16:21:59] [Craft Scheduler Thread - 0/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;36;1m    Current version: [0;32;1m13.8.4[m
-[16:21:59] [Craft Scheduler Thread - 0/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m    This is the latest version![m
-[16:21:59] [Craft Scheduler Thread - 0/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m----------------------------------------------[m
-[16:22:36] [User Authenticator #1/INFO]: UUID of player BisteK is 4b28f6a2-f5ca-36d5-972a-bb80cf9498d7
-[16:22:38] [Server thread/INFO]: BisteK[/192.168.0.57:55706] logged in with entity id 220 at ([world]-5308.600709642546, 106.0, 5607.962377829207)
-[16:25:42] [Server thread/INFO]: BisteK fell from a high place
-[16:27:30] [Server thread/INFO]: BisteK fell from a high place
-[16:28:02] [Server thread/INFO]: BisteK fell from a high place
-[16:28:55] [Server thread/INFO]: BisteK issued server command: /time set 0
-[16:28:55] [Server thread/INFO]: [BisteK: Set the time to 0]
-[16:29:36] [Server thread/INFO]: BisteK fell from a high place
-[16:32:10] [Server thread/INFO]: BisteK fell from a high place
-[16:35:18] [Server thread/INFO]: BisteK fell from a high place
-[16:43:20] [Server thread/INFO]: BisteK was shot by Skeleton
-[17:00:31] [Server thread/INFO]: BisteK issued server command: /gamemode creative
-[17:00:31] [Server thread/INFO]: [BisteK: Set own game mode to Creative Mode]
-[17:01:11] [Server thread/INFO]: BisteK issued server command: /gamemode survival
-[17:01:11] [Server thread/INFO]: [BisteK: Set own game mode to Survival Mode]
-[17:07:50] [Server thread/INFO]: BisteK fell from a high place
-[17:09:24] [Server thread/INFO]: BisteK fell from a high place
-[17:12:14] [Server thread/INFO]: BisteK fell from a high place
-[17:25:39] [Server thread/INFO]: BisteK issued server command: /gamemode creative
-[17:25:39] [Server thread/INFO]: [BisteK: Set own game mode to Creative Mode]
-[17:26:03] [Server thread/INFO]: BisteK issued server command: /gamemode survival
-[17:26:03] [Server thread/INFO]: [BisteK: Set own game mode to Survival Mode]
-[17:30:40] [Server thread/INFO]: BisteK issued server command: /gamemode creative
-[17:30:40] [Server thread/INFO]: [BisteK: Set own game mode to Creative Mode]
-[17:30:56] [Server thread/INFO]: BisteK issued server command: /gamemode survival
-[17:30:56] [Server thread/INFO]: [BisteK: Set own game mode to Survival Mode]
-[17:53:46] [Server thread/INFO]: BisteK issued server command: /gamemode creative
-[17:53:46] [Server thread/INFO]: [BisteK: Set own game mode to Creative Mode]
-[17:54:03] [Server thread/INFO]: BisteK issued server command: /gamemode survival
-[17:54:03] [Server thread/INFO]: [BisteK: Set own game mode to Survival Mode]
-[17:59:02] [Server thread/INFO]: BisteK issued server command: /gamemode creative
-[17:59:02] [Server thread/INFO]: [BisteK: Set own game mode to Creative Mode]
-[17:59:17] [Server thread/INFO]: BisteK issued server command: /gamemode survival
-[17:59:17] [Server thread/INFO]: [BisteK: Set own game mode to Survival Mode]
-[18:19:49] [Server thread/INFO]: BisteK was slain by Spider
-[18:20:04] [Server thread/INFO]: BisteK lost connection: Disconnected
-[18:20:04] [Server thread/INFO]: BisteK left the game
-[18:20:11] [Server thread/INFO]: Stopping the server
-[18:20:11] [Server thread/INFO]: Stopping server
-[18:20:11] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.0-beta-04+98f71a3
-[18:20:11] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
-[18:20:11] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v13.8.4
-[18:20:11] [Server thread/INFO]: Saving players
-[18:20:11] [Server thread/INFO]: Saving worlds
-[18:20:11] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[18:20:11] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[18:20:11] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[18:20:12] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[18:20:12] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[18:20:12] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[18:20:12] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[18:20:12] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[18:20:12] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[13:07:01] [main/INFO]: Reloading ResourceManager: Default, multiplayer sleep v2.4.3.zip, silk-touch-spawners-v1-3-1565027733.zip, timber v2.1.0.zip, bukkit
+[13:07:03] [Worker-Main-14/INFO]: Loaded 7 recipes
+[13:07:05] [Server thread/INFO]: Starting minecraft server version 1.16.2
+[13:07:05] [Server thread/INFO]: Loading properties
+[13:07:07] [Server thread/INFO]: This server is running CraftBukkit version git-Spigot-379750e-43c7ff9 (MC: 1.16.2) (Implementing API version 1.16.2-R0.1-SNAPSHOT)
+[13:07:07] [Server thread/INFO]: Debug logging is disabled
+[13:07:07] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[13:07:07] [Server thread/INFO]: Using 4 threads for Netty based IO
+[13:07:07] [Server thread/INFO]: Default game type: SURVIVAL
+[13:07:07] [Server thread/INFO]: Generating keypair
+[13:07:07] [Server thread/INFO]: Starting Minecraft server on *:25565
+[13:07:09] [Server thread/INFO]: Using default channel type
+[13:07:12] [Server thread/INFO]: [SkinsRestorer] Loading SkinsRestorer v13.8.4
+[13:07:12] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v7.2.0-beta-04+98f71a3
+[13:07:13] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@444b4a05]
+[13:07:13] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.0-beta-04+98f71a3
+[13:07:13] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[13:07:14] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_16_R2 as the Bukkit adapter
+[13:07:16] [Server thread/WARN]: [WorldEdit] ====================================================
+[13:07:16] [Server thread/WARN]: [WorldEdit]  WorldEdit works better if you use Paper 
+[13:07:16] [Server thread/WARN]: [WorldEdit]  as your server software. 
+[13:07:16] [Server thread/WARN]: [WorldEdit]   
+[13:07:16] [Server thread/WARN]: [WorldEdit]  Paper offers significant performance improvements,
+[13:07:16] [Server thread/WARN]: [WorldEdit]  bug fixes, security enhancements and optional
+[13:07:16] [Server thread/WARN]: [WorldEdit]  features for server owners to enhance their server.
+[13:07:16] [Server thread/WARN]: [WorldEdit]   
+[13:07:16] [Server thread/WARN]: [WorldEdit]  Paper includes Timings v2, which is significantly
+[13:07:16] [Server thread/WARN]: [WorldEdit]  better at diagnosing lag problems over v1.
+[13:07:16] [Server thread/WARN]: [WorldEdit]   
+[13:07:16] [Server thread/WARN]: [WorldEdit]  All of your plugins should still work, and the
+[13:07:16] [Server thread/WARN]: [WorldEdit]  Paper community will gladly help you fix any issues.
+[13:07:16] [Server thread/WARN]: [WorldEdit]   
+[13:07:16] [Server thread/WARN]: [WorldEdit]  Join the Paper Community @ https://papermc.io
+[13:07:16] [Server thread/WARN]: [WorldEdit] ====================================================
+[13:07:16] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[13:07:16] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[13:07:16] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[13:07:16] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[13:07:16] [Server thread/INFO]: Preparing level "world"
+[13:07:16] [Server thread/INFO]: -------- World Settings For [world] --------
+[13:07:16] [Server thread/INFO]: View Distance: 10
+[13:07:16] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[13:07:16] [Server thread/INFO]: Mob Spawn Range: 6
+[13:07:16] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[13:07:16] [Server thread/INFO]: Item Merge Radius: 2.5
+[13:07:16] [Server thread/INFO]: Item Despawn Rate: 6000
+[13:07:16] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[13:07:16] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[13:07:16] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[13:07:16] [Server thread/INFO]: Experience Merge Radius: 3.0
+[13:07:16] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[13:07:16] [Server thread/INFO]: Cane Growth Modifier: 100%
+[13:07:16] [Server thread/INFO]: Melon Growth Modifier: 100%
+[13:07:16] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[13:07:16] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[13:07:16] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[13:07:16] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[13:07:16] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[13:07:16] [Server thread/INFO]: Potato Growth Modifier: 100%
+[13:07:16] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[13:07:16] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[13:07:16] [Server thread/INFO]: Vine Growth Modifier: 100%
+[13:07:16] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[13:07:16] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[13:07:16] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[13:07:16] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[13:07:16] [Server thread/INFO]: Max TNT Explosions: 100
+[13:07:16] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[13:07:16] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[13:07:16] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[13:07:16] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[13:07:16] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[13:07:17] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[13:07:17] [Server thread/INFO]: View Distance: 10
+[13:07:17] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[13:07:17] [Server thread/INFO]: Mob Spawn Range: 6
+[13:07:17] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[13:07:17] [Server thread/INFO]: Item Merge Radius: 2.5
+[13:07:17] [Server thread/INFO]: Item Despawn Rate: 6000
+[13:07:17] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[13:07:17] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[13:07:17] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[13:07:17] [Server thread/INFO]: Experience Merge Radius: 3.0
+[13:07:17] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[13:07:17] [Server thread/INFO]: Cane Growth Modifier: 100%
+[13:07:17] [Server thread/INFO]: Melon Growth Modifier: 100%
+[13:07:17] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[13:07:17] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[13:07:17] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[13:07:17] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[13:07:17] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[13:07:17] [Server thread/INFO]: Potato Growth Modifier: 100%
+[13:07:17] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[13:07:17] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[13:07:17] [Server thread/INFO]: Vine Growth Modifier: 100%
+[13:07:17] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[13:07:17] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[13:07:17] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[13:07:17] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[13:07:17] [Server thread/INFO]: Max TNT Explosions: 100
+[13:07:17] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[13:07:17] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[13:07:17] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[13:07:17] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[13:07:17] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[13:07:17] [Server thread/INFO]: View Distance: 10
+[13:07:17] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[13:07:17] [Server thread/INFO]: Mob Spawn Range: 6
+[13:07:17] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[13:07:17] [Server thread/INFO]: Item Merge Radius: 2.5
+[13:07:17] [Server thread/INFO]: Item Despawn Rate: 6000
+[13:07:17] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[13:07:17] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[13:07:17] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[13:07:17] [Server thread/INFO]: Experience Merge Radius: 3.0
+[13:07:17] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[13:07:17] [Server thread/INFO]: Cane Growth Modifier: 100%
+[13:07:17] [Server thread/INFO]: Melon Growth Modifier: 100%
+[13:07:17] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[13:07:17] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[13:07:17] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[13:07:17] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[13:07:17] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[13:07:17] [Server thread/INFO]: Potato Growth Modifier: 100%
+[13:07:17] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[13:07:17] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[13:07:17] [Server thread/INFO]: Vine Growth Modifier: 100%
+[13:07:17] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[13:07:17] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[13:07:17] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[13:07:17] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[13:07:17] [Server thread/INFO]: Max TNT Explosions: 100
+[13:07:17] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[13:07:17] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[13:07:17] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[13:07:17] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[13:07:17] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[13:07:21] [Server thread/INFO]: Preparing spawn area: 0%
+[13:07:21] [Server thread/INFO]: Preparing spawn area: 0%
+[13:07:21] [Server thread/INFO]: Preparing spawn area: 0%
+[13:07:21] [Server thread/INFO]: Preparing spawn area: 0%
+[13:07:21] [Server thread/INFO]: Preparing spawn area: 0%
+[13:07:21] [Server thread/INFO]: Preparing spawn area: 0%
+[13:07:21] [Server thread/INFO]: Preparing spawn area: 0%
+[13:07:21] [Server thread/INFO]: Preparing spawn area: 0%
+[13:07:21] [Server thread/INFO]: Preparing spawn area: 0%
+[13:07:21] [Server thread/INFO]: Preparing spawn area: 0%
+[13:07:22] [Server thread/INFO]: Preparing spawn area: 0%
+[13:07:23] [Server thread/INFO]: Preparing spawn area: 83%
+[13:07:23] [Server thread/INFO]: Time elapsed: 6065 ms
+[13:07:23] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[13:07:27] [Server thread/INFO]: Preparing spawn area: 0%
+[13:07:27] [Server thread/INFO]: Preparing spawn area: 0%
+[13:07:27] [Server thread/INFO]: Preparing spawn area: 0%
+[13:07:27] [Server thread/INFO]: Preparing spawn area: 0%
+[13:07:27] [Server thread/INFO]: Preparing spawn area: 0%
+[13:07:27] [Server thread/INFO]: Preparing spawn area: 0%
+[13:07:27] [Server thread/INFO]: Preparing spawn area: 0%
+[13:07:27] [Server thread/INFO]: Preparing spawn area: 0%
+[13:07:27] [Server thread/INFO]: Preparing spawn area: 0%
+[13:07:28] [Server thread/INFO]: Time elapsed: 4508 ms
+[13:07:28] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[13:07:28] [Server thread/INFO]: Preparing spawn area: 0%
+[13:07:28] [Server thread/INFO]: Preparing spawn area: 0%
+[13:07:29] [Worker-Main-9/INFO]: Preparing spawn area: 83%
+[13:07:29] [Server thread/INFO]: Time elapsed: 1291 ms
+[13:07:29] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v13.8.4
+[13:07:29] [Server thread/INFO]: [SkinsRestorer] Failed PaperSkinRefresher
+[13:07:29] [Server thread/INFO]: [SkinsRestorer] Using SpigotSkinRefresher
+[13:07:29] [Server thread/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1mDetected Minecraft [0;33;1mv1_16_R2[0;32;1m, using [0;33;1mUniversalSkinFactory[0;32;1m.[m
+[13:07:32] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[13:07:32] [Server thread/INFO]: Done (16.405s)! For help, type "help"
+[13:07:33] [User Authenticator #1/INFO]: UUID of player BisteK is 4b28f6a2-f5ca-36d5-972a-bb80cf9498d7
+[13:07:33] [Server thread/INFO]: com.mojang.authlib.GameProfile@3c277a60[id=4b28f6a2-f5ca-36d5-972a-bb80cf9498d7,name=BisteK,properties={},legacy=false] (/192.168.0.57:52632) lost connection: Disconnected
+[13:07:33] [Craft Scheduler Thread - 0/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m----------------------------------------------[m
+[13:07:33] [Craft Scheduler Thread - 0/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m    +===============+[m
+[13:07:33] [Craft Scheduler Thread - 0/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m    | SkinsRestorer |[m
+[13:07:33] [Craft Scheduler Thread - 0/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m    |---------------|[m
+[13:07:33] [Craft Scheduler Thread - 0/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m    |  [0;34;1m[4m[21mBukkit only[0;32;1m  |[m
+[13:07:33] [Craft Scheduler Thread - 0/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m    +===============+[m
+[13:07:33] [Craft Scheduler Thread - 0/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m----------------------------------------------[m
+[13:07:33] [Craft Scheduler Thread - 0/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;36;1m    Current version: [0;32;1m13.8.4[m
+[13:07:33] [Craft Scheduler Thread - 0/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m    This is the latest version![m
+[13:07:33] [Craft Scheduler Thread - 0/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m----------------------------------------------[m
+[13:07:38] [User Authenticator #2/INFO]: UUID of player BisteK is 4b28f6a2-f5ca-36d5-972a-bb80cf9498d7
+[13:07:39] [Server thread/INFO]: BisteK[/192.168.0.57:52647] logged in with entity id 223 at ([world]-5307.225741608173, 105.0, 5606.782726010198)
+[13:19:43] [Server thread/INFO]: Stopping the server
+[13:19:43] [Server thread/INFO]: Stopping server
+[13:19:43] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.0-beta-04+98f71a3
+[13:19:43] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[13:19:43] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v13.8.4
+[13:19:43] [Server thread/INFO]: Saving players
+[13:19:43] [Server thread/INFO]: BisteK lost connection: Server closed
+[13:19:43] [Server thread/INFO]: BisteK left the game
+[13:19:43] [Server thread/INFO]: Saving worlds
+[13:19:43] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[13:19:44] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[13:19:44] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[13:19:44] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[13:19:44] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[13:19:44] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[13:19:44] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[13:19:44] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[13:19:44] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved

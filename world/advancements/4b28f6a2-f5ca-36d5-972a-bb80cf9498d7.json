@@ -59,6 +59,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/magenta_dye_from_lilac": {
+    "criteria": {
+      "has_double_plant": "2020-09-19 20:58:34 -0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/stone_bricks": {
     "criteria": {
       "has_stone": "2020-09-12 18:50:50 -0300"
@@ -506,6 +512,12 @@
   "minecraft:recipes/redstone/comparator": {
     "criteria": {
       "has_quartz": "2020-09-16 00:29:14 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/yellow_dye_from_sunflower": {
+    "criteria": {
+      "has_double_plant": "2020-09-19 20:59:40 -0300"
     },
     "done": true
   },
@@ -988,6 +1000,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/blue_dye_from_cornflower": {
+    "criteria": {
+      "has_blue_flower": "2020-09-19 20:59:25 -0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/crimson_slab": {
     "criteria": {
       "has_planks": "2020-09-16 01:02:34 -0300"
@@ -1399,6 +1417,7 @@
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:cold_ocean": "2020-09-15 20:56:59 -0300",
+      "minecraft:snowy_mountains": "2020-09-19 20:31:03 -0300",
       "minecraft:mountains": "2020-09-07 22:01:58 -0300",
       "minecraft:forest": "2020-09-09 18:27:44 -0300",
       "minecraft:taiga": "2020-09-07 19:33:04 -0300",
@@ -1415,11 +1434,13 @@
       "minecraft:beach": "2020-09-14 21:34:00 -0300",
       "minecraft:dark_forest": "2020-09-12 18:34:26 -0300",
       "minecraft:river": "2020-09-07 20:43:28 -0300",
+      "minecraft:snowy_taiga": "2020-09-19 20:29:03 -0300",
       "minecraft:birch_forest_hills": "2020-09-15 10:29:48 -0300",
       "minecraft:wooded_mountains": "2020-09-07 22:27:10 -0300",
       "minecraft:wooded_hills": "2020-09-12 18:37:44 -0300",
       "minecraft:stone_shore": "2020-09-16 10:35:17 -0300",
       "minecraft:swamp": "2020-09-15 10:33:57 -0300",
+      "minecraft:snowy_taiga_hills": "2020-09-19 20:33:41 -0300",
       "minecraft:savanna": "2020-09-16 00:36:46 -0300",
       "minecraft:plains": "2020-09-07 20:48:18 -0300"
     },
